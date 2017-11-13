@@ -1,5 +1,5 @@
 /* ---------------- Table of CSS Content ----------------
-	
+
  1.0 Import All CSS
  2.0 Common CSS
  3.0 Preloader CSS
@@ -1333,6 +1333,10 @@ h2.default-description {
     color: #fff;
 }
 
+a.email {
+    font-size: 11px;
+}
+
 
 /* 16.0 Testimonial Area CSS */
 
@@ -1365,7 +1369,7 @@ h2.default-description {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .3em;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 .testimonial_author_name>img {
@@ -1453,15 +1457,15 @@ h2.default-description {
     margin-top: -20px;
     opacity: .75;
 }
-	
+
 .client_slides .owl-controls .owl-prev {
 	left: -30px;
 }
-	
+
 .client_slides .owl-controls .owl-next {
 	right: -30px;
 }
-	
+
 .client_slides .owl-controls i {
 	background: white;
 	color: rgba(36,103,156,1);
