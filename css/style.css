@@ -1339,6 +1339,64 @@ h2.default-description {
     margin: 0 auto 50px auto;
 }
 
+#team h4 {
+    margin-top: 15px;
+}
+
+div.advisor_thumb { /* contains the image */
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    padding: 0;
+}
+
+div.advisor_thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+div.advisor_thumb:before,
+div.advisor_thumb:after {
+    content: '';
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+}
+
+div.advisor_thumb:before {
+    border: 3px solid transparent;
+}
+
+div.advisor_thumb:hover:before {
+    border-top-color: #DC2424;
+    border-right-color: #DC2424;
+    border-bottom-color: #DC2424;
+
+transition:
+    border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.10s,
+    border-bottom-color 0.15s linear 0.20s;
+}
+
+div.advisor_thumb:after {
+    border: 3px solid transparent;
+}
+
+div.advisor_thumb:hover:after {
+border-top: 3px solid #DC2424;
+border-left-width: 3px;
+border-right-width: 3px;
+transform: rotate(270deg);
+transition: transform 0.5s linear 0s,
+    border-left-width 0s linear 0.35s;
+}
+
 /* 16.0 Testimonial Area CSS */
 
 .testimonial_area {
