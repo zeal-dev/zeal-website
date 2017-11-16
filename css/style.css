@@ -1333,16 +1333,6 @@ h2.default-description {
     color: #fff;
 }
 
-.bio-photos {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.bio-photos:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-}
-
 /* 16.0 Testimonial Area CSS */
 
 .testimonial_area {
