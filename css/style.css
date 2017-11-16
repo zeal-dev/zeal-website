@@ -1350,6 +1350,7 @@ div.advisor_thumb { /* contains the image */
     border: 3px solid transparent;
     border-radius: 100%;
     padding: 0;
+    margin: 0 auto;
 }
 
 div.advisor_thumb img {
