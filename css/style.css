@@ -1333,6 +1333,12 @@ h2.default-description {
     color: #fff;
 }
 
+#team hr {
+    border-color: darkgrey;
+    width: 80%;
+    margin: 0 auto 50px auto;
+}
+
 /* 16.0 Testimonial Area CSS */
 
 .testimonial_area {
