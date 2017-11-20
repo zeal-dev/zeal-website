@@ -1,5 +1,5 @@
 /* ---------------- Table of CSS Content ----------------
-	
+
  1.0 Import All CSS
  2.0 Common CSS
  3.0 Preloader CSS
@@ -1333,6 +1333,74 @@ h2.default-description {
     color: #fff;
 }
 
+#team hr {
+    border-color: darkgrey;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+
+#team h4 {
+    margin-top: 15px;
+}
+
+a.text-blue.email {
+    word-wrap: break-word;
+}
+
+div.advisor_thumb { /* contains the image */
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.advisor_thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+div.advisor_thumb:before,
+div.advisor_thumb:after {
+    content: '';
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+}
+
+div.advisor_thumb:before {
+    border: 3px solid transparent;
+}
+
+div.advisor_thumb:hover:before {
+    border-top-color: #DC2424;
+    border-right-color: #DC2424;
+    border-bottom-color: #DC2424;
+
+transition:
+    border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.10s,
+    border-bottom-color 0.15s linear 0.20s;
+}
+
+div.advisor_thumb:after {
+    border: 3px solid transparent;
+}
+
+div.advisor_thumb:hover:after {
+border-top: 3px solid #DC2424;
+border-left-width: 3px;
+border-right-width: 3px;
+transform: rotate(270deg);
+transition: transform 0.5s linear 0s,
+    border-left-width 0s linear 0.35s;
+}
 
 /* 16.0 Testimonial Area CSS */
 
@@ -1365,7 +1433,7 @@ h2.default-description {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .3em;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 .testimonial_author_name>img {
@@ -1453,15 +1521,15 @@ h2.default-description {
     margin-top: -20px;
     opacity: .75;
 }
-	
+
 .client_slides .owl-controls .owl-prev {
 	left: -30px;
 }
-	
+
 .client_slides .owl-controls .owl-next {
 	right: -30px;
 }
-	
+
 .client_slides .owl-controls i {
 	background: white;
 	color: rgba(36,103,156,1);
