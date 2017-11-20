@@ -1335,12 +1335,16 @@ h2.default-description {
 
 #team hr {
     border-color: darkgrey;
-    width: 80%;
+    width: 100%;
     margin: 0 auto 50px auto;
 }
 
 #team h4 {
     margin-top: 15px;
+}
+
+a.text-blue.email {
+    word-wrap: break-word;
 }
 
 div.advisor_thumb { /* contains the image */
