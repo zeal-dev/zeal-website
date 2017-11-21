@@ -2658,6 +2658,8 @@ ul.children .comment-content {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background: url(/img/bg-img/sailing.jpg);
+    background-size: cover;
 }
 
 .single_slide {
