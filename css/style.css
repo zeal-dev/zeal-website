@@ -1272,19 +1272,6 @@ h2.default-description {
     padding-top: 15px;
 }
 
-.advisor_thumb {
-    text-align: center;
-}
-
-.advisor_thumb>img {
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 15px;
-}
-
 .social_icon>a {
     display: inline-block;
     margin: 5px 5px 0;
@@ -1348,11 +1335,11 @@ a.text-blue.email {
 }
 
 div.advisor_thumb { /* contains the image */
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
     position: relative;
     border: 3px solid transparent;
-    border-radius: 100%;
+    border-radius: 50%;
     padding: 0;
     margin: 0 auto;
 }
@@ -1360,18 +1347,19 @@ div.advisor_thumb { /* contains the image */
 div.advisor_thumb img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
 
 div.advisor_thumb:before,
 div.advisor_thumb:after {
     content: '';
     position: absolute;
-    width: 194px;
-    height: 194px;
+    width: 100%;
+    height: 100%;
     padding: 0;
     top: 0;
     left: 0;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 div.advisor_thumb:before {
@@ -1382,11 +1370,10 @@ div.advisor_thumb:hover:before {
     border-top-color: #DC2424;
     border-right-color: #DC2424;
     border-bottom-color: #DC2424;
-
-transition:
-    border-top-color 0.15s linear,
-    border-right-color 0.15s linear 0.10s,
-    border-bottom-color 0.15s linear 0.20s;
+	transition:
+	    border-top-color 0.15s linear,
+	    border-right-color 0.15s linear 0.10s,
+	    border-bottom-color 0.15s linear 0.20s;
 }
 
 div.advisor_thumb:after {
@@ -1394,13 +1381,15 @@ div.advisor_thumb:after {
 }
 
 div.advisor_thumb:hover:after {
-border-top: 3px solid #DC2424;
-border-left-width: 3px;
-border-right-width: 3px;
-transform: rotate(270deg);
-transition: transform 0.5s linear 0s,
-    border-left-width 0s linear 0.35s;
+	border-top: 3px solid #DC2424;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	transform: rotate(270deg);
+	transition: 
+		transform 0.5s linear 0s,
+	    border-left-width 0s linear 0.35s;
 }
+
 
 /* 16.0 Testimonial Area CSS */
 
@@ -3137,5 +3126,9 @@ body.menu-open {
     width: auto;
     height: auto;
     z-index: -100;
+}
+
+.thumb_container.col-xs-12.col-sm-12 {
+    padding: 0 25px 0 0;
 }
 
