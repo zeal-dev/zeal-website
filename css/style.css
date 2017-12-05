@@ -1259,6 +1259,7 @@ h2.default-description {
     padding: 0 15px 0 0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    text-align: center;
 }
 
 .single_advisor_details_info>h4 {
@@ -1326,7 +1327,7 @@ h2.default-description {
     margin: 0 auto 50px auto;
 }
 
-#team h4 {
+#team h4, #advisors h4 {
     margin-top: 15px;
 }
 
