@@ -254,83 +254,17 @@ img {
     margin-bottom: 15px;
 }
 
-.section_padding_50 {
-    padding: 50px 0;
+section {
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
-.section_padding_50_0 {
-    padding: 50px 0 0;
-}
-
-.section_padding_50_20 {
-    padding: 50px 0 20px 0;
-}
-
-.section_padding_150 {
-    padding: 150px 0;
-}
-
-.section_padding_0 {
-    padding: 0;
-}
-
-.section_padding_100 {
-    padding: 100px 0;
-}
-
-.section_padding_100_0 {
-    padding: 100px 0 0 0;
-}
-
-.section_padding_0_100 {
+.partner_area_bottom {
     padding: 0 0 100px 0;
 }
 
-.section_padding_0_70 {
-    padding: 0 0 70px 0;
-}
-
-.section_padding_50_150 {
-    padding: 50px 0 150px;
-}
-
-.section_padding_50_100 {
-    padding: 50px 0 100px 0;
-}
-
-.section_padding_100_50 {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.section_padding_100_70 {
-    padding-top: 100px;
-    padding-bottom: 70px;
-}
-
-.section_padding_200 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.section_padding_200_100 {
-    padding-top: 200px;
-    padding-bottom: 100px;
-}
-
-.section_padding_200_70 {
-    padding-top: 200px;
-    padding-bottom: 70px;
-}
-
-.section_padding_200_170 {
-    padding-top: 200px;
-    padding-bottom: 170px;
-}
-
-.section_padding_200_0 {
-    padding-top: 200px;
-    padding-bottom: 0;
+.partner_area_top {
+    padding: 100px 0 0 0;
 }
 
 .slidea-control-thumbnail {
@@ -835,11 +769,11 @@ h2.default-description {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     z-index: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .single_feature .feature_img {
-    margin: 0 auto 20px 0;
+    margin: 0 auto 20px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     height: 75px;
@@ -1259,6 +1193,17 @@ h2.default-description {
     padding: 0 15px 0 0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+    .single_advisor_details_info {
+        text-align: left;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .single_advisor_details_info>h4 {
@@ -1326,8 +1271,16 @@ h2.default-description {
     margin: 0 auto 50px auto;
 }
 
-#team h4 {
+#team h4, #advisors h4 {
     margin-top: 15px;
+}
+
+#advisors {
+    padding-bottom: 0;
+}
+
+#team {
+    padding-top: 20px;
 }
 
 a.text-blue.email {
@@ -1335,13 +1288,20 @@ a.text-blue.email {
 }
 
 div.advisor_thumb { /* contains the image */
-    height: 100%;
-    width: 100%;
+    width: 70%;
+    height: 70%;
     position: relative;
     border: 3px solid transparent;
     border-radius: 50%;
     padding: 0;
-    margin: 0 auto;
+    margin: 15px auto;
+}
+
+@media screen and (max-width: 414px) {
+    div.advisor_thumb {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 div.advisor_thumb img {
