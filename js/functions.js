@@ -177,15 +177,6 @@
         });
     }
 
-    // ScrollUp Active Code
-    if ($.fn.scrollUp) {
-        $.scrollUp({
-            scrollSpeed: 2000,
-            easingType: 'easeInOutQuart',
-            scrollText: '<i class="pe-7s-angle-up" aria-hidden="true"></i>'
-        });
-    }
-
     // Gallery Menu Style Code
     $('.portfolio-menu button.btn').on('click', function () {
         $('.portfolio-menu button.btn.btn-md').removeClass('active');
