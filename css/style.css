@@ -3092,3 +3092,7 @@ body.menu-open {
     padding: 0 25px 0 0;
 }
 
+.advisors.row {
+    display: flex;
+    justify-content: space-between;
+}
