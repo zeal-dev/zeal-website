@@ -11,12 +11,17 @@ advisors:
 
   - name: Casey Sprague
     photo: img/team/sprague.jpg
-    role: Chief Technology Officer at thera-LINK
+    role: CTO at thera-LINK
     linkedin: https://www.linkedin.com/in/casey-sprague-3a3b4041
-    
+
+  - name: Happy Webeberman
+    photo: img/team/webberman.png
+    role: EVP and CIO at Brinker International
+    linkedin: https://www.linkedin.com/in/happy-webberman-7b17ba8/
+
   - name: Noel Wong
     photo: img/team/wong.jpg
-    role: SVP CIO at XO Communications
+    role: SVP and CIO at XO Communications
     linkedin: https://www.linkedin.com/in/noelwong1/
 
 leads:
@@ -40,7 +45,7 @@ leads:
     role: Application Development Practice Lead
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
-members: 
+members:
   - name: Donny Alumbaugh
     photo: img/team/alumbaugh.jpg
     role: Software Engineer
