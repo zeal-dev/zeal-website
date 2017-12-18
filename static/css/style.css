@@ -460,7 +460,7 @@ section {
     width: 88px;
 }
 
-#cssload-loader ul {
+/* #cssload-loader ul {
     margin: 0;
     list-style: none;
     width: 88px;
@@ -578,7 +578,7 @@ section {
     100% {
         height: 19px;
     }
-}
+} */
 
 #scrollUp {
     background-color: #4783C4;
