@@ -422,12 +422,14 @@ section {
     width: 100%;
 }
 
-
 /* 3.0 Preloader CSS */
 
 #preloader {
     overflow: hidden;
-    background-color: #151515;
+    /* background-color: #151515; */
+    background-image: url('../img/bg-img/sailing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
     left: 0;
     position: fixed;
@@ -1345,7 +1347,7 @@ div.advisor_thumb:hover:after {
 	border-left-width: 3px;
 	border-right-width: 3px;
 	transform: rotate(270deg);
-	transition: 
+	transition:
 		transform 0.5s linear 0s,
 	    border-left-width 0s linear 0.35s;
 }
