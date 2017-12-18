@@ -175,15 +175,19 @@
 	    padding-left: 0;
 	    text-align: center;
 	}
-	
+
 	.partner_area h2 {
 		text-align: center;
 		margin-bottom: 0;
 	}
-	
+
 	.partner_area .section_heading {
 		margin-bottom: 25px;
-	}
+    }
+
+    .welcome_area {
+        height: 900px;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
