@@ -184,10 +184,6 @@
 	.partner_area .section_heading {
 		margin-bottom: 25px;
     }
-
-    .welcome_area {
-        height: 900px;
-    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {

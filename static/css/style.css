@@ -2527,13 +2527,13 @@ ul.children .comment-content {
 }
 
 .welcome_area {
-    height: 1433px;
+    height: 110vh;
     position: relative;
     z-index: -1;
     overflow: hidden;
     background-image: url(/img/bg-img/sailing.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
 }
 
