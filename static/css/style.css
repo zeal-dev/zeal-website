@@ -417,23 +417,17 @@ section {
     background-position: 50% 50%;
 }
 
-.welcome_area.small_size {
-    height: 600px !important;
-    width: 100%;
-}
-
-
 /* 3.0 Preloader CSS */
 
 #preloader {
     overflow: hidden;
-    background-color: #151515;
+    background: transparent;
     height: 100%;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99999999;
+    z-index: -1;
 }
 
 .preloader {
@@ -456,7 +450,7 @@ section {
     width: 88px;
 }
 
-#cssload-loader ul {
+/* #cssload-loader ul {
     margin: 0;
     list-style: none;
     width: 88px;
@@ -574,7 +568,7 @@ section {
     100% {
         height: 19px;
     }
-}
+} */
 
 #scrollUp {
     background-color: #4783C4;
@@ -1345,7 +1339,7 @@ div.advisor_thumb:hover:after {
 	border-left-width: 3px;
 	border-right-width: 3px;
 	transform: rotate(270deg);
-	transition: 
+	transition:
 		transform 0.5s linear 0s,
 	    border-left-width 0s linear 0.35s;
 }
@@ -2532,6 +2526,22 @@ ul.children .comment-content {
     height: 173px;
 }
 
+.welcome_area {
+    height: 110vh;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    background-image: url(/img/bg-img/sailing.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.welcome_area.small_size {
+    height: 600px !important;
+    width: 100%;
+}
+
 .welcome_area .stripe {
 	right: 0;
     transform-origin: 50% -150%q;
@@ -2602,15 +2612,6 @@ ul.children .comment-content {
 
 
 /* 28.0 Owl Carousel Slider CSS */
-
-.welcome_area {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background: url(/img/bg-img/sailing.jpg);
-    background-size: cover;
-}
-
 .single_slide {
     position: relative;
     z-index: 1;
