@@ -152,7 +152,8 @@
     // Parallax active js
     if ($.fn.jarallax) {
         $('.parallax').jarallax({
-            speed: 0.2
+            speed: 0.2,
+            noIos: true
         });
     }
     
