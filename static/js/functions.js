@@ -125,24 +125,9 @@
         });
     }
 
-    // Meanmenu Active Code
-    if ($.fn.meanmenu) {
-        $('.main_menu_area .mainmenu nav').meanmenu({
-            onePage: true
-        });
-    }
-
-    // Menu Active Code
-    $('.menu_open_close').on('click', function () {
-        $('body').toggleClass('menu-open');
-    })
-    $('.sidebar_menu_close').on('click', function () {
-        $('body').removeClass('menu-open');
-    })
-
     // Onepage Nav Active Code
     if ($.fn.onePageNav) {
-        $('#nav, #fullscreen-menu').onePageNav({
+        $('#nav').onePageNav({
             currentClass: 'current_page_item',
             scrollSpeed: 1500,
             easing: 'easeInOutQuart'
@@ -156,33 +141,6 @@
             noIos: true
         });
     }
-    
-    // Magnific-popup Video Active Code
-    if ($.fn.magnificPopup) {
-        $('.video_btn').magnificPopup({
-            disableOn: 0,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: true,
-            fixedContentPos: false
-        });
-        $('.gallery_img').magnificPopup({
-            type: 'image',
-            gallery: {
-                enabled: true
-            },
-            removalDelay: 300,
-            mainClass: 'mfp-fade',
-            preloader: true
-        });
-    }
-
-    // Gallery Menu Style Code
-    $('.portfolio-menu button.btn').on('click', function () {
-        $('.portfolio-menu button.btn.btn-md').removeClass('active');
-        $(this).addClass('active');
-    })
 
     // wow Active Code
     if ($.fn.init) {
@@ -197,69 +155,6 @@
         });
     }
 
-    // Rain Drops Active Code
-    if ($.fn.raindrops) {
-        $('#special-raindrops').raindrops({
-            color: '#f6f6f6',
-            canvasHeight: 100
-        });
-        $('#about-raindrops, #cta-raindrops, #skill-raindrops, #tes-raindrops, #twitter-raindrops').raindrops({
-            color: '#ffffff',
-            canvasHeight: 100
-        });
-        $('#service-raindrops, #work-raindrops, #price-raindrops, #blog-raindrops').raindrops({
-            color: '#009688',
-            canvasHeight: 100
-        });
-        $('#advisor-raindrops').raindrops({
-            color: '#000000',
-            canvasHeight: 100
-        });
-    }
-    // Barfiller Active Code
-    if ($.fn.barfiller) {
-        $('#bar1').barfiller({
-            barColor: '#2196f3',
-            animateOnResize: true
-        });
-        $('#bar2').barfiller({
-            barColor: '#2196f3',
-            animateOnResize: true
-        });
-        $('#bar3').barfiller({
-            barColor: '#2196f3',
-            animateOnResize: true
-        });
-        $('#bar4').barfiller({
-            barColor: '#2196f3',
-            animateOnResize: true
-        });
-    }
-
-
-    // Masonary Gallery Active Code
-    if ($.fn.imagesLoaded) {
-        $('.gallery_full_width_images_area').imagesLoaded(function () {
-            // Filter items on button click
-            $('.portfolio-menu').on('click', 'button', function () {
-                var filterValue = $(this).attr('data-filter');
-                $grid.isotope({
-                    filter: filterValue
-                });
-            });
-            // Init Isotope
-            var $grid = $('.gallery_full_width_images_area').isotope({
-                itemSelector: '.single_gallery_item',
-                percentPosition: true
-            });
-        });
-    }
-
-    // YouTube Video Active Code
-    if ($.fn.mb_YTPlayer) {
-        $('.player').mb_YTPlayer();
-    }
-
     // MatchHeight Active Code
     if ($.fn.matchHeight) {
         $('.item').matchHeight();
@@ -269,6 +164,8 @@
     $("a[href='#']").on('click', function ($) {
         $.preventDefault();
     });
+
+    $(".welcome_area").toggleClass("ready");
 
     var $window = $(window);
 
@@ -295,14 +192,6 @@
             $('.main_header_area').removeClass('sticky fadeIn');
             $('body').removeClass('mobile_menu_on fullmenu-on');
         }
-    });
-
-    // Preloader active code
-    $window.on('load', function () {
-        $('body').css('overflow-y', 'visible');
-        $('#preloader').fadeOut('slow', function () {
-            $(this).remove();
-        });
     });
 
 })(jQuery);
