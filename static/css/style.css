@@ -2503,7 +2503,7 @@ ul.children .comment-content {
 
 .welcome_area.ready {
     opacity: 1;
-    transition: opacity 12s .5s;
+    transition: opacity 7s .5s;
 }
 
 .welcome_area.small_size {
