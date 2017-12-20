@@ -142,6 +142,11 @@
         });
     }
 
+    // wow Active Code
+    if ($.fn.init) {
+        new WOW().init();
+    }
+    
     // Counterup Active Code
     if ($.fn.counterUp) {
         $('.counter').counterUp({

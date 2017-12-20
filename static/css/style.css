@@ -1,58 +1,12 @@
-/* ---------------- Table of CSS Content ----------------
-
- 1.0 Import All CSS
- 2.0 Common CSS
- 3.0 Preloader CSS
- 4.0 Section Heading CSS
- 5.0 Header Area CSS
- 6.0 Welcome Area Slider CSS
- 7.0 Top Feature Area CSS
- 8.0 About Us Area CSS
- 9.0 Call to action Area Start
-10.0 Services Area CSS
-11.0 Speciality Area CSS
-12.0 Service Details Area CSS
-13.0 Top CTA Area CSS
-14.0 Price Plan Area CSS
-15.0 Our Advisor Area CSS
-16.0 Testimonial Area CSS
-17.0 Partner Company Area CSS
-18.0 Cool Facts Area CSS
-19.0 Blog Area CSS
-20.0 Footer Area CSS
-21.0 Blog Area CSS
-22.0 Gallery Area CSS
-23.0 Contact Us Area CSS
-24.0 Sidebar Area CSS
-25.0 Why Choose Us Area CSS
-26.0 Background Video Version CSS
-27.0 special area css
-28.0 Owl Carousel Slider CSS
-29.0 Barfiller CSS
-30.0 Animated Headline CSS
-31.0 Fullscreen Menu Area CSS
-32.0 Right Side Menu Area CSS
-
-*/
-
-
 /* Import Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:100,200,300,400,500,600|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Archivo:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Archivo:400,500,600,700');
 
 /* 1.0 Import All CSS */
 
 @import 'bootstrap.min.css';
-@import 'magnific-popup.css';
 @import 'animate.css';
-@import 'meanmenu.css';
-@import 'font-awesome.min.css';
 @import 'owl.carousel.css';
-@import 'YTPlayer.css';
-@import 'pe-icon-7-stroke.css';
-@import 'animated-headline.css';
-@import 'bootsnav.css';
-@import 'boot-snav.css';
 
 /* 2.0 Common CSS */
 
