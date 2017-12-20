@@ -682,6 +682,10 @@ header {
 
 /* 6.0 Welcome Area Slider CSS */
 
+.default-title { 
+    opacity: 0;
+}
+
 .default-title h2 {
     color: #fff;
 	font-family: 'Archivo-Regular', 'Archivo';
@@ -689,12 +693,17 @@ header {
     font-weight: 400;
     line-height: .9em;
     margin-right: 40px;
-	text-shadow: 0 0 20px rgba(0,0,0,.25);
+    text-shadow: 0 0 20px rgba(0,0,0,.25);
 }
 
 .default-title h2 span {
     font-weight: 500;
     font-size: .6em;
+}
+
+.ready .default-title {
+    opacity: 1;
+    transition: opacity 4s 2s;
 }
 
 .default-description>p,
@@ -2489,6 +2498,12 @@ ul.children .comment-content {
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
+    opacity: 0;
+}
+
+.welcome_area.ready {
+    opacity: 1;
+    transition: opacity 12s .5s;
 }
 
 .welcome_area.small_size {

@@ -146,7 +146,7 @@
     if ($.fn.init) {
         new WOW().init();
     }
-    
+
     // Counterup Active Code
     if ($.fn.counterUp) {
         $('.counter').counterUp({
@@ -164,6 +164,8 @@
     $("a[href='#']").on('click', function ($) {
         $.preventDefault();
     });
+
+    $(".welcome_area").toggleClass("ready");
 
     var $window = $(window);
 
