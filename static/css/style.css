@@ -2199,8 +2199,8 @@ ul.children .comment-content {
 }
 
 .map_area {
-    height: 300px;
-    width: 100%;
+    text-align: center;
+    background-color: #F0EFEA;
 }
 
 .message_now_area {
