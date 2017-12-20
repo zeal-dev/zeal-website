@@ -2203,6 +2203,10 @@ ul.children .comment-content {
     background-color: #F0EFEA;
 }
 
+.map_area img {
+    width: 100%;
+}
+
 .message_now_area {
     position: relative;
     z-index: 1;
