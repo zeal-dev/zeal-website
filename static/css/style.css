@@ -2199,7 +2199,11 @@ ul.children .comment-content {
 }
 
 .map_area {
-    height: 300px;
+    text-align: center;
+    background-color: #F0EFEA;
+}
+
+.map_area img {
     width: 100%;
 }
 
