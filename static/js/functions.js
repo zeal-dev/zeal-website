@@ -134,14 +134,6 @@
         });
     }
 
-    // Parallax active js
-    if ($.fn.jarallax) {
-        $('.parallax').jarallax({
-            speed: 0.2,
-            noIos: true
-        });
-    }
-
     // wow Active Code
     if ($.fn.init) {
         new WOW().init();
@@ -185,17 +177,17 @@
     }).trigger("resize");
 
     // Sticky Active Code
-    $window.on('scroll', function () {
-        // Fadeout text code
-        $(".welcome_fade_text").css("opacity", 1 - $(window).scrollTop() / $('.welcome_fade_text').height());        
+    // $window.on('scroll', function () {
+    //     // Fadeout text code
+    //     $(".welcome_fade_text").css("opacity", 1 - $(window).scrollTop() / $('.welcome_fade_text').height());        
         
-        if ($window.scrollTop() > 90) {
-            $('.main_header_area').addClass('sticky fadeIn');
-            $('body').addClass('mobile_menu_on fullmenu-on');
-        } else {
-            $('.main_header_area').removeClass('sticky fadeIn');
-            $('body').removeClass('mobile_menu_on fullmenu-on');
-        }
-    });
+    //     if ($window.scrollTop() > 90) {
+    //         $('.main_header_area').addClass('sticky fadeIn');
+    //         $('body').addClass('mobile_menu_on fullmenu-on');
+    //     } else {
+    //         $('.main_header_area').removeClass('sticky fadeIn');
+    //         $('body').removeClass('mobile_menu_on fullmenu-on');
+    //     }
+    // });
 
 })(jQuery);
