@@ -189,7 +189,7 @@
     </section>
 
     <!-- ---------------- Cool Facts Area Start ---------------- -->
-    <section class="cool_facts_area parallax" style="background-image: url(img/bg-img/ocean.jpg);" id="stats">
+    <section class="cool_facts_area no-jarallax" style="background-image: url(img/bg-img/ocean.jpg);" id="stats">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -316,7 +316,7 @@
 
 
     <!-- ---------------- Testimonial Area Start ---------------- -->
-    <section class="testimonial_area background-overlay parallax" style="background-image: url(img/bg-img/sail.jpg);"
+    <section class="testimonial_area background-overlay no-jarallax" style="background-image: url(img/bg-img/sail.jpg);"
         id="testimonials">
         <div class="container">
             <div class="row">
@@ -412,75 +412,10 @@
                     </div>
                 </div>
             </div>
-            <div class="advisors row">
-                <div class="col-xs-12 col-sm-3">
-                    <div class="single_advisor wow fadeInUp">
-                        <div class="row">
-                            <div class="thumb_container col-xs-5 col-sm-12">
-                                <a href="https://www.linkedin.com/in/dradams/" target="_blank">
-                                    <div class="advisor_thumb">
-                                        <img class="bio-photos" src="img/team/adams.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single_advisor_details_info text-left col-xs-7 col-sm-12">
-                                <h4>David Adams</h4>
-                                <h5 class="text-red">CTO at Ashford.com</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="single_advisor wow fadeInUp">
-                        <div class="row">
-                            <div class="thumb_container col-xs-5 col-sm-12">
-                                <a href="https://www.linkedin.com/in/casey-sprague-3a3b4041" target="_blank">
-                                    <div class="advisor_thumb">
-                                        <img class="bio-photos" src="img/team/sprague.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single_advisor_details_info text-left col-xs-7 col-sm-12">
-                                <h4>Casey Sprague</h4>
-                                <h5 class="text-red">CTO at thera-LINK</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="single_advisor wow fadeInUp">
-                        <div class="row">
-                            <div class="thumb_container col-xs-5 col-sm-12">
-                                <a href="https://www.linkedin.com/in/happy-webberman-7b17ba8/" target="_blank">
-                                    <div class="advisor_thumb">
-                                        <img class="bio-photos" src="img/team/webberman.png" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single_advisor_details_info text-left col-xs-7 col-sm-12">
-                                <h4>Happy Webberman</h4>
-                                <h5 class="text-red">EVP and CIO at Brinker International</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="single_advisor wow fadeInUp">
-                        <div class="row">
-                            <div class="thumb_container col-xs-5 col-sm-12">
-                                <a href="https://www.linkedin.com/in/noelwong1/" target="_blank">
-                                    <div class="advisor_thumb">
-                                        <img class="bio-photos" src="img/team/wong.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single_advisor_details_info text-left col-xs-7 col-sm-12">
-                                <h4>Noel Wong</h4>
-                                <h5 class="text-red">SVP and CIO at XO Communications</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row">
+                {{ range $.Site.Data.team.advisors }}
+                    {{ partial "single_advisor.html" . }}
+                {{ end }}
             </div>
         </div>
     </section>

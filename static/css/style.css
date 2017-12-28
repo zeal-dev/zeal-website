@@ -372,6 +372,13 @@ section {
     background-position: 50% 50%;
 }
 
+.no-jarallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
 /* 3.0 Preloader CSS */
 
 #preloader {
