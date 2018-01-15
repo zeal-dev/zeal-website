@@ -76,7 +76,14 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
 
+  - name: Beau Montgomery
+    photo: img/team/montgomery.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/beau-montgomery-335998b6/
+
   - name: Gray Whitman
     photo: img/team/whitman.jpg
     role: Agile Scrum Master
     linkedin: https://www.linkedin.com/in/graywhitman/
+
+
