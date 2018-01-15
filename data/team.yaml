@@ -71,6 +71,11 @@ members:
     role: Sr. Software Engineer
     linkedin: https://www.linkedin.com/in/larrymcnutt/
 
+  - name: Beau Montgomery
+    photo: img/team/montgomery.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/beau-montgomery-335998b6/
+
   - name: Derek Schaab
     photo: img/team/schaab.jpg
     role: Software Engineer
@@ -80,3 +85,5 @@ members:
     photo: img/team/whitman.jpg
     role: Agile Scrum Master
     linkedin: https://www.linkedin.com/in/graywhitman/
+
+
