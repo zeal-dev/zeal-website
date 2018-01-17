@@ -65,6 +65,11 @@ members:
     photo: img/team/graves.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jennifer-graves-49455436/
+  
+  - name: Houston Martin
+    photo: img/team/houston.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/houston-martin-7873b812a/
 
   - name: Larry McNutt
     photo: img/team/mcnutt.jpg
@@ -86,8 +91,5 @@ members:
     role: Agile Scrum Master
     linkedin: https://www.linkedin.com/in/graywhitman/
   
-  - name: Houston Martin
-    photo: img/team/houston.jpg
-    role: Software Engineer
-    linkedin: https://www.linkedin.com/in/houston-martin-7873b812a/
+
 
