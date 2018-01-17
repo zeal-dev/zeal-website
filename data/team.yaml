@@ -85,5 +85,9 @@ members:
     photo: img/team/whitman.jpg
     role: Agile Scrum Master
     linkedin: https://www.linkedin.com/in/graywhitman/
-
+  
+  - name: Houston Martin
+    photo: img/team/houston.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/houston-martin-7873b812a/
 
