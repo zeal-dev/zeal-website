@@ -1367,11 +1367,11 @@ div.advisor_thumb:hover:after {
 }
 
 .owl-prev {
-    left: -120px;
+    left: 20px;
 }
 
 .owl-next {
-    right: -120px;
+    right: 20px;
 }
 
 .testimonial_text h2,
@@ -2163,6 +2163,7 @@ ul.children .comment-content {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .contact_input_area .form-group input:focus,
