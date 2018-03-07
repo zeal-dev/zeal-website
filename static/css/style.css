@@ -218,10 +218,6 @@ section {
     padding: 100px 0 0 0;
 }
 
-.slidea-control-thumbnail {
-    width: 150px;
-}
-
 .bg-white {
     background-color: #fff !important;
 }
@@ -602,6 +598,10 @@ header nav a:hover {
     color: #4783C4;
 }
 
+header nav a:not(:first-child) {
+    display: none;
+}
+
 .main_header_area.sticky nav a:not(:first-child).current_page_item,
 .main_header_area.sticky nav a:not(:first-child).current_page_item:focus {
     background: #E3E7ED;
@@ -609,9 +609,15 @@ header nav a:hover {
 }
 
 /* 6.0 Welcome Area Slider CSS */
+.welcome_area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .default-title { 
     opacity: 0;
+    text-align: right;
 }
 
 .default-title h2 {
@@ -632,16 +638,6 @@ header nav a:hover {
 .ready .default-title {
     opacity: 1;
     transition: opacity 4s 2s;
-}
-
-.default-description>p,
-h2.default-description {
-    color: #fff;
-    font-size: 18px;
-}
-
-.slidea .slidea-overlay {
-    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
 }
 
 
