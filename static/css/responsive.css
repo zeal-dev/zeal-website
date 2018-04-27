@@ -1,4 +1,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header nav a:not(:first-child) {
+        display: inherit;
+    }
     .default-title h2 {
         font-size: 80px
     }
@@ -11,6 +14,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    header nav a:not(:first-child) {
+        display: inherit;
+    }
     .default-title h2 {
         font-size: 60px
     }

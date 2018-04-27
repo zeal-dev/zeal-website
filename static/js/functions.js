@@ -127,7 +127,7 @@
 
     // Onepage Nav Active Code
     if ($.fn.onePageNav) {
-        $('#nav').onePageNav({
+        $('header nav').onePageNav({
             currentClass: 'current_page_item',
             scrollSpeed: 1500,
             easing: 'easeInOutQuart'

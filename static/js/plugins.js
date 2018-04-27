@@ -120,7 +120,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
         handleClick: function (n) {
             var s = this,
                 e = i(n.currentTarget),
-                o = e.parent(),
+                o = e,
                 a = "#" + s.getHash(e);
             o.hasClass(s.config.currentClass) || (s.config.begin && s.config.begin(), s.adjustNav(s, o), s.unbindInterval(), s.scrollTo(a, function () {
                 s.config.changeHash && (t.location.hash = a), s.bindInterval(), s.config.end && s.config.end()
