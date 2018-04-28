@@ -2127,6 +2127,7 @@ ul.children .comment-content {
 
 .map_area img {
     width: 100%;
+    max-width: 768px;
 }
 
 .message_now_area {
