@@ -156,12 +156,16 @@
     .cool_fact_text>h2 {
         font-size: 90px;
     }
+    .stats {
+        justify-content: center;
+    }
     .cool_fact_text {
-        width: 100%;
+        width: 75%;
         border-right: none;
 		border-bottom: 1px solid #A4D3FF;
 		margin-bottom: 20px;
-		padding-bottom: 20px;
+        padding-bottom: 20px;
+        padding-right: 0;
    }
     .top_cta_area h3 {
         font-size: 20px;

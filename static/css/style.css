@@ -1401,15 +1401,18 @@ div.advisor_thumb:hover:after {
 	color: white;
 }
 
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .cool_fact_text {
-    float: left;
     margin-bottom: 30px;
-    position: relative;
     text-align: center;
-    width: 25%;
     z-index: 1;
-    display: inline-block;
     border-right: 1px solid #A4D3FF;
+    padding-right: 20px;
 }
 
 .cool_fact_text:last-child {
