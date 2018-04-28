@@ -92,7 +92,7 @@
         font-size: 24px;
     }
     .testimonial_text>h2 {
-        font-size: 14px;
+        line-height: 1;
     }
     .testimonial_author_name>h4 {
         font-size: 18px;
@@ -105,13 +105,6 @@
         height: 50px;
         width: 50px;
         font-size: 50px;
-        margin-top: -25px;
-    }
-    .owl-prev {
-        left: -45px;
-    }
-    .owl-next {
-        right: -45px;
     }
     .cta_area .table {
         position: relative;
@@ -156,12 +149,16 @@
     .cool_fact_text>h2 {
         font-size: 90px;
     }
+    .stats {
+        justify-content: center;
+    }
     .cool_fact_text {
-        width: 100%;
+        width: 75%;
         border-right: none;
 		border-bottom: 1px solid #A4D3FF;
 		margin-bottom: 20px;
-		padding-bottom: 20px;
+        padding-bottom: 20px;
+        padding-right: 0;
    }
     .top_cta_area h3 {
         font-size: 20px;
