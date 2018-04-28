@@ -70,7 +70,7 @@
                     items: 1
                 },
                 768: {
-                    items: 3
+                    items: 2
                 },
                 992: {
                     items: 3
