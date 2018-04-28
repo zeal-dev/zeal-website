@@ -98,7 +98,7 @@ h5,
 
 p {
     color: #949494;
-    line-height: 1.5;
+    line-height: 1;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -1249,6 +1249,7 @@ div.advisor_thumb:hover:after {
 }
 
 .testimonial_text {
+    padding: 0 80px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -1322,7 +1323,7 @@ div.advisor_thumb:hover:after {
 
 .testimonial_text>h2 {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .testimonial_area.raindrops {
@@ -1423,6 +1424,7 @@ div.advisor_thumb:hover:after {
     padding: 0 15px 10px;
     text-align: center;
     font-weight: 700;
+    line-height: 1;
     /*background-color: rgba(146,157,173,.55);*/
 }
 
