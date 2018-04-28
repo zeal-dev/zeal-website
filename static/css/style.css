@@ -644,9 +644,15 @@ header nav a:not(:first-child) {
 
 /* 7.0 Top Feature Area CSS */
 #services {
+    padding: 70px 40px;
+}
+
+.features {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .single_feature {
@@ -657,7 +663,13 @@ header nav a:not(:first-child) {
     transition-duration: 500ms;
     z-index: 1;
     text-align: center;
-    max-width: 480px;
+    width: 33%;
+}
+
+@media screen and (max-width: 767px) {
+    .single_feature {
+        width: 100%;
+    }
 }
 
 .single_feature .feature_img {
