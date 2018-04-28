@@ -136,10 +136,13 @@
 
     // Parallax active js
     if ($.fn.jarallax) {
-        $('.parallax').jarallax({
-            speed: 0.2,
-            noIos: true
-        });
+        var isIE = /MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent) || /MSIE 10/i.test(navigator.userAgent) || /Edge\/\d+/.test(navigator.userAgent);
+        if (!isIE) {
+            $('.parallax').jarallax({
+                speed: 0.2,
+                noIos: true,
+            });
+        }
     }
 
     // wow Active Code
