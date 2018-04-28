@@ -1296,6 +1296,20 @@ div.advisor_thumb:hover:after {
     right: 20px;
 }
 
+.testimonials .owl-prev,
+.testimonials .owl-next {
+        height: 50px;
+        width: 50px;
+        font-size: 50px;
+        margin-top: -25px;
+    }
+.testimonials .owl-prev {
+        left: -45px;
+    }
+.testimonials .owl-next {
+        right: -45px;
+    }
+
 .testimonial_text h2,
 .testimonial_area .section_heading>p,
 .testimonial_area .section_heading>h2 {
