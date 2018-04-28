@@ -1249,7 +1249,7 @@ div.advisor_thumb:hover:after {
 }
 
 .testimonial_text {
-    padding: 0 80px;
+    padding: 0 3em;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -1312,7 +1312,7 @@ div.advisor_thumb:hover:after {
         height: 50px;
         width: 50px;
         font-size: 50px;
-        margin-top: -80px;
+        margin-top: -120px;
     }
 
 .testimonial_text h2,
@@ -1321,8 +1321,8 @@ div.advisor_thumb:hover:after {
     color: #fff;
 }
 
-.testimonial_text>h2 {
-    font-size: 18px;
+.testimonial_text > h2 {
+    font-size: 1.2em;
     line-height: 1.2;
 }
 
@@ -1421,9 +1421,10 @@ div.advisor_thumb:hover:after {
 
 .client_slides .slide_text p {
     color: #fff;
-    padding: 0 15px 10px;
+    padding: 0 3rem 10px;
     text-align: center;
     font-weight: 700;
+    font-size: 1.3em;
     line-height: 1;
     /*background-color: rgba(146,157,173,.55);*/
 }
