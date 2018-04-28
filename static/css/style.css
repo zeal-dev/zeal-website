@@ -1311,13 +1311,7 @@ div.advisor_thumb:hover:after {
         height: 50px;
         width: 50px;
         font-size: 50px;
-        margin-top: -25px;
-    }
-.testimonials .owl-prev {
-        left: -45px;
-    }
-.testimonials .owl-next {
-        right: -45px;
+        margin-top: -80px;
     }
 
 .testimonial_text h2,
