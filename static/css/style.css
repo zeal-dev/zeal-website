@@ -1334,6 +1334,10 @@ div.advisor_thumb:hover:after {
 
 /* 17.0 Partner Company Area CSS */
 
+.client_slides {
+    overflow: hidden;
+}
+
 .client_slides .owl-item.center {
     transform: scale(1.1);
     z-index: 999999;
