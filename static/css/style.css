@@ -14,6 +14,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .floatleft {
@@ -97,7 +98,7 @@ h5,
 
 p {
     color: #949494;
-    line-height: 1.5;
+    line-height: 1;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -581,7 +582,7 @@ section {
 
 header nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;   
     width: 100%; 
     height: 100%; 
@@ -642,6 +643,17 @@ header nav a:not(:first-child) {
 
 
 /* 7.0 Top Feature Area CSS */
+#services {
+    padding: 70px 40px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+}
 
 .single_feature {
     margin-bottom: 30px;
@@ -651,6 +663,13 @@ header nav a:not(:first-child) {
     transition-duration: 500ms;
     z-index: 1;
     text-align: center;
+    width: 33%;
+}
+
+@media screen and (max-width: 767px) {
+    .single_feature {
+        width: 100%;
+    }
 }
 
 .single_feature .feature_img {
@@ -1064,9 +1083,10 @@ header nav a:not(:first-child) {
 /* 15.0 Our Advisor Area CSS */
 
 .single_advisor {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     position: relative;
     z-index: 1;
+    min-width: 200px;
 }
 
 .single_advisor_details_info {
@@ -1074,19 +1094,10 @@ header nav a:not(:first-child) {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     text-align: center;
+    max-width: 200px;
 }
 
-@media screen and (max-width: 414px) {
-    .single_advisor_details_info {
-        text-align: left;
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-.single_advisor_details_info>h4 {
+.single_advisor_details_info > h4 {
     font-weight: 400;
     margin: 0 0 5px;
     text-transform: capitalize;
@@ -1145,22 +1156,26 @@ header nav a:not(:first-child) {
     color: #fff;
 }
 
+#team {
+    padding-top: 20px;
+}
+
 #team hr {
     border-color: darkgrey;
     width: 100%;
     margin: 0 auto 50px auto;
 }
 
-#team h4, #advisors h4 {
-    margin-top: 15px;
+#advisors .group, #team .leads, #team .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 #advisors {
     padding-bottom: 0;
-}
-
-#team {
-    padding-top: 20px;
 }
 
 a.text-blue.email {
@@ -1168,25 +1183,16 @@ a.text-blue.email {
 }
 
 div.advisor_thumb { /* contains the image */
-    width: 70%;
-    height: 70%;
+    width: 150px;
+    height: 150px;
     position: relative;
     border: 3px solid transparent;
     border-radius: 50%;
     padding: 0;
-    margin: 15px auto;
-}
-
-@media screen and (max-width: 414px) {
-    div.advisor_thumb {
-        width: 100%;
-        height: 100%;
-    }
+    margin: 5px auto;
 }
 
 div.advisor_thumb img {
-    width: 100%;
-    height: 100%;
     border-radius: 50%;
 }
 
@@ -1239,6 +1245,7 @@ div.advisor_thumb:hover:after {
 }
 
 .testimonial_text {
+    padding: 0 3em;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -1301,13 +1308,7 @@ div.advisor_thumb:hover:after {
         height: 50px;
         width: 50px;
         font-size: 50px;
-        margin-top: -25px;
-    }
-.testimonials .owl-prev {
-        left: -45px;
-    }
-.testimonials .owl-next {
-        right: -45px;
+        margin-top: -120px;
     }
 
 .testimonial_text h2,
@@ -1316,9 +1317,9 @@ div.advisor_thumb:hover:after {
     color: #fff;
 }
 
-.testimonial_text>h2 {
-    font-size: 18px;
-    line-height: 1.5;
+.testimonial_text > h2 {
+    font-size: 1.2em;
+    line-height: 1.2;
 }
 
 .testimonial_area.raindrops {
@@ -1383,8 +1384,45 @@ div.advisor_thumb:hover:after {
     justify-content: center;
 }
 
-.client_slides .owl-item .slide_text {
-	display: none;
+.client_slides .item {
+    position: relative;
+}
+
+.client_slides .slide_text {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes pop-in {
+    0% { opacity: 0; transform: scale(0.25); }
+    65% { opacity: .75; transform: scale(1.15); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.client_slides .center .slide_text {
+    display: inherit;
+    animation: pop-in 1s;
+}
+
+.client_slides .slide_text h4 {
+    display: none;
+}
+
+.client_slides .slide_text p {
+    color: #fff;
+    padding: 0 3rem 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 1;
+    /*background-color: rgba(146,157,173,.55);*/
 }
 
 #figcaption {
@@ -1408,15 +1446,19 @@ div.advisor_thumb:hover:after {
 	color: white;
 }
 
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .cool_fact_text {
-    float: left;
     margin-bottom: 30px;
-    position: relative;
     text-align: center;
-    width: 25%;
     z-index: 1;
-    display: inline-block;
     border-right: 1px solid #A4D3FF;
+    width: 25%;
 }
 
 .cool_fact_text:last-child {
@@ -1520,7 +1562,7 @@ div.advisor_thumb:hover:after {
 }
 
 .footer_bottom {
-    padding: 50px 0;
+    padding: 50px;
     text-align: left;
 }
 

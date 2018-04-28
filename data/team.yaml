@@ -4,10 +4,10 @@ advisors:
     role: CTO at Ashford.com
     linkedin: https://www.linkedin.com/in/dradams/
 
-  - name: Burke Autrey
-    photo: img/team/autrey.jpg
-    role: Chairman and CEO at Fortium Partners
-    linkedin: https://www.linkedin.com/in/burkeautrey/
+  #- name: Burke Autrey
+  #  photo: img/team/autrey.jpg
+  #  role: Chairman and CEO at Fortium Partners
+  #  linkedin: https://www.linkedin.com/in/burkeautrey/
 
   - name: Casey Sprague
     photo: img/team/sprague.jpg
@@ -42,7 +42,7 @@ leads:
 
   - name: Kijana Woodard
     photo: img/team/woodard.jpg
-    role: Application Development Practice Lead
+    role: Software Development Practice Lead
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
