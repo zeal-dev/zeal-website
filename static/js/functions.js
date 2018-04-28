@@ -20,29 +20,29 @@
     if ($.fn.owlCarousel) {
 		var owl = $('.client_slides');
 		
-		owl.on('initialized.owl.carousel', function(e) {
-	        $('#figcaption')
-	        	.queue(function(n) {
-			        $(this).html( $('.owl-item.center').find('.slide_text').clone() );
-			        n();
-		        })
-		});
+		// owl.on('initialized.owl.carousel', function(e) {
+	    //     $('#figcaption')
+	    //     	.queue(function(n) {
+		// 	        $(this).html( $('.owl-item.center').find('.slide_text').clone() );
+		// 	        n();
+		//         })
+		// });
 
-		owl.on('translate.owl.carousel', function(e) {
+		// owl.on('translate.owl.carousel', function(e) {
 
-	        $('#figcaption').animate( { opacity: 0 }, 250 );
-		});
+	    //     $('#figcaption').animate( { opacity: 0 }, 250 );
+		// });
 
-		owl.on('translated.owl.carousel', function(e) {
+		// owl.on('translated.owl.carousel', function(e) {
 
-	        $('#figcaption')
-	        	.delay( 250 )
-	        	.queue(function(n) {
-			        $(this).html( $('.owl-item.center').find('.slide_text').clone() );
-			        n();
-		        })
-		        .animate( { opacity: 1 }, 500 );
-		});
+	    //     $('#figcaption')
+	    //     	.delay( 250 )
+	    //     	.queue(function(n) {
+		// 	        $(this).html( $('.owl-item.center').find('.slide_text').clone() );
+		// 	        n();
+		//         })
+		//         .animate( { opacity: 1 }, 500 );
+		// });
 
 		owl.owlCarousel({
             items: 3,
@@ -80,50 +80,50 @@
 	}
 	
     // Testimonials Slider Active Code
-    if ($.fn.owlCarousel) {
-        $(".twitter_feed_slides").owlCarousel({
-            items: 1,
-            margin: 0,
-            loop: true,
-            nav: false,
-            dots: true,
-            autoplay: false,
-            smartSpeed: 700,
-            autoplayTimeout: 5000
-        });
-    }
+    // if ($.fn.owlCarousel) {
+    //     $(".twitter_feed_slides").owlCarousel({
+    //         items: 1,
+    //         margin: 0,
+    //         loop: true,
+    //         nav: false,
+    //         dots: true,
+    //         autoplay: false,
+    //         smartSpeed: 700,
+    //         autoplayTimeout: 5000
+    //     });
+    // }
 
     // Partner Company Slider Active Code
-    if ($.fn.owlCarousel) {
-        $(".partner_slides").owlCarousel({
-            items: 3,
-            margin: 0,
-            loop: true,
-            nav: true,
-            dots: true,
-			autoplay: true,
-		    autoplayTimeout: 5000,
-		    autoplayHoverPause: true,
-            smartSpeed: 800,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 2
-                },
-                576: {
-                    items: 3
-                },
-                768: {
-                    items: 3
-                },
-                992: {
-                    items: 3
-                }
-            }
-        });
-    }
+    // if ($.fn.owlCarousel) {
+    //     $(".partner_slides").owlCarousel({
+    //         items: 3,
+    //         margin: 0,
+    //         loop: true,
+    //         nav: true,
+    //         dots: true,
+	// 		autoplay: true,
+	// 	    autoplayTimeout: 5000,
+	// 	    autoplayHoverPause: true,
+    //         smartSpeed: 800,
+    //         responsive: {
+    //             0: {
+    //                 items: 1
+    //             },
+    //             480: {
+    //                 items: 2
+    //             },
+    //             576: {
+    //                 items: 3
+    //             },
+    //             768: {
+    //                 items: 3
+    //             },
+    //             992: {
+    //                 items: 3
+    //             }
+    //         }
+    //     });
+    // }
 
     // Onepage Nav Active Code
     if ($.fn.onePageNav) {
