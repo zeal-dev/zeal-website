@@ -1174,12 +1174,6 @@ header nav a:not(:first-child) {
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
-    #team .members {
-        justify-content: flex-start;
-    }
-}
-
 #advisors {
     padding-bottom: 0;
 }
