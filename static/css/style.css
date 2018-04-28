@@ -1404,7 +1404,8 @@ div.advisor_thumb:hover:after {
 .stats {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .cool_fact_text {
@@ -1412,7 +1413,7 @@ div.advisor_thumb:hover:after {
     text-align: center;
     z-index: 1;
     border-right: 1px solid #A4D3FF;
-    padding-right: 20px;
+    width: 25%;
 }
 
 .cool_fact_text:last-child {
