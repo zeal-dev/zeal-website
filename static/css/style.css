@@ -1332,9 +1332,8 @@ div.advisor_thumb:hover:after {
 }
 
 .client_slides .owl-controls .owl-nav {
-    width: 34%;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
     position: relative;
     display: block;
     height: 100%;
