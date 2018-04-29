@@ -2139,9 +2139,9 @@ ul.children .comment-content {
 
 /* 23.0 Contact Us Area CSS */
 
-.contact_input_area .form-group input,
-.contact_input_area .form-group select,
-.contact_input_area .form-group textarea {
+.contact_form input,
+.contact_form select,
+.contact_form textarea {
     border-radius: 0;
     height: 50px;
     margin-bottom: 15px;
@@ -2152,14 +2152,14 @@ ul.children .comment-content {
     box-sizing: border-box;
 }
 
-.contact_input_area .form-group input:focus,
-.contact_input_area .form-group select:focus,
-.contact_input_area .form-group textarea:focus {
+.contact_form input:focus,
+.contact_form select:focus,
+.contact_form textarea:focus {
     border: 1px solid #4783C4;
     box-shadow: none;
 }
 
-.contact_input_area .form-group textarea {
+.contact_form textarea {
     height: 150px;
 }
 
@@ -2196,8 +2196,15 @@ ul.children .comment-content {
 }
 
 .message_now_area {
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.message_now_area > div {
+    width: 40%;
+    min-width: 300px;
+    max-width: 450px;
 }
 
 .message_now_area .section_heading>p {
