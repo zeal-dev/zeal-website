@@ -54,7 +54,7 @@
 	            '<i class="pe-7s-angle-right">'
 	        ],
             dots: false,
-			autoplay: false,
+			autoplay: true,
 		    autoplayTimeout: 5000,
 		    autoplayHoverPause: true,
             fluidSpeed: 1000,
