@@ -4,7 +4,7 @@
 
 /* 1.0 Import All CSS */
 
-@import 'bootstrap.min.css';
+/* @import 'bootstrap.min.css'; */
 @import 'animate.css';
 @import 'owl.carousel.css';
 @import 'pe-icon-7-stroke.css';
@@ -94,6 +94,11 @@ h5,
 .h6,
 .h6 {
     font-size: 16px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 p {
@@ -209,6 +214,11 @@ img {
 section {
     padding-top: 100px;
     padding-bottom: 70px;
+}
+
+section h2 {
+    text-align: center;
+    color: #ED2926;
 }
 
 .partner_area_bottom {
@@ -1426,7 +1436,7 @@ div.advisor_thumb:hover:after {
 
 .client_slides .slide_text p {
     color: #fff;
-    padding: 0 3rem 10px;
+    padding: 0 3rem 25px;
     text-align: center;
     font-weight: 700;
     font-size: 1.3em;
