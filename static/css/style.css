@@ -1208,7 +1208,7 @@ div.advisor_thumb { /* contains the image */
 
 div.advisor_thumb img {
     border-radius: 50%;
-    min-width: 144px;
+    min-width: 150px;
 }
 
 div.advisor_thumb:before,
