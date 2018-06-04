@@ -2208,7 +2208,8 @@ ul.children .comment-content {
 .message_now_area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 100px 10% 70px 10%;
 }
 
 .message_now_area > div {
@@ -3107,95 +3108,3 @@ body.menu-open {
         overflow: auto;
     }
 }
-
-@media all and (min-width: 767px) and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-    .message_now_area > div {
-        min-width: 50%;
-    }
-}
-
-/* Edge 12-15 */
-@supports (-ms-accelerator: true)
-{
-    .message_now_area {
-        font-size: 0;
-    }
-
-    .message_now_area > div {
-        display: inline-block;
-        min-width: 50%;
-        max-width: 100vw;
-        padding: 5%;
-    }
-
-    .single_contact_area img {
-        width: 100%;
-    }
-
-    .single_contact_area > div {
-        max-width: 768px;
-    }
-
-    .map_area {
-        margin-bottom: 5%;
-    }
-
-    #main_contact_form input {
-        border: 0.5px solid #888;
-    }
-
-    #main_contact_form textarea {
-        border: 0.5px solid #888;
-        overflow: auto;
-    }
-
-    @media (max-width: 767px) {
-        .message_now_area > div {
-            min-width: 100vw;
-        }
-    }
-}
-
-/* Edge 16+ */
-@supports (-ms-ime-align:auto)
-{
-    .message_now_area {
-        font-size: 0;
-    }
-
-    .message_now_area > div {
-        display: inline-block;
-        min-width: 50%;
-        max-width: 100vw;
-        padding: 5%;
-    }
-
-    .single_contact_area img {
-        width: 100%;        
-        max-width: 768px;
-    }
-
-    .single_contact_area > div {
-        max-width: 768px;
-    }
-
-    .map_area {
-        margin-bottom: 5%;
-    }
-
-    #main_contact_form input {
-        border: 0.5px solid #888;
-    }
-
-    #main_contact_form textarea {
-        border: 0.5px solid #888;
-        overflow: auto;
-    }
-
-    @media (max-width: 767px) {
-        .message_now_area > div {
-            min-width: 100vw;
-        }
-    }
-}    
