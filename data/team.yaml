@@ -46,6 +46,11 @@ leads:
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
+  - name: Donny Alumbaugh
+    photo: img/team/alumbaugh.jpg
+    role: Sr. Software Engineer
+    linkedin: https://www.linkedin.com/in/donny-alumbaugh/
+
   - name: Stefanie Boscarino
     photo: img/team/boscarino.jpg
     role: Software Engineer
