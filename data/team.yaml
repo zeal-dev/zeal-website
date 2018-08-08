@@ -70,7 +70,12 @@ members:
     photo: img/team/graves.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jennifer-graves-49455436/
-  
+
+  - name: Cameron Green
+    photo: img/team/cameron.jpg
+    role: Intern
+    linkedin: https://www.linkedin.com/in/cameron-k-green/
+
   - name: Houston Martin
     photo: img/team/houston.jpg
     role: Software Engineer
@@ -89,4 +94,4 @@ members:
   - name: Derek Schaab
     photo: img/team/schaab.jpg
     role: Software Engineer
-    linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/  
+    linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
