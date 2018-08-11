@@ -2208,13 +2208,15 @@ ul.children .comment-content {
 .message_now_area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 100px 10% 70px 10%;
 }
 
 .message_now_area > div {
     width: 40%;
-    min-width: 300px;
-    max-width: 450px;
+    margin: 0 auto;
+    min-width: 450px;
+    max-width: 600px;
 }
 
 .message_now_area .section_heading>p {
