@@ -597,9 +597,9 @@ header nav {
         justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;   
-    width: 100%; 
-    height: 100%; 
+            align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 header nav a {
@@ -630,7 +630,7 @@ header nav a:not(:first-child) {
     justify-content: flex-end;
 }
 
-.default-title { 
+.default-title {
     opacity: 0;
     text-align: right;
 }
@@ -2215,7 +2215,7 @@ ul.children .comment-content {
 .message_now_area > div {
     width: 40%;
     margin: 0 auto;
-    min-width: 450px;
+    min-width: 450px; /*Needs to be lower because mobile phones are smaller than 350*/
     max-width: 600px;
 }
 
@@ -2261,6 +2261,15 @@ ul.children .comment-content {
     border: 2px solid transparent;
 }
 
+
+/* certs bar */
+.certs{
+    display: flex;
+    justify-content: space-between;
+}
+.certs a img {
+    width: 80px;
+}
 
 /* 24.0 Sidebar Area CSS */
 
@@ -3073,3 +3082,4 @@ body.menu-open {
 .thumb_container.col-xs-12.col-sm-12 {
     padding: 0 25px 0 0;
 }
+
