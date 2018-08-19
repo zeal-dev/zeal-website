@@ -2265,6 +2265,7 @@ ul.children .comment-content {
 /* certs bar */
 .certs{
     display: flex;
+    justify-content: space-between;
 }
 .certs a img {
     width: 80px;
