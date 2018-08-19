@@ -2215,7 +2215,7 @@ ul.children .comment-content {
 .message_now_area > div {
     width: 40%;
     margin: 0 auto;
-    min-width: 450px; /*Needs to be lower because mobile phones are smaller than 350*/
+    min-width: 250px; /*Needs to be lower because mobile phones are smaller than 350*/
     max-width: 600px;
 }
 
