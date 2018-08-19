@@ -2215,7 +2215,7 @@ ul.children .comment-content {
 .message_now_area > div {
     width: 40%;
     margin: 0 auto;
-    min-width: 450px;
+    min-width: 250px; /*Needs to be lower because mobile phones are smaller than 350*/
     max-width: 600px;
 }
 
@@ -2261,6 +2261,14 @@ ul.children .comment-content {
     border: 2px solid transparent;
 }
 
+
+/* certs bar */
+.certs{
+    display: flex;
+}
+.certs a img {
+    width: 80px;
+}
 
 /* 24.0 Sidebar Area CSS */
 
