@@ -10,7 +10,7 @@ advisors:
   #  linkedin: https://www.linkedin.com/in/burkeautrey/
 
   - name: Casey Sprague
-    photo: img/team/sprague.jpg
+    photo: https://www.gravatar.com/avatar/b8c1a6c15f97ee8f0ee5ede9b07593e3?size=512
     role: CTO at thera-LINK
     linkedin: https://www.linkedin.com/in/casey-sprague-3a3b4041
 
