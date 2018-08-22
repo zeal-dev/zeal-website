@@ -2502,12 +2502,22 @@ ul.children .comment-content {
     position: relative;
 }
 
+
 .stripe {
-	background: rgba(36,103,156,.75);
-	position: absolute;
-    transform: rotate(300deg);
-    width: 1200px;
-    height: 173px;
+    background: rgba(36, 103, 156, 0.75);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(120deg);
+    height: 300px;
+    width: 200vh;
+    top: 20vw;
+    right: -35%;
+}
+
+@media screen and (max-width: 1200px) {
+    .stripe {
+        display: none;
+    }
 }
 
 .welcome_area {
@@ -2532,15 +2542,6 @@ ul.children .comment-content {
     width: 100%;
 }
 
-.welcome_area .stripe {
-	right: 0;
-    transform-origin: 50% -150%q;
-}
-
-.cool_facts_area .container .stripe {
-	left: -130px;
-    transform-origin: 15% 0;
-}
 
 .welcome_area.yt_video_background {
     position: relative;
