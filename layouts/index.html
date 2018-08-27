@@ -310,7 +310,7 @@
     </section>
 
     <section class="our_advisor_area" id="advisors">
-        <h2>Meet our team of advisors.</h2>
+        <h2 class="our_advisor_area-meet_our_team">Meet our<span class="teamText"> team of</span> advisors.</h2>
         <div class="group">
             {{ range $.Site.Data.team.advisors }} {{ partial "single_advisor.html" . }} {{ end }}
         </div>
@@ -318,7 +318,7 @@
 
     <!-- ---------------- Our Experts Area Start ---------------- -->
     <section class="our_experts_area" id="team">
-        <h2>Meet our team of experts.</h2>
+        <h2 class="our_advisor_area-meet_our_team">Meet our<span class="teamText"> team of</span> experts.</h2>
 
         <div class="leads">
             {{ range $.Site.Data.team.leads }} {{ partial "single_advisor.html" . }} {{ end }}
