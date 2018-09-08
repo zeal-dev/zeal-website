@@ -8,6 +8,10 @@ advisors:
   #  photo: img/team/autrey.jpg
   #  role: Chairman and CEO at Fortium Partners
   #  linkedin: https://www.linkedin.com/in/burkeautrey/
+  - name: Anthony Fratiani
+    photo: img/team/fratiani.jpg
+    role: CTO at Sierra Auto Finance
+    linkedin: https://www.linkedin.com/in/anthony-fratiani-37369a/
 
   - name: Casey Sprague
     photo: https://www.gravatar.com/avatar/b8c1a6c15f97ee8f0ee5ede9b07593e3?size=512
