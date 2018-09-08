@@ -2503,18 +2503,18 @@ ul.children .comment-content {
 }
 
 .stripeDiv{
-    display: inline-flex;
-    position: absolute;
+    align-items: center;
     background: url(/img/bg-img/stripeFrame.svg);
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
     background-attachment: scroll;
     background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    height: 110%;
     justify-content: flex-end;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
 }
 
 
