@@ -2515,13 +2515,14 @@ ul.children .comment-content {
     padding: 0;
     position: absolute;
     width: 100%;
+    top: 0;
+    right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     .stripeDiv{
         background-image:  url(/img/bg-img/stripeFrame_Mobile.svg);
-        top: 0;
-        right: 0;
+
     }
 }
 
