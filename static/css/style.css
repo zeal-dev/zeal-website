@@ -2504,10 +2504,10 @@ ul.children .comment-content {
 
 .stripeDiv{
     align-items: center;
-    background: url(/img/bg-img/stripeFrame.svg);
-    background-attachment: scroll;
+    background-image: url(/img/bg-img/stripeFrame_Desktop.svg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     display: inline-flex;
     height: 110%;
     justify-content: flex-end;
@@ -2517,6 +2517,11 @@ ul.children .comment-content {
     width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+    .stripeDiv{
+        background-image:  url(/img/bg-img/stripeFrame_Mobile.svg);
+    }
+}
 
 .welcome_area {
     height: 110vh;
