@@ -2520,6 +2520,8 @@ ul.children .comment-content {
 @media screen and (max-width: 767px) {
     .stripeDiv{
         background-image:  url(/img/bg-img/stripeFrame_Mobile.svg);
+        top: 0;
+        right: 0;
     }
 }
 
