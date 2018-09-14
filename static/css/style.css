@@ -3090,3 +3090,73 @@ body.menu-open {
     padding: 0 25px 0 0;
 }
 
+
+@media screen and (max-width: 767px) {
+    .single_advisor .advisor_thumb::after,
+    .single_advisor .advisor_thumb::before {
+        content: none;
+    }
+
+    .single_advisor {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+
+        visibility: visible;
+        position: relative;
+        border-bottom: 1px solid #e6e9ec;
+        margin-bottom: 0;
+    }
+
+
+    .single_advisor .advisor_thumb {
+        height: auto;
+        width: auto;
+        min-width: auto;
+    }
+
+    .thumb_container {
+        flex-shrink: 0;
+    }
+    div.advisor_thumb img,
+    .bio-photos {
+        min-width: 50px;
+    }
+
+    .bio-photos {
+        margin: 16px 4px 8px 8px;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .single_advisor .single_advisor_details_info {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+        align-items: flex-start;
+        /
+    }
+
+    .single_advisor_details_info {
+        text-align: left;
+    }
+    .single_advisor_details_info > h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .single_advisor_details_info > h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #000000;
+    }
+    #team hr {
+        display: none;
+    }
+
+    .teamText{
+        display: none;
+    }
+
+}

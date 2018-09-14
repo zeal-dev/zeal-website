@@ -80,6 +80,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
+  - name: Thomas Leong
+    photo: img/team/leong.jpg
+    role: Agile Coach
+    linkedin: https://www.linkedin.com/in/leongthomas/
+
   - name: Houston Martin
     photo: img/team/houston.jpg
     role: Software Engineer
