@@ -2502,12 +2502,28 @@ ul.children .comment-content {
     position: relative;
 }
 
-.stripe {
-	background: rgba(36,103,156,.75);
-	position: absolute;
-    transform: rotate(300deg);
-    width: 1200px;
-    height: 173px;
+.stripeDiv{
+    align-items: center;
+    background-image: url(/img/bg-img/stripeFrame_Desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    height: 110%;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .stripeDiv{
+        background-image:  url(/img/bg-img/stripeFrame_Mobile.svg);
+
+    }
 }
 
 .welcome_area {
@@ -2515,7 +2531,7 @@ ul.children .comment-content {
     position: relative;
     z-index: -1;
     overflow: hidden;
-    background-image: url(/img/bg-img/sailing.jpg);
+    background-image:  url(/img/bg-img/sailing.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -2532,15 +2548,6 @@ ul.children .comment-content {
     width: 100%;
 }
 
-.welcome_area .stripe {
-	right: 0;
-    transform-origin: 50% -150%q;
-}
-
-.cool_facts_area .container .stripe {
-	left: -130px;
-    transform-origin: 15% 0;
-}
 
 .welcome_area.yt_video_background {
     position: relative;
