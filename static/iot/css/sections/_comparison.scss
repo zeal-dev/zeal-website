@@ -1,0 +1,56 @@
+/*  sections/_comparison.scss */
+
+.comparison {
+  display: flex;
+  justify-content: center;
+  max-width: $content-width;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+  > div {
+    flex: 1 0 200px;
+    margin: $margin-size / 2;
+    padding: 30px;
+    border-radius: $border-radius;
+    background: grey(97);
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+    .comparison_img {
+      margin: 0 auto 20px;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      height: 50px;
+      width: 85px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .comparison_content {
+      position: relative;
+
+      h3,
+      h4 {
+        color: grey(20);
+      }
+
+      p {
+        color: grey(40);
+      }
+
+      &.dock-bottom {
+        padding-bottom: 60px;
+        height: calc(100% - 60px);
+
+        > *:last-child {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+}

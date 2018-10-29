@@ -1,0 +1,46 @@
+/*  /_preloader.scss */
+
+#preloader {
+  overflow: hidden;
+  background: transparent;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.preloader {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: auto;
+  z-index: 9;
+  margin-top: 0;
+  margin-left: -44px;
+}
+
+#cssload-loader {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 88px;
+}
+
+#scrollUp {
+  background-color: color(blue);
+  border-radius: 2px 2px 0 0;
+  bottom: 0;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 30px;
+  height: 40px;
+  line-height: 45px;
+  right: 30px;
+  text-align: center;
+  width: 40px;
+}
