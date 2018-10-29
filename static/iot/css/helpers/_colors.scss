@@ -1,0 +1,72 @@
+/*  /helpers/_colors.scss */
+
+// COLORS
+
+// Function to call a specific palette color using color(name)
+//   Usage: [css property]: color(name[, variant]);
+//   Variant is defined in $palette.name.
+//   Base is required for each color.
+//   If no variant is supplied, base color will be used.
+$palette: (
+  red: (
+    base: #ed2926
+  ),
+  teal: (
+    base: #05a2aa
+  ),
+  blue: (
+    base: #4783c4,
+    dark: #142a43
+  ),
+  white: (
+    base: #fff
+  )
+);
+
+@function color($key, $variant: "base") {
+  @each $color-key, $color-variants in $palette {
+    @if $color-key == $key {
+      @if map-has-key($color-variants, $variant) {
+        @return map-get($color-variants, $variant);
+      }
+    }
+  }
+
+  @warn 'The color #{$key} or variant #{$variant} is not in the map ’$palette';
+  @return null;
+}
+
+// GREYS
+
+// Function to create a controlled grey color using HSB color model by passing the brightness value only
+//   Usage: [css property]: grey(b);
+//   b is the desired brightness (0 darkest to 100 brightest)
+
+// Color (hue in degrees)
+//   Changes overall hue of grey palette
+$h-hsb: 216;
+
+// Saturation Divisor
+//   Defines the ratio between brightness and saturation. Lower brightness values
+//   (darker colors) are more saturated. Higher brightness values (lighter colors)
+//   are less saturated to create an even tonal ramp.
+//
+//   saturation = (100-brightness)/divisor
+//
+//   A higher number produces less saturated greys.
+//   A lower number produces more saturated greys.
+$s-hsb-divisor: 1.5;
+
+@function grey($b-hsb, $a: 1) {
+  @if $b-hsb == 0 {
+    @return hsla(0, 0, 0, $a);
+  } @else if $b-hsb == 100 {
+    @return hsla(255, 255, 255, $a);
+  } @else {
+    $s-hsb: (100 - $b-hsb) / $s-hsb-divisor;
+    // $s-hsb: 50;
+    $l-hsl: ($b-hsb/2) * (2 - ($s-hsb/100));
+    $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
+    @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
+  }
+}

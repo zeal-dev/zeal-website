@@ -1,0 +1,110 @@
+/*  /helpers/_flexbox.scss */
+
+.flex-max-container {
+  justify-content: center;
+
+  > .flex-max-width {
+    flex: 0 1 1025px;
+    margin: 0 auto;
+  }
+}
+
+// Number of columns in Flex grid
+$flex-column-number: 20;
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  // justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+
+  > * {
+    flex: 1 auto;
+    margin-right: 0;
+    min-width: 0;
+  }
+
+  // Options
+
+  &-row {
+    // default
+    flex-direction: row;
+  }
+
+  &-col {
+    flex-direction: column;
+    /*width: 100%;*/ /* IE hack */
+    max-height: 100%; /* IE hack */
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-expand > * {
+    flex-grow: 1;
+  }
+
+  &-collapse > * {
+    flex-grow: 0;
+  }
+
+  &_item-expand {
+    flex-grow: 1;
+  }
+
+  &_item-collapse {
+    flex-grow: 0;
+  }
+
+  // Vertical Alignment
+  // Rows
+  &-top {
+    align-items: flex-start;
+  }
+  &-middle {
+    align-items: center;
+  }
+  &-bottom {
+    align-items: flex-end;
+  }
+
+  // Individual cells
+  & > &-top {
+    align-self: flex-start;
+  }
+  & > &-middle {
+    align-self: center;
+    align-items: center;
+  }
+  & > &-bottom {
+    align-self: flex-end;
+  }
+
+  // Horizontal Alignment
+  // Rows, Individual Cells
+  &-left,
+  & > &-left {
+    justify-content: flex-start;
+  }
+  &-right,
+  & > &-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  &-center,
+  & > &-center {
+    justify-content: center;
+    text-align: center;
+  }
+
+  // n-column grid system
+  @for $i from 1 through $flex-column-number {
+    .flex-#{$i},
+    &.flex-#{$i} {
+      $w: $content-width * ($i/$flex-column-number);
+      flex: 1 0 $w;
+    }
+  }
+}

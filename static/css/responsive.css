@@ -1,58 +1,57 @@
 @media only screen and (min-width: 768px) {
-    header nav a:not(:first-child) {
-        display: inherit;
-    }
-
+  header nav a:not(:first-child) {
+    display: inherit;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .default-title h2 {
-        font-size: 80px
-    }
-    .right_side_menu nav.navbar.bootsnav .navbar-header {
-        display: none;
-    }
-    .attr-nav {
-        right: 10px;
-    }
+  .default-title h2 {
+    font-size: 80px;
+  }
+  .right_side_menu nav.navbar.bootsnav .navbar-header {
+    display: none;
+  }
+  .attr-nav {
+    right: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .default-title h2 {
-        font-size: 60px
-    }
-    .image_zoom_in>a {
-        font-size: 16px;
-    }
-    .partner_slides .owl-item>img {
-        padding: 10px;
-    }
-    .contact_address_area {
-        margin-bottom: 30px;
-    }
-    .right_side_menu nav.navbar.bootsnav .navbar-header {
-        display: none;
-    }
-    .attr-nav {
-        right: 10px;
-    }
-    .about_us_text>h2 {
-        font-size: 42px;
-    }
-    .cool_fact_text>p {
-        font-size: 16px;
-    }
-    .cool_fact_text>h2 {
-        font-size: 70px;
-    }
-    .cool_fact_text>i {
-        font-size: 50px;
-    }
-    .intro_right_area {
-        padding: 0 26px;
-    }
-    .gallery_info h4 {
-        font-size: 16px;
-    }
+  .default-title h2 {
+    font-size: 60px;
+  }
+  .image_zoom_in > a {
+    font-size: 16px;
+  }
+  .partner_slides .owl-item > img {
+    padding: 10px;
+  }
+  .contact_address_area {
+    margin-bottom: 30px;
+  }
+  .right_side_menu nav.navbar.bootsnav .navbar-header {
+    display: none;
+  }
+  .attr-nav {
+    right: 10px;
+  }
+  .about_us_text > h2 {
+    font-size: 42px;
+  }
+  .cool_fact_text > p {
+    font-size: 16px;
+  }
+  .cool_fact_text > h2 {
+    font-size: 70px;
+  }
+  .cool_fact_text > i {
+    font-size: 50px;
+  }
+  .intro_right_area {
+    padding: 0 26px;
+  }
+  .gallery_info h4 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -181,30 +180,30 @@
 	    text-align: center;
 	}
 
-	.partner_area h2 {
-		text-align: center;
-		margin-bottom: 0;
-	}
+  .partner_area h2 {
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-	.partner_area .section_heading {
-		margin-bottom: 25px;
-    }
+  .partner_area .section_heading {
+    margin-bottom: 25px;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .text-typed .cd-headline {
-        font-size: 36px;
-    }
+  .text-typed .cd-headline {
+    font-size: 36px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .container {
-        width: 520px;
-    }
-    .single_gallery_item {
-        width: 50%;
-    }
-    .text-typed .cd-headline {
-        font-size: 42px;
-    }
+  .container {
+    width: 520px;
+  }
+  .single_gallery_item {
+    width: 50%;
+  }
+  .text-typed .cd-headline {
+    font-size: 42px;
+  }
 }

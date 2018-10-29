@@ -1,0 +1,98 @@
+/* /helpers/_mixins.scss */
+
+// =============================================================================
+// MEDIA QUERIES
+
+// Media:
+// 	[default]	web view
+//
+// 	phone		vertical or horizontal
+//	phone-v		vertical only
+//	phone-h		horizontal only
+//
+// Options:
+//	no			display: none
+//
+// Usage:
+//  @include mq(display) { ... }
+
+// Default Breakpoint:
+// xl: 1200px - large desktop
+
+@mixin mq($point, $option: "") {
+  @if $point == xs {
+    // xs (default): <576px - portrait phone
+    @media screen and (max-width: 576px) {
+      @if $option == no {
+        display: none;
+      } @else {
+        @content;
+      }
+    }
+  } @else if $point == sm {
+    // sm: 576px - landscape phone
+    @media screen and (max-width: 768px) {
+      @if $option == no {
+        display: none;
+      } @else {
+        @content;
+      }
+    }
+  } @else if $point == md {
+    // md: 768px - tablet
+    @media screen and (max-width: 992px) {
+      @if $option == no {
+        display: none;
+      } @else {
+        @content;
+      }
+    }
+  } @else if $point == lg {
+    // lg: 992px - desktop
+    @media screen and (max-width: 1200px) {
+      @if $option == no {
+        display: none;
+      } @else {
+        @content;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// BACKGROUND GRADIENTS
+//
+// Usage:
+//   @include gradient(startColor[,endColor[,direction]]);
+//   startColor: any SCSS color
+//   endColor: any SCSS color or "subtle". Subtle will shade from startColor to slightly darker version of startColor
+//   direction: direction of gradient. For radial gradient, use "ellipse [direction]"
+
+@mixin gradient(
+  $startColor: grey(20),
+  $endColor: subtle,
+  $direction: to bottom
+) {
+  @if $endColor == "subtle" {
+    $endColor: darken($startColor, 4%);
+  }
+
+  background: linear-gradient($direction, $startColor 0%, $endColor 100%);
+}
+
+// ------------------------------------------------------
+/// Create Normal & Alt-style Variants
+/// @param {*} $property - Property to assign variants to
+/// @param {*} $value - Normal value
+/// @param {*} $value-alt - Alt-style value
+///
+/// Usage: @include variants( color, $color-input, $color-input-alt );
+// ------------------------------------------------------
+
+@mixin variants($property, $value, $value-alt) {
+  #{$property}: #{$value};
+
+  .alt-style & {
+    #{$property}: #{$value-alt};
+  }
+}

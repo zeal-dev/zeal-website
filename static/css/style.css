@@ -635,7 +635,7 @@ header nav a:last-child {
 }
 
 /* 6.0 Welcome Area Slider CSS */
-.welcome_area {
+.showcase {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -775,7 +775,7 @@ header nav a:last-child {
     font-size: 50px;
 }
 
-.cool_facts_area.raindrops {
+.facts_area.raindrops {
     background-color: #4783C4;
 }
 
@@ -1466,13 +1466,13 @@ div.advisor_thumb:hover:after {
 
 /* 18.0 Cool Facts Area CSS */
 
-.cool_facts_area {
+.facts_area {
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 
-.cool_facts_area h3 {
+.facts_area h3 {
 	color: white;
 }
 
@@ -2537,7 +2537,7 @@ ul.children .comment-content {
     }
 }
 
-.welcome_area {
+.showcase {
     height: 110vh;
     position: relative;
     z-index: -1;
@@ -2549,25 +2549,25 @@ ul.children .comment-content {
     opacity: 0;
 }
 
-.welcome_area.ready {
+.showcase.ready {
     opacity: 1;
     transition: opacity 7s .5s;
 }
 
-.welcome_area.small_size {
+.showcase.small_size {
     height: 600px !important;
     width: 100%;
 }
 
 
-.welcome_area.yt_video_background {
+.showcase.yt_video_background {
     position: relative;
     z-index: 1;
     background-size: cover;
     background-position: center center;
 }
 
-.welcome_area.yt_video_background:before {
+.showcase.yt_video_background:before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2682,7 +2682,7 @@ ul.children .comment-content {
     color: #fff;
 }
 
-.welcome_area .welcome_slides .owl-nav {
+.showcase .welcome_slides .owl-nav {
     height: auto;
     left: 0;
     position: absolute;
@@ -2691,8 +2691,8 @@ ul.children .comment-content {
     z-index: 1;
 }
 
-.welcome_area .welcome_slides .owl-nav .owl-prev,
-.welcome_area .welcome_slides .owl-nav .owl-next {
+.showcase .welcome_slides .owl-nav .owl-prev,
+.showcase .welcome_slides .owl-nav .owl-next {
     background-color: #fff;
     color: #e67e22;
     cursor: pointer;
@@ -2708,30 +2708,30 @@ ul.children .comment-content {
     border-radius: 3px;
 }
 
-.welcome_area .welcome_slides .owl-nav .owl-prev {
+.showcase .welcome_slides .owl-nav .owl-prev {
     left: -45px;
 }
 
-.welcome_area .welcome_slides .owl-nav .owl-next {
+.showcase .welcome_slides .owl-nav .owl-next {
     right: -45px;
 }
 
-.welcome_area .welcome_slides .owl-nav .owl-prev:hover,
-.welcome_area .welcome_slides .owl-nav .owl-next:hover {
+.showcase .welcome_slides .owl-nav .owl-prev:hover,
+.showcase .welcome_slides .owl-nav .owl-next:hover {
     background-color: #e67e22;
     color: #fff
 }
 
-.welcome_area .welcome_slides:hover .owl-nav .owl-prev {
+.showcase .welcome_slides:hover .owl-nav .owl-prev {
     left: 15px;
 }
 
-.welcome_area .welcome_slides:hover .owl-nav .owl-next {
+.showcase .welcome_slides:hover .owl-nav .owl-next {
     right: 15px;
 }
 
-.welcome_area .welcome_slides .owl-nav .owl-prev>i,
-.welcome_area .welcome_slides .owl-nav .owl-next>i {
+.showcase .welcome_slides .owl-nav .owl-prev>i,
+.showcase .welcome_slides .owl-nav .owl-next>i {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;

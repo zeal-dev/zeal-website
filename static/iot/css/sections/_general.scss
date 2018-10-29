@@ -1,0 +1,65 @@
+/*  /_sections.scss */
+
+.section_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_heading {
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  &.text-left {
+    text-align: left !important;
+  }
+
+  &.text-right {
+    text-align: right !important;
+  }
+
+  > h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+
+  > p {
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+}
+
+section {
+  padding: 70px 0;
+
+  h2 {
+    text-align: center;
+    color: color(red);
+  }
+}
+
+section.bg-light {
+  background: grey(93);
+}
+
+section.bg-dark {
+  background: color(blue, dark);
+
+  p {
+    color: grey(80);
+  }
+
+  h2 {
+    color: color(teal);
+  }
+  h3,
+  h4 {
+    color: white;
+  }
+}
