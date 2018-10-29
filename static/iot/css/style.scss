@@ -1,0 +1,40 @@
+/* style.scss */
+
+// Import SCSS Helpers
+
+@import "helpers/variables";
+@import "helpers/colors";
+@import "helpers/mixins";
+@import "helpers/flexbox";
+
+// Import Fonts
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Archivo:400,500,600,700");
+
+// Import SCSS Components
+
+@import "common";
+@import "preloader";
+@import "header";
+@import "footer";
+
+// Use-specific Sections
+
+@import "sections/general";
+
+@import "sections/comparison";
+@import "sections/clients";
+@import "sections/contact";
+@import "sections/facts";
+@import "sections/people";
+@import "sections/services";
+@import "sections/showcase";
+@import "sections/testimonials";
+
+// Other SCSS/CSS
+
+@import "responsive";
+
+@import "../../css/animate.css";
+@import "../../css/owl.carousel.css";
+@import "../../css/pe-icon-7-stroke.css";
