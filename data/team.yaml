@@ -80,6 +80,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
+  - name: Imran Khan
+    photo: img/team/imran.png
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/imrankhancste/
+
   - name: Thomas Leong
     photo: img/team/leong.jpg
     role: Agile Coach
