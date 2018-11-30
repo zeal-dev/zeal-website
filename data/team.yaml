@@ -100,6 +100,31 @@ members:
     role: Sr. Software Engineer
     linkedin: https://www.linkedin.com/in/larrymcnutt/
 
+  - name: Khallid Williams
+    photo: img/team/khallid.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/khallid-williams-08284a137/
+
+  - name: Agnes Jessica Tjahja
+    photo: img/team/jessica.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/jessicatjahja/
+
+  - name: Zachery Gentry
+    photo: img/team/zachery.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/zachery-gentry-594018151/
+
+  - name: Christian Gentry
+    photo: img/team/christian.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/christian-gentry-83a98710a/
+
+  - name: Kenneth Cassel
+    photo: img/team/kenneth.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/kenneth-cassel/
+
   - name: Beau Montgomery
     photo: img/team/montgomery.jpg
     role: Software Engineer
