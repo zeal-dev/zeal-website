@@ -70,6 +70,21 @@ members:
     role: Data Analytics Engineer
     linkedin: https://www.linkedin.com/in/ramandeep-campbell-5193326/
 
+  - name: Kenneth Cassel
+    photo: img/team/kenneth.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/kenneth-cassel/
+
+  - name: Christian Gentry
+    photo: img/team/christian.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/christian-gentry-83a98710a/
+
+  - name: Zachery Gentry
+    photo: img/team/zachery.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/zachery-gentry-594018151/
+
   - name: Jennifer Graves
     photo: img/team/graves.jpg
     role: Software Engineer
@@ -110,7 +125,17 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
 
+  - name: Agnes Jessica Tjahja
+    photo: img/team/jessica.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/jessicatjahja/
+
   - name: Anthony Wilder
     photo: img/team/wilder.png
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
+
+  - name: Khallid Williams
+    photo: img/team/khallid.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/khallid-williams-08284a137/
