@@ -52,7 +52,7 @@ members:
 
   - name: David Berryman Jr.
     photo: img/team/berryman.jpeg
-    role:
+    role: Business Analyst
     linkedin: https://www.linkedin.com/in/davideberrymanjr/
 
   - name: Stefanie Boscarino
@@ -74,11 +74,6 @@ members:
     photo: img/team/kenneth.jpeg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/kenneth-cassel/
-
-  - name: Mohamed Elmalky
-    photo: img/team/elmalky.jpeg
-    role: Dev Ops Engineer
-    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
 
   - name: Christian Gentry
     photo: img/team/christian.jpeg
