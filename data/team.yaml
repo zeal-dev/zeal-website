@@ -75,6 +75,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/kenneth-cassel/
 
+  - name: Mohamed Elmalky
+    photo: img/team/elmalky.jpg
+    role: Software Architect
+    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
+  
   - name: Christian Gentry
     photo: img/team/christian.jpeg
     role: Software Engineer
@@ -140,7 +145,3 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/khallid-williams-08284a137/
 
-  - name: Mohamed Elmalky
-    photo: img/team/elmalky.jpg
-    role: Software Architect
-    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
