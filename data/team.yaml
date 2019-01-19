@@ -29,9 +29,14 @@ leads:
     role: User Experience Practice Lead
     linkedin: https://www.linkedin.com/in/jsclemens/
 
+  - name: Thomas Leong
+    photo: img/team/leong.jpg
+    role: Agile Transformation Practice Lead
+    linkedin: https://www.linkedin.com/in/leongthomas/
+  
   - name: David Thach
     photo: img/team/thach.jpg
-    role: Agile Transformation Practice Lead
+    role: Managing Partner
     linkedin: https://www.linkedin.com/in/davidthach/
 
   - name: Melinda Vu
@@ -41,7 +46,7 @@ leads:
 
   - name: Kijana Woodard
     photo: img/team/woodard.jpg
-    role: Software Development Practice Lead
+    role: Software Development Practice Lead  Managing Partner
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
@@ -105,11 +110,6 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/imrankhancste/
 
-  - name: Thomas Leong
-    photo: img/team/leong.jpg
-    role: Agile Coach
-    linkedin: https://www.linkedin.com/in/leongthomas/
-
   - name: Houston Martin
     photo: img/team/houston.jpg
     role: Software Engineer
@@ -130,7 +130,7 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
 
-  - name: Agnes Jessica Tjahja
+  - name: Jessica Tjahja
     photo: img/team/jessica.jpeg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jessicatjahja/
