@@ -4,10 +4,6 @@ advisors:
     role: CTO at Ashford.com
     linkedin: https://www.linkedin.com/in/dradams/
 
-  #- name: Burke Autrey
-  #  photo: img/team/autrey.jpg
-  #  role: Chairman and CEO at Fortium Partners
-  #  linkedin: https://www.linkedin.com/in/burkeautrey/
   - name: Anthony Fratiani
     photo: img/team/fratiani.jpg
     role: CTO at Sierra Auto Finance
@@ -24,11 +20,26 @@ advisors:
     linkedin: https://www.linkedin.com/in/happy-webberman-7b17ba8/
 
 leads:
+  - name: Zach Burke
+    photo: img/team/burke.jpg
+    role: Software Engineering Practice Lead
+    linkedin: https://www.linkedin.com/in/zach-burke-6b19b637/
+
+  - name: Kenneth Cassel
+    photo: img/team/kenneth.jpeg
+    role: Intelligent Automation Practice Lead
+    linkedin: https://www.linkedin.com/in/kenneth-cassel/
+
   - name: Jason Clemens
     photo: img/team/clemens.jpg
     role: User Experience Practice Lead
     linkedin: https://www.linkedin.com/in/jsclemens/
-
+ 
+  - name: Robert Lavarn
+    photo: img/team/lavarn.jpg
+    role: Data Analytics Practice Lead
+    linkedin: https://www.linkedin.com/in/robert-lavarn-8606517/
+ 
   - name: Thomas Leong
     photo: img/team/leong.jpg
     role: Agile Transformation Practice Lead
@@ -39,14 +50,9 @@ leads:
     role: Managing Partner
     linkedin: https://www.linkedin.com/in/davidthach/
 
-  - name: Melinda Vu
-    photo: img/team/vu.jpg
-    role: Data Analytics Practice Lead
-    linkedin: https://www.linkedin.com/in/melinda-vu-1b54234/
-
   - name: Kijana Woodard
     photo: img/team/woodard.jpg
-    role: Software Development Practice Lead  Managing Partner
+    role: Managing Partner
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
@@ -64,21 +70,6 @@ members:
     photo: img/team/boscarino.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/stefanie-boscarino-17566b147/
-
-  - name: Zach Burke
-    photo: img/team/burke.jpg
-    role: Software Engineer
-    linkedin: https://www.linkedin.com/in/zach-burke-6b19b637/
-
-  - name: Ramandeep Campbell
-    photo: img/team/campbell.jpg
-    role: Data Analytics Engineer
-    linkedin: https://www.linkedin.com/in/ramandeep-campbell-5193326/
-
-  - name: Kenneth Cassel
-    photo: img/team/kenneth.jpeg
-    role: Software Engineer
-    linkedin: https://www.linkedin.com/in/kenneth-cassel/
 
   - name: Mohamed Elmalky
     photo: img/team/elmalky.jpg
@@ -124,6 +115,11 @@ members:
     photo: img/team/montgomery.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/beau-montgomery-335998b6/
+
+  - name: Michelle Ochoa
+    photo: img/team/MichelleOchoa.jpg
+    role: Agile Coach
+    linkedin: https://www.linkedin.com/in/moelearningpro/
 
   - name: Derek Schaab
     photo: img/team/schaab.jpg
