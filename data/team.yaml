@@ -96,6 +96,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
+  - name: Sven Herrmann
+    photo: img/team/Herrmann.jpg
+    role: Data Analytics Engineer
+    linkedin: https://www.linkedin.com/in/sven-herrmann-b12a9b51/
+
   - name: Imran Khan
     photo: img/team/imran.png
     role: Software Engineer
@@ -120,6 +125,11 @@ members:
     photo: img/team/MichelleOchoa.jpg
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/moelearningpro/
+
+  - name: Nikola Popovic
+    photo: img/team/Nikola.jpg
+    role: Data Analytics Engineer
+    linkedin: https://www.linkedin.com/in/nikola-popovic-b381693b/
 
   - name: Derek Schaab
     photo: img/team/schaab.jpg
