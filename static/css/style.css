@@ -595,8 +595,8 @@ header nav {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: space-around;
-        -ms-flex-align: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
             align-items: center;
     width: 100%;
     height: 100%;
@@ -621,9 +621,11 @@ header nav a:not(:first-child) {
 .logo {
     flex-shrink: 0;
     margin-right: auto;
+    margin-left: 3%;
 }
 
 header nav a:last-child {
+    margin-right: 3%;
 }
 
 .main_header_area.sticky nav a:not(:first-child).current_page_item,
