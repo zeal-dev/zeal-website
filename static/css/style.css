@@ -605,6 +605,7 @@ header nav {
 header nav a {
     font-weight: 600;
     font-size: 15px;
+    margin: 0 2.5%;
     text-transform: capitalize;
 }
 
@@ -615,6 +616,16 @@ header nav a:hover {
 
 header nav a:not(:first-child) {
     display: none;
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-right: auto;
+    margin-left: 3%;
+}
+
+header nav a:last-child {
+    margin-right: 3%;
 }
 
 .main_header_area.sticky nav a:not(:first-child).current_page_item,
