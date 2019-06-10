@@ -1232,7 +1232,7 @@ div.advisor_thumb:hover:before {
     border-right-color: #DC2424;
     border-bottom-color: #DC2424;
 	transition:
-	    border-top-color 0.15s linear,
+	    border-top-color 0.15s cubic-bezier(1, 0, 0, 1) 0s,
 	    border-right-color 0.15s linear 0.10s,
 	    border-bottom-color 0.15s linear 0.20s;
 }
@@ -1247,7 +1247,7 @@ div.advisor_thumb:hover:after {
 	border-right-width: 3px;
 	transform: rotate(270deg);
 	transition:
-		transform 0.5s linear 0s,
+		transform 0.5s cubic-bezier(1, 0, 0, 1) 0s,
 	    border-left-width 0s linear 0.35s;
 }
 
