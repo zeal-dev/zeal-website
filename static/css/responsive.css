@@ -2,6 +2,7 @@
     header nav a:not(:first-child) {
         display: inherit;
     }
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .default-title h2 {
@@ -55,6 +56,9 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .logo {
+        margin-left: auto;
+    }
     .default-title h2 {
         font-size: 40px;
     }
