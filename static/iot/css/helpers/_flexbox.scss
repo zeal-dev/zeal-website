@@ -58,6 +58,14 @@ $flex-column-number: 20;
     flex-grow: 0;
   }
 
+  &_item-order-1 {
+    order: 1;
+  }
+
+  &_item-order-2 {
+    order: 2;
+  }
+
   // Vertical Alignment
   // Rows
   &-top {
