@@ -1655,7 +1655,7 @@ div.advisor_thumb:hover:after {
 }
 
 .section_icon {
-  min-width: 128px;
+  max-width: 128px;
   margin: 0 auto;
 }
 
