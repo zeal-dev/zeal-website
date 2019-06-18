@@ -664,7 +664,7 @@ ul.checkboxes li.disabled:before, ul.checkboxes li.disabled:after {
 
 /*  /_header.scss */
 .main_header_area {
-  padding: 0 2vw;
+  padding: 0 2%;
   height: 70px;
   width: 100%;
   position: fixed;
@@ -681,6 +681,7 @@ ul.checkboxes li.disabled:before, ul.checkboxes li.disabled:after {
 }
 
 .logo {
+  padding: 0;
   margin-right: auto;
 }
 
@@ -688,16 +689,19 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   height: 100%;
 }
 
 header nav a {
+  padding: 0;
   font-weight: 600;
   font-size: 15px;
-  padding: 0 1vw;
+  margin: 0 30px;
   text-transform: capitalize;
 }
 
@@ -1651,8 +1655,7 @@ div.advisor_thumb:hover:after {
 }
 
 .section_icon {
-  flex-basis: 100px;
-  max-width: 128px;
+  min-width: 128px;
   margin: 0 auto;
 }
 
