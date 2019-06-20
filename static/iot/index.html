@@ -40,7 +40,7 @@
   <!-- ---------------- Header ---------------- -->
   <header class="main_header_area animated">
     <nav role="navigation">
-      <a href="#home" class="logo">
+      <a href="../index.html" class="logo">
         <img src="../img/core-img/logo-v2.png" alt="Zeal IT Consultants">
       </a>
       <a href="#comparison">Comparison</a>
@@ -54,7 +54,7 @@
   <!-- ---------------- Showcase  ---------------- -->
   <section class="showcase parallax" id="home" data-jarallax-video='mp4:../videos/zeal-iot.mp4'>
     <div class="stripeDiv welcome_fade_text">
-      <div class="default-title welcome_fade_text">
+      <div class="default-title default-title_iot welcome_fade_text">
         <h2>Zeal 
           <br />
           <span>IoT</span>
@@ -261,43 +261,77 @@
     </div>
   </section>
 
-  <!-- Frequently Asked Questions Section -->
-  <section class="padding-side bg-light" id="faq">
-    <div class="section_heading">
-      <h2>Frequently asked questions</h2>
-    </div>
-    <div class="section_content padding-large-bottom flex flex-col flex-wrap">
-      <div class="flex-4 padding">
-        <h4>Does the IoT team only review engagements that are implementing with Zeal Hardware and Device Cloud?</h4>
-        <p class="text-large">
-            Yes - with thousands of solutions being developed and deployed using our platform, we’ve seen it all and can quickly make recommendations on how to improve your implementation by making it more reliable and efficient.
-        </p>
+  <!-- ---------------- Contact ---------------- -->
+  <section class="message_now_area bg-gray" id="contact">
+    <div class="contact_address_area">
+      <div class="section_heading text-left">
+        <h2 class="text-blue">Ready to build your IoT product?</h2>
+        
+        <p>We'd love to hear from you. Contact us today and discover how we can serve you best.</p>
       </div>
-      <div class="flex-1 padding">
-        <h4>Can I start at any stage of development?</h4>
-        <p class="text-large">
-            It depends upon how far you are in the development process with your IoT product. In the past, the Zeal IoT team has helped customers who have nothing but an idea and we help them at every stage of development - from concept to market. In other cases, we’ve had customers who already have a pilot IoT product and just need help mass-producing. Every engagement is different and must be assessed by the IoT team to determine the proper development stage and final pricing.
+      
+      <div class="line"></div>
+      
+      <div class="single_contact_area">
+        
+        <p>Zeal IT Consultants
+          <br /> 2218 Bryan Street, Suite 100
+          <br /> Dallas TX 75201
+          <br />
+          <a href="tel:+12145431137">214.543.1137</a>
         </p>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ---------------- Final CTA ---------------- -->
-  <section class="padding-side bg-dark" id="">
-    <div class="section_content padding-large-bottom flex flex-col flex-wrap">
-      <div class="padding flex-2">
-        <h4 class="align-center">Ready to Build Your IoT Product?</h4>
-        <p class="text-large align-center">
-            Get in touch, or check out our developer tools by creating an account.
-        </p>
-      </div>
-      <div class="">
-        <div class="align-center">
-          <button class="btn">CONSULT AN EXPERT</button>
+        <div class="map_area" id="map">
+          <a href="https://www.google.com/maps/dir/''/2218+Bryan+St+%23100,+Dallas,+TX+75201/" target="_blank">
+            <img src="../img/bg-img/officemap.jpg" alt="Google Map of 2218 Bryan Street, Suite 100 Dallas TX 75201">
+          </a>
         </div>
-        <div class="align-center">
-          <button class="btn">CREATE AN ACCOUNT</button>
+        <br />
+        <div>
+          <img src="../img/core-img/nmsdc.png" alt="NMSDC">
+          <p class="small">NMSDC Cert #DL03741</p>
         </div>
+      </div>
+      
+      <div class="certs">
+        <a href="https://certification.scrumalliance.org/accounts/133345-david-thach/certifications/864964-cspsm">
+          <img class="single_feature item" src="../img/certs-img/badge-7245.png" alt="Certified Scrum Professional®-ScrumMaster - CERTIFIED BADGE">
+        </a>
+        <a href="https://certification.scrumalliance.org/accounts/133345-david-thach/certifications/864965-csppo">
+          <img class="single_feature item" src="../img/certs-img/badge-7242.png" alt="Certified Scrum Professional®-Product Owner - CERTIFIED BADGE">
+        </a>
+        <a href="https://certification.scrumalliance.org/accounts/133345-david-thach/certifications/644325-cspo">
+          <img class="single_feature item" src="../img/certs-img/badge-7224.png" alt="Certified Scrum Product Owner® (CSPO®) - CERTIFIED BADGE">
+        </a>
+        <a href="https://certification.scrumalliance.org/accounts/133345-david-thach/certifications/140680-csm">
+          <img class="single_feature item" src="../img/certs-img/badge-7227.png" alt="Certified ScrumMaster® (CSM®) - CERTIFIED BADGE">
+        </a>
+      </div>
+      <!--
+        <div class="social_links_area">
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        </div>
+      -->
+    </div>
+    <div class="contact_form_area">
+      <div class="section_heading text-left">
+        <h2 class="text-blue">Contact Us</h2>
+      </div>
+      
+      <!-- >>>>>>>>>>>>>>>>>>>> Contact Form Start Here <<<<<<<<<<<<<<<<<< -->
+      <div class="contact_form">
+        <form action="https://formspree.io/accounting@zealitconsultants.com" method="post" id="main_contact_form">
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+          <input type="email" name="email" id="email" placeholder="Your E-mail" required>
+          <input type="tel" name="number" id="number" placeholder="Your Number" required>
+          <input type="text" name="_subject" id="subject" placeholder="Your Subject" required>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <button type="submit" class="btn">Send Message</button>
+        </form>
       </div>
     </div>
   </section>
