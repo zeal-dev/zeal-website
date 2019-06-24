@@ -138,8 +138,8 @@ div.advisor_thumb:hover:before {
   border-top-color: #dc2424;
   border-right-color: #dc2424;
   border-bottom-color: #dc2424;
-  transition: border-top-color 0.15s linear,
-    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  transition: border-top-color 0.15s cubic-bezier(1, 0, 0, 1),
+    border-right-color 0.15s cubic-bezier(1, 0, 0, 1) 0.1s, border-bottom-color 0.15s cubic-bezier(1, 0, 0, 1) 0.2s;
 }
 
 div.advisor_thumb:after {
@@ -151,7 +151,7 @@ div.advisor_thumb:hover:after {
   border-left-width: 3px;
   border-right-width: 3px;
   transform: rotate(270deg);
-  transition: transform 0.5s linear 0s, border-left-width 0s linear 0.35s;
+  transition: transform 0.5s cubic-bezier(1, 0, 0, 1) 0s, border-left-width 0s cubic-bezier(1, 0, 0, 1) 0.35s;
 }
 
 .thumb_container.col-xs-12.col-sm-12 {
