@@ -75,8 +75,8 @@
                 992: {
                     items: 3
                 }
-            }
-		});
+            },
+        });
 	}
 	
     // Testimonials Slider Active Code
