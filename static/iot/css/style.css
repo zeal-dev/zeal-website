@@ -1567,6 +1567,10 @@ div.advisor_thumb:hover:after {
   margin-right: 15px;
 }
 
+.owl-stage-outer {
+  z-index: 1000;
+}
+
 /*  /_testimonials.scss */
 .testimonial_area {
   position: relative;
