@@ -4,10 +4,6 @@ advisors:
     role: CTO at Ashford.com
     linkedin: https://www.linkedin.com/in/dradams/
 
-  #- name: Burke Autrey
-  #  photo: img/team/autrey.jpg
-  #  role: Chairman and CEO at Fortium Partners
-  #  linkedin: https://www.linkedin.com/in/burkeautrey/
   - name: Anthony Fratiani
     photo: img/team/fratiani.jpg
     role: CTO at Sierra Auto Finance
@@ -23,30 +19,40 @@ advisors:
     role: EVP and CIO at Brinker International
     linkedin: https://www.linkedin.com/in/happy-webberman-7b17ba8/
 
-  - name: Noel Wong
-    photo: img/team/wong.jpg
-    role: SVP and CIO at XO Communications
-    linkedin: https://www.linkedin.com/in/noelwong1/
-
 leads:
+  - name: Zach Burke
+    photo: img/team/burke.jpg
+    role: Software Engineering Practice Lead
+    linkedin: https://www.linkedin.com/in/zach-burke-6b19b637/
+
+  - name: Kenneth Cassel
+    photo: img/team/kenneth.jpeg
+    role: Intelligent Automation Practice Lead
+    linkedin: https://www.linkedin.com/in/kenneth-cassel/
+
   - name: Jason Clemens
     photo: img/team/clemens.jpg
     role: User Experience Practice Lead
     linkedin: https://www.linkedin.com/in/jsclemens/
-
+ 
+  - name: Robert Lavarn
+    photo: img/team/lavarn.jpg
+    role: Data Analytics Practice Lead
+    linkedin: https://www.linkedin.com/in/robert-lavarn-8606517/
+ 
+  - name: Thomas Leong
+    photo: img/team/leong.jpg
+    role: Agile Transformation Practice Lead
+    linkedin: https://www.linkedin.com/in/leongthomas/
+  
   - name: David Thach
     photo: img/team/thach.jpg
-    role: Agile Transformation Practice Lead
+    role: Managing Partner
     linkedin: https://www.linkedin.com/in/davidthach/
-
-  - name: Melinda Vu
-    photo: img/team/vu.jpg
-    role: Data Analytics Practice Lead
-    linkedin: https://www.linkedin.com/in/melinda-vu-1b54234/
 
   - name: Kijana Woodard
     photo: img/team/woodard.jpg
-    role: Software Development Practice Lead
+    role: Managing Partner
     linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
@@ -55,20 +61,30 @@ members:
     role: Sr. Software Engineer
     linkedin: https://www.linkedin.com/in/donny-alumbaugh/
 
+  - name: David Berryman Jr.
+    photo: img/team/berryman.jpeg
+    role: Business Analyst
+    linkedin: https://www.linkedin.com/in/davideberrymanjr/
+
   - name: Stefanie Boscarino
     photo: img/team/boscarino.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/stefanie-boscarino-17566b147/
 
-  - name: Zach Burke
-    photo: img/team/burke.jpg
+  - name: Mohamed Elmalky
+    photo: img/team/elmalky.jpg
+    role: Software Architect
+    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
+  
+  - name: Christian Gentry
+    photo: img/team/christian.jpeg
     role: Software Engineer
-    linkedin: https://www.linkedin.com/in/zach-burke-6b19b637/
+    linkedin: https://www.linkedin.com/in/christian-gentry-83a98710a/
 
-  - name: Ramandeep Campbell
-    photo: img/team/campbell.jpg
-    role: Data Analytics Engineer
-    linkedin: https://www.linkedin.com/in/ramandeep-campbell-5193326/
+  - name: Zachery Gentry
+    photo: img/team/zachery.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/zachery-gentry-594018151/
 
   - name: Jennifer Graves
     photo: img/team/graves.jpg
@@ -80,10 +96,20 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
-  - name: Thomas Leong
-    photo: img/team/leong.jpg
+  - name: Sven Herrmann
+    photo: img/team/Herrmann.jpg
+    role: Data Analytics Engineer
+    linkedin: https://www.linkedin.com/in/sven-herrmann-b12a9b51/
+
+  - name: Imran Khan
+    photo: img/team/imran.png
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/imrankhancste/
+
+  - name: David Koontz
+    photo: img/team/koontz.jpeg
     role: Agile Coach
-    linkedin: https://www.linkedin.com/in/leongthomas/
+    linkedin: https://www.linkedin.com/in/davidakoontz/
 
   - name: Houston Martin
     photo: img/team/houston.jpg
@@ -100,7 +126,38 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/beau-montgomery-335998b6/
 
+  - name: Long Nguyen
+    photo: img/team/nguyen.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/long-nguyen-24533b144/
+
+  - name: Michelle Ochoa
+    photo: img/team/MichelleOchoa.jpg
+    role: Agile Coach
+    linkedin: https://www.linkedin.com/in/moelearningpro/
+
+  - name: Nikola Popovic
+    photo: img/team/Nikola.jpg
+    role: Data Analytics Engineer
+    linkedin: https://www.linkedin.com/in/nikola-popovic-b381693b/
+
   - name: Derek Schaab
     photo: img/team/schaab.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
+
+  - name: Jessica Tjahja
+    photo: img/team/jessica.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/jessicatjahja/
+
+  - name: Anthony Wilder
+    photo: img/team/wilder.png
+    role: Agile Coach
+    linkedin: https://www.linkedin.com/in/anthony-wilder
+
+  - name: Khallid Williams
+    photo: img/team/khallid.jpeg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/khallid-williams-08284a137/
+
