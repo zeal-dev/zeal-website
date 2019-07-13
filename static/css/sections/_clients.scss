@@ -23,7 +23,7 @@
 }
 
 .client_slides .owl-controls {
-  position: absolute;
+  position: static;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -32,7 +32,7 @@
 .client_slides .owl-controls .owl-nav {
   margin-left: 5%;
   margin-right: 5%;
-  position: relative;
+  position: static;
   display: block;
   height: 100%;
 }
@@ -49,11 +49,11 @@
 }
 
 .client_slides .owl-controls .owl-prev {
-  left: -30px;
+  left: 1rem;
 }
 
 .client_slides .owl-controls .owl-next {
-  right: -30px;
+  right: 1rem;
 }
 
 .client_slides .owl-controls i {
