@@ -2011,16 +2011,24 @@ h2.default-description {
   max-width: 100vw;
   text-align: center;
 }
+.slider .slider-gradient {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
+}
 .slider .slider-gallery {
+  z-index: 1;
   list-style-type: none;
   padding: 0;
   position: relative;
-  width: 40rem;
-  height: 30rem;
-  margin: 0 auto 80px auto;
+  width: 75vw;
+  height: 35rem;
+  margin: 0 auto 0 auto;
 }
 .slider .slide {
-  height: auto;
+  height: 100%;
   left: 0;
   opacity: 0;
   position: absolute;
@@ -2029,7 +2037,9 @@ h2.default-description {
   width: 100%;
 }
 .slider .slide img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .slider .slide-active {
   opacity: 1;
@@ -2048,21 +2058,26 @@ h2.default-description {
   padding: 5px 16px;
   display: inline-block;
 }
+.slider .slide-center {
+  transform: scale(1.5);
+}
 .slider .slider-bullets {
   padding: 0;
   margin: 0;
   position: absolute;
+  z-index: 5;
   left: 25%;
   right: 25%;
-  bottom: 20%;
+  bottom: 5%;
 }
 .slider .bullet {
   box-sizing: border-box;
   display: inline-block;
   font-size: 0;
-  margin: 0 2px;
-  transition: 0.15s ease-in-out;
+  margin: 0;
+  transition: 0.15s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   position: relative;
+  list-style: none;
 }
 .slider .bullet:before {
   position: absolute;
@@ -2072,26 +2087,24 @@ h2.default-description {
   top: -12px;
   width: 4px;
   height: 4px;
-  background: #c39e9e;
   border-radius: 50%;
   opacity: 0;
+  list-style: none;
 }
 .slider .bullet:first-child {
   margin-left: 0;
 }
 .slider .bullet:hover {
   cursor: pointer;
-  opacity: 0.85;
+  transform: scale(1.5);
 }
 .slider .bullet:hover:before {
   opacity: 0.5;
 }
 .slider .bullet img {
-  width: 80px;
-  height: 80px;
+  width: 10rem;
 }
 .slider .bullet-active {
-  border-color: #c39e9e;
   opacity: 1;
   position: relative;
 }
@@ -2103,6 +2116,17 @@ h2.default-description {
 }
 .slider .bullet-active:hover:before {
   opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider .slider-gallery {
+    width: 100vw;
+    margin: 0;
+  }
+  .slider .slider-bullets {
+    left: 5%;
+    right: 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
