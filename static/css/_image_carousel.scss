@@ -77,6 +77,8 @@
 		opacity: 0.5;
 
 		transition: all 0.2s ease-in-out;
+
+		z-index: 5;
 	}
 
 	.slider-navigation:hover, .slider-navigation:active {
@@ -102,14 +104,18 @@
 		bottom: 5%;
 
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 
 		white-space: nowrap;
 
 	}
 
 	.bullet-hide {
-		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
+		opacity: 0 !important;
+		visibility: none !important;
+		transform: translateY(80px) !important;
 	}
 
 	.bullet {
@@ -118,10 +124,12 @@
 		display: inline-block;
 		font-size: 0;
 		margin: 0;
-		transition: .15s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		opacity: 1;
 		position: relative;
 		list-style: none;
-		
+		transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+					opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+					
 		&:first-child {
 			margin-left: 0;
 		}

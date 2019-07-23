@@ -2084,6 +2084,7 @@ h2.default-description {
   background: white;
   opacity: 0.5;
   transition: all 0.2s ease-in-out;
+  z-index: 5;
 }
 .slider .slider-navigation:hover, .slider .slider-navigation:active {
   opacity: 1;
@@ -2103,11 +2104,15 @@ h2.default-description {
   right: 25%;
   bottom: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   white-space: nowrap;
 }
 .slider .bullet-hide {
-  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  visibility: none !important;
+  transform: translateY(80px) !important;
 }
 .slider .bullet {
   flex-shrink: 0;
@@ -2115,9 +2120,10 @@ h2.default-description {
   display: inline-block;
   font-size: 0;
   margin: 0;
-  transition: 0.15s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  opacity: 1;
   position: relative;
   list-style: none;
+  transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .slider .bullet:first-child {
   margin-left: 0;
