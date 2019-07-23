@@ -2069,6 +2069,10 @@ h2.default-description {
   left: 25%;
   right: 25%;
   bottom: 5%;
+  white-space: nowrap;
+}
+.slider .bullet-hide {
+  display: none !important;
 }
 .slider .bullet {
   box-sizing: border-box;

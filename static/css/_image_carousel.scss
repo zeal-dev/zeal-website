@@ -73,6 +73,11 @@
 		right: 25%;
 		bottom: 5%;
 
+		white-space: nowrap;
+	}
+
+	.bullet-hide {
+		display: none !important;
 	}
 
 	.bullet {
