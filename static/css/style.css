@@ -441,6 +441,20 @@ img {
   width: 25% !important;
 }
 
+button {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .btn {
   background: #4783c4 none repeat scroll 0 0;
   border: 2px solid #4783c4;
@@ -2061,6 +2075,25 @@ h2.default-description {
 .slider .slide-center {
   transform: scale(1.5);
 }
+.slider .slider-navigation {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: white;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+.slider .slider-navigation:hover, .slider .slider-navigation:active {
+  opacity: 1;
+}
+.slider .slider-navigation_left {
+  left: -10%;
+}
+.slider .slider-navigation_right {
+  right: -10%;
+}
 .slider .slider-bullets {
   padding: 0;
   margin: 0;
@@ -2069,12 +2102,15 @@ h2.default-description {
   left: 25%;
   right: 25%;
   bottom: 5%;
+  display: flex;
+  justify-content: space-around;
   white-space: nowrap;
 }
 .slider .bullet-hide {
   display: none !important;
 }
 .slider .bullet {
+  flex-shrink: 0;
   box-sizing: border-box;
   display: inline-block;
   font-size: 0;
@@ -2083,27 +2119,12 @@ h2.default-description {
   position: relative;
   list-style: none;
 }
-.slider .bullet:before {
-  position: absolute;
-  content: "";
-  left: 50%;
-  transform: translateX(-50%);
-  top: -12px;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  opacity: 0;
-  list-style: none;
-}
 .slider .bullet:first-child {
   margin-left: 0;
 }
 .slider .bullet:hover {
   cursor: pointer;
   transform: scale(1.5);
-}
-.slider .bullet:hover:before {
-  opacity: 0.5;
 }
 .slider .bullet img {
   width: 10rem;
@@ -2127,9 +2148,23 @@ h2.default-description {
     width: 100vw;
     margin: 0;
   }
+  .slider .slider-navigation_left {
+    left: 10%;
+  }
+  .slider .slider-navigation_right {
+    right: 10%;
+  }
   .slider .slider-bullets {
     left: 5%;
     right: 5%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .slider .slider-navigation_left {
+    left: 4%;
+  }
+  .slider .slider-navigation_right {
+    right: 4%;
   }
 }
 

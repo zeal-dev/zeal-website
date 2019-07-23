@@ -3,8 +3,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	const bullets = document.querySelectorAll(".bullet");
 	const sliderBullets = document.querySelector(".slider-bullets");
 	const slides = document.querySelectorAll(".slide");
-	const sliderNavigation = document.querySelectorAll(".slider-navigation");
+	const sliderNavigationLeft = document.querySelectorAll(".slider-bullets::before");
+	const sliderNavigationRight = document.querySelectorAll(".slider-bullets::after");
 	const sliderBulletsLength = bullets[0].clientWidth * bullets.length;
+
+	console.log(sliderNavigationLeft)
+	console.log(sliderNavigationRight)
 	
 	bullets[0].classList.add('bullet-active')
 	slides[0].classList.add('slide-active')
@@ -13,9 +17,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 	function ImageCarousel() {
 		if (sliderBulletsLength > sliderBullets.clientWidth) {
-			if (window.innerWidth < 576) {
+			if (window.innerWidth < 996) {
 				// Hide the bullets until there are 1 left
-				for(let i = 1; i < bullets.length; i++) {
+				for(let i = 0; i < bullets.length; i++) {
 					if (i >= 1)
 						bullets[i].classList.add("bullet-hide")
 					else
@@ -31,8 +35,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 						bullets[i].classList.remove("bullet-hide")
 				}
 			}
-	
-		} else {
+		} else if (window.innerWidth >= 996) {
 			for(let i = 0; i < bullets.length; i++) {
 				bullets[i].classList.remove("bullet-hide")
 			}

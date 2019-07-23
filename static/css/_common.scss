@@ -293,6 +293,20 @@ img {
 
 // Button
 
+button {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .btn {
   background: color(blue) none repeat scroll 0 0;
   border: 2px solid color(blue);
