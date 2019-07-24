@@ -2138,6 +2138,7 @@ h2.default-description {
 .slider .bullet-active {
   opacity: 1;
   position: relative;
+  z-index: 10;
 }
 .slider .bullet-active:before {
   opacity: 1;
