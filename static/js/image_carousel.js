@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 	// Controls which element gets hidden and shown when navigating left or right
 	let leftIndex = -1, rightIndex;
+
+	let selected;
 	
 	function ImageCarousel() {
 		bullets.forEach(e => e.classList.remove('bullet-active'))
@@ -19,7 +21,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		slides[0].classList.add('slide-active')
 
 		//  Select the default element used to swap 'active' classes
-		let selected = [document.querySelector('.bullet-active'), document.querySelector('.slide-active')];
+		selected = [document.querySelector('.bullet-active'), document.querySelector('.slide-active')];
 		
 		leftIndex = -1; // Makes it compatible with navigating right
 
@@ -104,11 +106,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	// Right navigation click
 	sliderNavigationRight.addEventListener('click', (event) => {
 		if (rightIndex < bullets.length - 1) {
-			leftIndex++;
-			rightIndex++;
-			
-			bullets[leftIndex].classList.add('bullet-hide')
-			bullets[rightIndex].classList.remove('bullet-hide')
+			bullets[++leftIndex].classList.add('bullet-hide')
+			bullets[++rightIndex].classList.remove('bullet-hide')
+
+			if (window.innerWidth < 996) {
+				selected[0].classList.remove('bullet-active')
+				selected[1].classList.remove('slide-active')
+
+				bullets[rightIndex].classList.add('bullet-active');
+				slides[rightIndex].classList.add('slide-active');
+
+				selected = [bullets[rightIndex], slides[rightIndex]]
+			}
 		} 
 	})
 
@@ -117,6 +126,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		if (leftIndex > -1) {
 			bullets[leftIndex--].classList.remove('bullet-hide');
 			bullets[rightIndex--].classList.add('bullet-hide');
+
+			if (window.innerWidth < 996) {
+				selected[0].classList.remove('bullet-active')
+				selected[1].classList.remove('slide-active')
+
+				bullets[leftIndex + 1].classList.add('bullet-active');
+				slides[leftIndex + 1].classList.add('slide-active');
+
+				selected = [bullets[leftIndex + 1], slides[leftIndex + 1]]
+			}
 		}
 	})
 	
