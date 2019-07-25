@@ -172,4 +172,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	// Initialize 
 	window.addEventListener("load", ImageCarousel)
 	window.addEventListener("resize", ImageCarousel)
+	window.addEventListener("orientationchange", ImageCarousel)
 })
