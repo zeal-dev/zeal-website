@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	const sliderBulletsLength = bullets[0].clientWidth * bullets.length; // bc display: none changes lenghth, a constant is defined first
 
 	// Controls which element gets hidden and shown when navigating left or right
-	let leftIndex = -1, rightIndex;
+	let leftIndex = -1, rightIndex = bullets.length - 1;
 
 	let selected;
 
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 				rightIndex = 0; // Points to the element right before the first hidden
 
 				if (bullets.length > 1) 
-					sliderNavigation.forEach(e => e.style.display = `initial`);
+					sliderNavigation.forEach(e => e.style.visibility = `visible`);
 
 				// Hide the bullets until there are 1 left
 				for(let i = 0; i < bullets.length; i++) {
@@ -64,12 +64,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 				}
 			}
 			else if (window.innerWidth < 1440) {
-				rightIndex = 2; // Points to the element right before the first hidden
+				rightIndex = 30; // Points to the element right before the first hidden
 
 				if (bullets.length === 3) {
-					sliderNavigation.forEach(e => e.style.display = `none`)
+					sliderNavigation.forEach(e => e.style.opacity = `0`)
+					sliderNavigation.forEach(e => e.style.visibility = `hidden`)
 				} else {
-					sliderNavigation.forEach(e => e.style.display = `initial`)
+					sliderNavigation.forEach(e => e.style.opacity = `1`)
+					sliderNavigation.forEach(e => e.style.visibility = `visible`)
 				}
 
 				// Hide the bullets until there are 3 left
@@ -94,7 +96,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			}
 		} else if (window.innerWidth >= 996) {
 			if (bullets.length === 5 || bullets.length === 3) {
-				sliderNavigation.forEach(e => e.style.display = `none`);
+				sliderNavigation.forEach(e => e.style.opacity = `0`);
+				sliderNavigation.forEach(e => e.style.visibility = `hidden`);
 			}
 
 			for(let i = 0; i < bullets.length; i++) {
