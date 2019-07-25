@@ -37,6 +37,14 @@
 		font-size: 1.125rem;
 
 		padding: 6px 36px;
+
+		transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+
+		&:hover, &:active {
+			background: #E3E7ED;
+
+			color: #142A43;
+		}
 	}
 
 	// The dark gradient at the bottom of the carousel
