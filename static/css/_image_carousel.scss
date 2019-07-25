@@ -189,7 +189,7 @@
 		display: inline-block;
 		font-size: 0;
 		margin: 0;
-		opacity: 1;
+		opacity: 0.4;
 		position: relative;
 		list-style: none;
 		transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86),
@@ -201,7 +201,8 @@
 
 		&:hover {
 			cursor: pointer;
-			transform: scale(1.5);
+			opacity: 1;
+			transform: scale(1.2);
 		}
 		
 		img {
@@ -211,6 +212,7 @@
 	
 	.bullet-active {
 		opacity: 1;
+		transform: scale(1.1);
 		position: relative;
 		z-index: 10;
 		

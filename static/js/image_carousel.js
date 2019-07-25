@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
 	const bullets = [...document.querySelectorAll(".bullet")];
 	const sliderBullets = document.querySelector(".slider-bullets");
-	const slides = document.querySelectorAll(".slide");
+	const slides = [...document.querySelectorAll(".slide")];
 	const sliderNavigation = [...document.querySelectorAll(".slider-navigation")]
 	const sliderNavigationLeft = document.querySelector(".slider-navigation_left");
 	const sliderNavigationRight = document.querySelector(".slider-navigation_right");
@@ -10,16 +10,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	// Controls which element gets hidden and shown when navigating left or right
 	let leftIndex = -1, rightIndex;
 	
-	// Make the first slide and bullet activated
-	bullets[0].classList.add('bullet-active')
-	slides[0].classList.add('slide-active')
-
-	
-	
-	//  Select the default element used to swap 'active' classes
-	let selected = [document.querySelector('.bullet-active'), document.querySelector('.slide-active')];
-	
 	function ImageCarousel() {
+		bullets.forEach(e => e.classList.remove('bullet-active'))
+		slides.forEach(e => e.classList.remove('slide-active'))
+
+		// Make the first slide and bullet activated
+		bullets[0].classList.add('bullet-active')
+		slides[0].classList.add('slide-active')
+
+		//  Select the default element used to swap 'active' classes
+		let selected = [document.querySelector('.bullet-active'), document.querySelector('.slide-active')];
+		
 		leftIndex = -1; // Makes it compatible with navigating right
 
 		// Determines elements that should be hidden first
