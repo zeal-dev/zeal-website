@@ -11,6 +11,27 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	let leftIndex = -1, rightIndex;
 
 	let selected;
+
+	function isNavigationEnd() {
+		console.log(leftIndex + ' ' + rightIndex)
+		if (leftIndex <= -1) {
+			sliderNavigationLeft.style.opacity = `0`;
+			sliderNavigationLeft.style.visibility = `hidden`;
+		} else {
+			console.log('arise!')
+			sliderNavigationLeft.style.opacity = `1`
+			sliderNavigationLeft.style.visibility = `visible`
+		}
+
+		if (rightIndex >= bullets.length - 1) {
+			console.log(rightIndex)
+			sliderNavigationRight.style.opacity = `0`;
+			sliderNavigationRight.style.visibility = `hidden`;
+		} else {
+			sliderNavigationRight.style.opacity = `1`;
+			sliderNavigationRight.style.visibility = `visible`;
+		}
+	}
 	
 	function ImageCarousel() {
 		bullets.forEach(e => e.classList.remove('bullet-active'))
@@ -80,6 +101,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 				bullets[i].classList.remove("bullet-hide")
 			}
 		}
+
+		isNavigationEnd();
 		
 		// Itereate through all bullets and add event listeners
 		let _loop = function _loop(i) {
@@ -109,6 +132,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			bullets[++leftIndex].classList.add('bullet-hide')
 			bullets[++rightIndex].classList.remove('bullet-hide')
 
+			isNavigationEnd();
+
 			if (window.innerWidth < 996) {
 				selected[0].classList.remove('bullet-active')
 				selected[1].classList.remove('slide-active')
@@ -126,6 +151,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		if (leftIndex > -1) {
 			bullets[leftIndex--].classList.remove('bullet-hide');
 			bullets[rightIndex--].classList.add('bullet-hide');
+			
+			isNavigationEnd();
 
 			if (window.innerWidth < 996) {
 				selected[0].classList.remove('bullet-active')
