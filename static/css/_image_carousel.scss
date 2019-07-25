@@ -13,7 +13,7 @@
 	.slider-content-text {
 		position: relative;
 
-		z-index: 5;
+		z-index: 4;
 
 		margin: 8rem auto;
 		margin-bottom: 2rem;
@@ -38,7 +38,7 @@
 
 		padding: 6px 36px;
 
-		transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+		transition: all 0.2s ease-in-out;
 
 		&:hover, &:active {
 			background: #E3E7ED;
@@ -63,6 +63,7 @@
 	
 	// The list containing slider elements
 	.slider-gallery {
+		background: black;
 		position: relative;
 		
 		z-index: 1;
@@ -80,7 +81,7 @@
 	
 	// Individual slider elements
 	.slide {
-		opacity: 0;
+		opacity: 0.0;
 		
 		position: absolute;
 		top: 0;
@@ -89,7 +90,7 @@
 		width: 100%;
 		height: 100%;
 		
-		transition: all .2s ease-in-out;
+		transition: all 0.3s ease-in;
 		
 		img {
 			position: absolute;
@@ -106,6 +107,7 @@
 	}
 	
 	.slide-active {
+		z-index: 5;
 		opacity: 1;
 	}
 	
@@ -124,10 +126,6 @@
 		display: inline-block;
 	}
 
-	.slide-center {
-		transform: scale(1.5);
-	}
-	
 	.slider-navigation {
 		position: absolute;
 		bottom: 0.5rem;
