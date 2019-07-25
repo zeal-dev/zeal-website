@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", (event) => {
 	const bullets = [...document.querySelectorAll(".bullet")];
 	const sliderBullets = document.querySelector(".slider-bullets");
@@ -7,13 +6,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	const sliderNavigationLeft = document.querySelector(".slider-navigation_left");
 	const sliderNavigationRight = document.querySelector(".slider-navigation_right");
 	const sliderBulletsLength = bullets[0].clientWidth * bullets.length; // bc display: none changes lenghth, a constant is defined first
-	
+
 	// Controls which element gets hidden and shown when navigating left or right
 	let leftIndex = -1, rightIndex;
 	
 	// Make the first slide and bullet activated
 	bullets[0].classList.add('bullet-active')
 	slides[0].classList.add('slide-active')
+
+	
 	
 	//  Select the default element used to swap 'active' classes
 	let selected = [document.querySelector('.bullet-active'), document.querySelector('.slide-active')];
@@ -25,6 +26,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		if (sliderBulletsLength > sliderBullets.clientWidth || bullets.length > 5) {
 			if (window.innerWidth < 996) {
 				rightIndex = 0; // Points to the element right before the first hidden
+
+				if (bullets.length > 1) 
+					sliderNavigation.forEach(e => e.style.display = `initial`);
 
 				// Hide the bullets until there are 1 left
 				for(let i = 0; i < bullets.length; i++) {

@@ -1,38 +1,95 @@
+// Slider Styling
 .slider {
 	position: relative;
 
-	max-width: 100vw;
 	text-align: center;
 
+	.slider-content {
+		// position: absolute;
+
+		z-index: 5;
+	}
+
+	.slider-content-text {
+		position: relative;
+
+		z-index: 5;
+
+		margin: 8rem auto;
+		margin-bottom: 2rem;
+
+		color: #E3E7ED;
+
+		max-width: 50rem;
+
+		font-size: 3.5rem;
+	}
+
+	.slider-content-button {
+		position: relative;
+		z-index: 5;
+
+		color: #E3E7ED;
+
+		border: 2px solid #E3E7ED;
+		border-radius: 9px;
+
+		font-size: 1.125rem;
+
+		padding: 6px 36px;
+	}
+
+	// The dark gradient at the bottom of the carousel
 	.slider-gradient {
 		position: absolute;
+		left: 0;
+		top: 0;
+
 		z-index: 2;
+
 		width: 100%;
-		height: 100%;
+		height: 100%; // height's 100% but the gradient controls when it stops
 
 		background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
 	}
 	
+	// The list containing slider elements
 	.slider-gallery {
-		z-index: 1;
-		list-style-type: none;
-		padding: 0;
 		position: relative;
-		width: 75vw;
-		height: 35rem;
+		
+		z-index: 1;
+
+		list-style-type: none;
+
+		padding: 0;
 		margin: 0 auto 0 auto;
+		
+		width: 75vw; // will control the parent's width
+		height: 35rem;
+		max-width: 1440px;
+		height: 523px;
 	}
 	
+	// Individual slider elements
 	.slide {
-		height: 100%;
-		left: 0;
 		opacity: 0;
+		
 		position: absolute;
 		top: 0;
-		transition: .2s ease-in-out;
+		left: 0;
+		
 		width: 100%;
+		height: 100%;
+		
+		transition: all .2s ease-in-out;
 		
 		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+
+			z-index: 1;
+
 			height: 100%;
 			width: 100%;
 
@@ -78,7 +135,7 @@
 
 		transition: all 0.2s ease-in-out;
 
-		z-index: 5;
+		z-index: 8;
 	}
 
 	.slider-navigation:hover, .slider-navigation:active {
@@ -163,6 +220,16 @@
 	}
 }
 
+@media only screen and (max-width: 1150px) {
+	.slider {
+		.slider-content-text {
+			max-width: 30rem;
+
+			font-size: 3rem;
+		}
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.slider {
 		.slider-gallery {
@@ -188,6 +255,14 @@
 
 @media only screen and (max-width: 576px) {
 	.slider {
+		.slider-content-text {
+			max-width: 80%;
+
+			margin-top: 25%;
+
+			font-size: 2.5rem;
+		}
+
 		.slider-navigation_left {
 			left: 4%;
 		}
