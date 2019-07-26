@@ -2072,7 +2072,7 @@ h2.default-description {
   z-index: 8;
 }
 .slider .slider-navigation:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 .slider .slider-navigation:active {
   opacity: 1;
@@ -2135,12 +2135,6 @@ h2.default-description {
   .slider .slider-gallery {
     width: 100vw;
     margin: 0;
-  }
-  .slider .slider-navigation:hover {
-    opacity: 0.3;
-  }
-  .slider .slider-navigation:active {
-    opacity: 1;
   }
   .slider .slider-navigation_left {
     left: 10%;

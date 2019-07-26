@@ -81,7 +81,7 @@ $default-color: #E3E7ED;
 	}
 
 	.slider-navigation:hover {
-		opacity: 1;
+		opacity: 0.5;
 	}
 	
 	.slider-navigation:active {
@@ -161,14 +161,6 @@ $default-color: #E3E7ED;
 			width: 100vw;
 
 			margin: 0;
-		}
-
-		.slider-navigation:hover {
-			opacity: 0.3;
-		}
-
-		.slider-navigation:active {
-			opacity: 1;
 		}
 
 		.slider-navigation_left {
