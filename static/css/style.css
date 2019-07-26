@@ -2106,7 +2106,10 @@ h2.default-description {
   transition: all 0.2s ease-in-out;
   z-index: 8;
 }
-.slider .slider-navigation:hover, .slider .slider-navigation:focus {
+.slider .slider-navigation:hover {
+  opacity: 1;
+}
+.slider .slider-navigation:active {
   opacity: 1;
 }
 .slider .slider-navigation_left {

@@ -132,7 +132,11 @@
 		z-index: 8;
 	}
 
-	.slider-navigation:hover, .slider-navigation:active {
+	.slider-navigation:hover {
+		opacity: 1;
+	}
+	
+	.slider-navigation:active {
 		opacity: 1;
 	}
 
