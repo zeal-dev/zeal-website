@@ -123,7 +123,7 @@
 
 		border-radius: 1rem;
 
-		background: white;
+		background: #E3E7ED;
 
 		opacity: 0.3;
 
@@ -223,6 +223,14 @@
 			width: 100vw;
 
 			margin: 0;
+		}
+
+		.slider-navigation:hover {
+			opacity: 0.3;
+		}
+
+		.slider-navigation:active {
+			opacity: 1;
 		}
 
 		.slider-navigation_left {

@@ -2101,7 +2101,7 @@ h2.default-description {
   width: 2rem;
   height: 2rem;
   border-radius: 1rem;
-  background: white;
+  background: #E3E7ED;
   opacity: 0.3;
   transition: all 0.2s ease-in-out;
   z-index: 8;
@@ -2176,6 +2176,12 @@ h2.default-description {
   .slider .slider-gallery {
     width: 100vw;
     margin: 0;
+  }
+  .slider .slider-navigation:hover {
+    opacity: 0.3;
+  }
+  .slider .slider-navigation:active {
+    opacity: 1;
   }
   .slider .slider-navigation_left {
     left: 10%;
