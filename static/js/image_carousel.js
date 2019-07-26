@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			sliderNavigationLeft.style.visibility = `hidden`;
 		} else {
 			console.log('arise!')
-			sliderNavigationLeft.style.opacity = `1`
+			sliderNavigationLeft.style.opacity = ``
 			sliderNavigationLeft.style.visibility = `visible`
 		}
 		
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			sliderNavigationRight.style.opacity = `0`;
 			sliderNavigationRight.style.visibility = `hidden`;
 		} else {
-			sliderNavigationRight.style.opacity = `1`;
+			sliderNavigationRight.style.opacity = ``;
 			sliderNavigationRight.style.visibility = `visible`;
 		}
 	}
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 				// Make the navigation visible when there's more than one element
 				if (bullets.length > 1) { 
 					sliderNavigation.forEach(e => e.style.visibility = `visible`);
-					sliderNavigation.forEach(e => e.style.opacity = `1`);
+					sliderNavigation.forEach(e => e.style.opacity = ``);
 					isNavigationEnd();
 				}
 				
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 					sliderNavigation.forEach(e => e.style.opacity = `0`)
 					sliderNavigation.forEach(e => e.style.visibility = `hidden`)
 				} else {
-					sliderNavigation.forEach(e => e.style.opacity = `1`)
+					sliderNavigation.forEach(e => e.style.opacity = ``)
 					sliderNavigation.forEach(e => e.style.visibility = `visible`)
 					isNavigationEnd();
 				}

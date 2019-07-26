@@ -2102,11 +2102,11 @@ h2.default-description {
   height: 2rem;
   border-radius: 1rem;
   background: white;
-  opacity: 0.5;
+  opacity: 0.3;
   transition: all 0.2s ease-in-out;
   z-index: 8;
 }
-.slider .slider-navigation:hover, .slider .slider-navigation:active {
+.slider .slider-navigation:hover, .slider .slider-navigation:focus {
   opacity: 1;
 }
 .slider .slider-navigation_left {
@@ -2158,7 +2158,7 @@ h2.default-description {
 }
 .slider .bullet-active {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.2);
   position: relative;
   z-index: 10;
 }
