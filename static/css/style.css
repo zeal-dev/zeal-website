@@ -2072,6 +2072,7 @@ h2.default-description {
   height: 523px;
 }
 .slider .slide {
+  visibility: hidden;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -2091,20 +2092,8 @@ h2.default-description {
 }
 .slider .slide-active {
   z-index: 5;
+  visibility: visible;
   opacity: 1;
-}
-.slider .slide-info {
-  font-family: "Helvetica", sans-serif;
-  font-size: 13px;
-  margin-top: 8px;
-  text-align: left;
-  font-weight: 400;
-  color: #949494;
-  font-size: 14px;
-  border: 1px solid #cecece;
-  border-radius: 40px;
-  padding: 5px 16px;
-  display: inline-block;
 }
 .slider .slider-navigation {
   position: absolute;
@@ -2172,15 +2161,6 @@ h2.default-description {
   transform: scale(1.1);
   position: relative;
   z-index: 10;
-}
-.slider .bullet-active:before {
-  opacity: 1;
-}
-.slider .bullet-active:hover {
-  opacity: 1;
-}
-.slider .bullet-active:hover:before {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 1150px) {
