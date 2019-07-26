@@ -2024,41 +2024,6 @@ h2.default-description {
   position: relative;
   text-align: center;
 }
-.slider .slider-content {
-  z-index: 5;
-}
-.slider .slider-content-text {
-  position: relative;
-  z-index: 4;
-  margin: 8rem auto;
-  margin-bottom: 2rem;
-  color: #E3E7ED;
-  max-width: 50rem;
-  font-size: 3.5rem;
-}
-.slider .slider-content-button {
-  position: relative;
-  z-index: 5;
-  color: #E3E7ED;
-  border: 2px solid #E3E7ED;
-  border-radius: 9px;
-  font-size: 1.125rem;
-  padding: 6px 36px;
-  transition: all 0.2s ease-in-out;
-}
-.slider .slider-content-button:hover, .slider .slider-content-button:active {
-  background: #E3E7ED;
-  color: #142A43;
-}
-.slider .slider-gradient {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
-}
 .slider .slider-gallery {
   background: black;
   position: relative;
@@ -2166,12 +2131,6 @@ h2.default-description {
   z-index: 10;
 }
 
-@media only screen and (max-width: 1150px) {
-  .slider .slider-content-text {
-    max-width: 30rem;
-    font-size: 3rem;
-  }
-}
 @media only screen and (max-width: 768px) {
   .slider .slider-gallery {
     width: 100vw;
@@ -2195,16 +2154,60 @@ h2.default-description {
   }
 }
 @media only screen and (max-width: 576px) {
-  .slider .slider-content-text {
-    max-width: 80%;
-    margin-top: 25%;
-    font-size: 2.5rem;
-  }
   .slider .slider-navigation_left {
     left: 4%;
   }
   .slider .slider-navigation_right {
     right: 4%;
+  }
+}
+.slider .slider-content {
+  z-index: 5;
+}
+.slider .slider-content-text {
+  position: relative;
+  z-index: 4;
+  margin: 8rem auto;
+  margin-bottom: 2rem;
+  color: #E3E7ED;
+  max-width: 50rem;
+  font-size: 3.5rem;
+}
+.slider .slider-content-button {
+  position: relative;
+  z-index: 5;
+  color: #E3E7ED;
+  border: 2px solid #E3E7ED;
+  border-radius: 9px;
+  font-size: 1.125rem;
+  padding: 6px 36px;
+  transition: all 0.2s ease-in-out;
+}
+.slider .slider-content-button:hover, .slider .slider-content-button:active {
+  background: #E3E7ED;
+  color: #142A43;
+}
+.slider .slider-gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
+}
+
+@media only screen and (max-width: 1150px) {
+  .slider .slider-content-text {
+    max-width: 30rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .slider .slider-content-text {
+    max-width: 80%;
+    margin-top: 25%;
+    font-size: 2.5rem;
   }
 }
 

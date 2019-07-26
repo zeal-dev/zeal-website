@@ -1,64 +1,12 @@
+$slider-navigation-opacity: 0.3;
+$default-color: #E3E7ED;
+
 // Slider Styling
 .slider {
 	position: relative;
 
 	text-align: center;
 
-	.slider-content {
-		z-index: 5;
-	}
-
-	.slider-content-text {
-		position: relative;
-
-		z-index: 4;
-
-		margin: 8rem auto;
-		margin-bottom: 2rem;
-
-		color: #E3E7ED;
-
-		max-width: 50rem;
-
-		font-size: 3.5rem;
-	}
-
-	.slider-content-button {
-		position: relative;
-		z-index: 5;
-
-		color: #E3E7ED;
-
-		border: 2px solid #E3E7ED;
-		border-radius: 9px;
-
-		font-size: 1.125rem;
-
-		padding: 6px 36px;
-
-		transition: all 0.2s ease-in-out;
-
-		&:hover, &:active {
-			background: #E3E7ED;
-
-			color: #142A43;
-		}
-	}
-
-	// The dark gradient at the bottom of the carousel
-	.slider-gradient {
-		position: absolute;
-		left: 0;
-		top: 0;
-
-		z-index: 2;
-
-		width: 100%;
-		height: 100%; // height's 100% but the gradient controls when it stops
-
-		background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
-	}
-	
 	// The list containing slider elements
 	.slider-gallery {
 		background: black;
@@ -123,9 +71,9 @@
 
 		border-radius: 1rem;
 
-		background: #E3E7ED;
+		background: $default-color;
 
-		opacity: 0.3;
+		opacity: $slider-navigation-opacity;
 
 		transition: all 0.2s ease-in-out;
 
@@ -207,16 +155,6 @@
 	}
 }
 
-@media only screen and (max-width: 1150px) {
-	.slider {
-		.slider-content-text {
-			max-width: 30rem;
-
-			font-size: 3rem;
-		}
-	}
-}
-
 @media only screen and (max-width: 768px) {
 	.slider {
 		.slider-gallery {
@@ -250,14 +188,6 @@
 
 @media only screen and (max-width: 576px) {
 	.slider {
-		.slider-content-text {
-			max-width: 80%;
-
-			margin-top: 25%;
-
-			font-size: 2.5rem;
-		}
-
 		.slider-navigation_left {
 			left: 4%;
 		}

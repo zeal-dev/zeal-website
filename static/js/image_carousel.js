@@ -65,7 +65,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		leftIndex = -1; // Makes it compatible with navigating right
 
 		// Determines elements that should be hidden first
-		if (sliderBulletsLength > sliderBullets.clientWidth || bullets.length > 5) {
+		console.log(sliderBulletsLength)
+		if (sliderBulletsLength > (sliderBullets.clientWidth - sliderNavigationLeft.clientWidth * 2) || bullets.length > 5) {
 			if (window.innerWidth < 996) {
 				// Here, we only want to display 1 bullet
 				rightIndex = 0;
@@ -121,14 +122,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 						bullets[i].classList.remove("bullet-hide")
 				}
 			}
-		} else if (window.innerWidth >= 996) {
+		} else {
 			// Here, there's no responsive issues with the width of the slider so just show it all
 			
-			// Only show either 5 or 3 elements at at ime
-			if (bullets.length === 5 || bullets.length === 3) {
-				sliderNavigation.forEach(e => e.style.opacity = `0`);
-				sliderNavigation.forEach(e => e.style.visibility = `hidden`);
-			}
+			sliderNavigation.forEach(e => e.style.opacity = `0`);
+			sliderNavigation.forEach(e => e.style.visibility = `hidden`);
 			
 			// Since there's no responsive issues, nothing should be hidden
 			for(let i = 0; i < bullets.length; i++) {
