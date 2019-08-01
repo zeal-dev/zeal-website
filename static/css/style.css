@@ -2024,6 +2024,17 @@ h2.default-description {
   position: relative;
   text-align: center;
 }
+.slider button {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+}
+.slider button:focus {
+  outline: none;
+}
+.slider button:hover {
+  cursor: pointer;
+}
 .slider .slider-gallery {
   background: black;
   position: relative;
@@ -2032,8 +2043,6 @@ h2.default-description {
   padding: 0;
   margin: 0 auto 0 auto;
   width: 75vw;
-  height: 35rem;
-  max-width: 1440px;
   height: 523px;
 }
 .slider .slide {
@@ -2084,7 +2093,7 @@ h2.default-description {
   right: -10%;
 }
 .slider .slider-bullets {
-  padding: 0;
+  padding: 0 6rem;
   margin: 0;
   position: absolute;
   z-index: 5;
@@ -2095,11 +2104,13 @@ h2.default-description {
   justify-content: center;
   white-space: nowrap;
 }
-.slider .bullet-hide {
+.slider .bullet-hide, .slider .bullet-hide * {
   width: 0 !important;
   height: 0 !important;
   opacity: 0 !important;
   visibility: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
   transform: translateY(80px) !important;
 }
 .slider .bullet {
@@ -2112,6 +2123,8 @@ h2.default-description {
   position: relative;
   list-style: none;
   transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  width: 5rem;
+  max-width: 10rem;
 }
 .slider .bullet:first-child {
   margin-left: 0;
@@ -2122,7 +2135,7 @@ h2.default-description {
   transform: scale(1.2);
 }
 .slider .bullet img {
-  width: 10rem;
+  width: 100%;
 }
 .slider .bullet-active {
   opacity: 1;
@@ -2180,6 +2193,9 @@ h2.default-description {
 .slider .slider-content-button:hover, .slider .slider-content-button:active {
   background: #E3E7ED;
   color: #142A43;
+}
+.slider .bullet {
+  width: 10rem;
 }
 .slider .slider-gradient {
   position: absolute;

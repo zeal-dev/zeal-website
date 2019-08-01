@@ -4,31 +4,44 @@ $default-color: #E3E7ED;
 // Slider Styling
 .slider {
 	position: relative;
-
+	
 	text-align: center;
-
+	
+	// Default button style overrides
+	button {
+		background: none;
+		border: none;
+		-webkit-appearance: none;
+	}
+	
+	button:focus {
+		outline: none;
+	}
+	
+	button:hover {
+		cursor: pointer;
+	}
+	
 	// The list containing slider elements
 	.slider-gallery {
 		background: black;
 		position: relative;
 		
 		z-index: 1;
-
+		
 		list-style-type: none;
-
+		
 		padding: 0;
 		margin: 0 auto 0 auto;
 		
 		width: 75vw; // will control the parent's width
-		height: 35rem;
-		max-width: 1440px;
 		height: 523px;
 	}
 	
 	// Individual slider elements
 	.slide {
 		visibility: hidden;
-
+		
 		opacity: 0.0;
 		
 		position: absolute;
@@ -44,12 +57,12 @@ $default-color: #E3E7ED;
 			position: absolute;
 			left: 0;
 			top: 0;
-
+			
 			z-index: 1;
-
+			
 			height: 100%;
 			width: 100%;
-
+			
 			object-fit: cover;
 		}
 	}
@@ -58,7 +71,7 @@ $default-color: #E3E7ED;
 		z-index: 5;
 		
 		visibility: visible;
-
+		
 		opacity: 1;
 	}
 	
@@ -68,18 +81,18 @@ $default-color: #E3E7ED;
 		
 		width: 2rem;
 		height: 2rem;
-
+		
 		border-radius: 1rem;
-
+		
 		background: $default-color;
-
+		
 		opacity: $slider-navigation-opacity;
-
+		
 		transition: all 0.2s ease-in-out;
-
+		
 		z-index: 8;
 	}
-
+	
 	.slider-navigation:hover {
 		opacity: 0.5;
 	}
@@ -87,17 +100,17 @@ $default-color: #E3E7ED;
 	.slider-navigation:active {
 		opacity: 1;
 	}
-
+	
 	.slider-navigation_left {
 		left: -10%;
 	}
-
+	
 	.slider-navigation_right {
 		right: -10%;
 	}
-
+	
 	.slider-bullets {
-		padding: 0;
+		padding: 0 6rem;
 		margin: 0;
 		
 		position: absolute;
@@ -105,21 +118,23 @@ $default-color: #E3E7ED;
 		left: 25%;
 		right: 25%;
 		bottom: 5%;
-
+		
 		display: flex;
 		justify-content: center;
-
+		
 		white-space: nowrap;
 	}
-
-	.bullet-hide {
+	
+	.bullet-hide, .bullet-hide * {
 		width: 0 !important;
 		height: 0 !important;
 		opacity: 0 !important;
 		visibility: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
 		transform: translateY(80px) !important;
 	}
-
+	
 	.bullet {
 		flex-shrink: 0;
 		box-sizing: border-box;
@@ -130,12 +145,15 @@ $default-color: #E3E7ED;
 		position: relative;
 		list-style: none;
 		transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86),
-					opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-					
+		opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+		width: 5rem;
+		max-width: 10rem;
+		
 		&:first-child {
 			margin-left: 0;
 		}
-
+		
 		&:hover {
 			cursor: pointer;
 			opacity: 1;
@@ -143,7 +161,7 @@ $default-color: #E3E7ED;
 		}
 		
 		img {
-			width: 10rem;
+			width: 100%;
 		}
 	}
 	
@@ -159,18 +177,18 @@ $default-color: #E3E7ED;
 	.slider {
 		.slider-gallery {
 			width: 100vw;
-
+			
 			margin: 0;
 		}
-
+		
 		.slider-navigation_left {
 			left: 10%;
 		}
-
+		
 		.slider-navigation_right {
 			right: 10%;
 		}
-
+		
 		.slider-bullets {
 			left: 5%;
 			right: 5%;
@@ -183,7 +201,7 @@ $default-color: #E3E7ED;
 		.slider-navigation_left {
 			left: 4%;
 		}
-
+		
 		.slider-navigation_right {
 			right: 4%;
 		}

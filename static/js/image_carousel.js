@@ -16,19 +16,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	// Check if we're at the very first element or last element of navigation
 	// If we are, hide the respective buttons
 	function isNavigationEnd() {
-		console.log(leftIndex + ' ' + rightIndex)
 		if (leftIndex <= -1) {
 			// Here the opacity is set too so the CSS transition applies
 			sliderNavigationLeft.style.opacity = `0`;
 			sliderNavigationLeft.style.visibility = `hidden`;
 		} else {
-			console.log('arise!')
 			sliderNavigationLeft.style.opacity = ``
 			sliderNavigationLeft.style.visibility = `visible`
 		}
 		
 		if (rightIndex >= bullets.length - 1) {
-			console.log(rightIndex)
 			sliderNavigationRight.style.opacity = `0`;
 			sliderNavigationRight.style.visibility = `hidden`;
 		} else {
@@ -65,7 +62,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		leftIndex = -1; // Makes it compatible with navigating right
 
 		// Determines elements that should be hidden first
-		console.log(sliderBulletsLength)
 		if (sliderBulletsLength > (sliderBullets.clientWidth - sliderNavigationLeft.clientWidth * 2) || bullets.length > 5) {
 			if (window.innerWidth < 996) {
 				// Here, we only want to display 1 bullet
@@ -125,6 +121,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		} else {
 			// Here, there's no responsive issues with the width of the slider so just show it all
 			
+			// Since there's no responsive issues, there's no need for navigation
 			sliderNavigation.forEach(e => e.style.opacity = `0`);
 			sliderNavigation.forEach(e => e.style.visibility = `hidden`);
 			
