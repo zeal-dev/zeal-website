@@ -34,6 +34,11 @@ leads:
     photo: img/team/clemens.jpg
     role: User Experience Practice Lead
     linkedin: https://www.linkedin.com/in/jsclemens/
+
+  - name: Imran Khan
+    photo: img/team/imran.png
+    role: Quality Assurance Practice Lead
+    linkedin: https://www.linkedin.com/in/imrankhancste/
  
   - name: Robert Lavarn
     photo: img/team/lavarn.jpg
@@ -100,11 +105,6 @@ members:
     photo: img/team/Herrmann.jpg
     role: Data Analytics Engineer
     linkedin: https://www.linkedin.com/in/sven-herrmann-b12a9b51/
-
-  - name: Imran Khan
-    photo: img/team/imran.png
-    role: Software Engineer
-    linkedin: https://www.linkedin.com/in/imrankhancste/
 
   - name: David Koontz
     photo: img/team/koontz.jpeg
