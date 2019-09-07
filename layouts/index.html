@@ -446,6 +446,12 @@
         <div class="members">
             {{ range $.Site.Data.team.members }} {{ partial "single_advisor.html" . }} {{ end }}
         </div>
+
+        <hr />
+
+        <div class="managers">
+            {{ range $.Site.Data.team.managers }} {{ partial "single_advisor.html" . }} {{ end }}
+        </div>
     </section>
 
     <!-- ---------------- Contact Start ---------------- -->

@@ -55,16 +55,6 @@ leads:
     role: Agile Transformation Practice Lead
     linkedin: https://www.linkedin.com/in/leongthomas/
   
-  - name: David Thach
-    photo: img/team/thach.jpg
-    role: Managing Partner
-    linkedin: https://www.linkedin.com/in/davidthach/
-
-  - name: Kijana Woodard
-    photo: img/team/woodard.jpg
-    role: Managing Partner
-    linkedin: https://www.linkedin.com/in/kijanawoodard/
-
 members:
   - name: Donny Alumbaugh
     photo: img/team/alumbaugh.jpg
@@ -165,3 +155,14 @@ members:
     photo: img/team/wilder.png
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
+
+managers:
+  - name: David Thach
+    photo: img/team/thach.jpg
+    role: Managing Partner
+    linkedin: https://www.linkedin.com/in/davidthach/
+
+  - name: Kijana Woodard
+    photo: img/team/woodard.jpg
+    role: Managing Partner
+    linkedin: https://www.linkedin.com/in/kijanawoodard/
