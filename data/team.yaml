@@ -54,6 +54,11 @@ leads:
     photo: img/team/leong.jpg
     role: Agile Transformation Practice Lead
     linkedin: https://www.linkedin.com/in/leongthomas/
+
+  - name: Nathn Petersen
+    photo: img/team/nate.jpg
+    role: Software Engineering Practice Lead / Architect
+    linkedin: https://www.linkedin.com/in/nathan-petersen-904a545/
   
 members:
   - name: Donny Alumbaugh
