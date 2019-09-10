@@ -101,6 +101,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
+  - name: Maria Gantt
+    photo: img/team/mariacgantt.jpg
+    role: Multimedia Designer
+    linkedin: https://www.linkedin.com/in/maria-c-gantt-71422778/
+
   - name: Sven Herrmann
     photo: img/team/Herrmann.jpg
     role: Data Analytics Engineer
@@ -150,6 +155,11 @@ members:
     photo: img/team/jessica.jpeg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jessicatjahja/
+
+  - name: Caleb Welch	
+    photo: img/team/welch.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/caleb-welch-825753ab/
 
   - name: Anthony Wilder
     photo: img/team/wilder.png
