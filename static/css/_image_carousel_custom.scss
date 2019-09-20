@@ -4,8 +4,23 @@
 		margin: 0;
 	}
 
+	.slide {
+		width: 100vw;
+	}
+
     .slider-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+
 		z-index: 5;
+
+		img {
+			position: absolute;
+		}
 	}
 
 	.slider-content-text {
@@ -18,6 +33,7 @@
 
 		color: #E3E7ED;
 
+		width: auto;
 		max-width: 50rem;
 
 		font-size: 3.5rem;
@@ -55,7 +71,7 @@
 		left: 0;
 		top: 0;
 
-		z-index: 2;
+		z-index: 5;
 
 		width: 100%;
 		height: 100%; // height's 100% but the gradient controls when it stops
