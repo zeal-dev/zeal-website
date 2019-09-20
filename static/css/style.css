@@ -2053,7 +2053,7 @@ h2.default-description {
   display: inline-block;
   width: 100%;
   height: 100%;
-  transition: all 0.3s ease-in;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .slider .slide img {
   position: relative;
@@ -2123,7 +2123,7 @@ h2.default-description {
   opacity: 0.4;
   position: relative;
   list-style: none;
-  transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86), all 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   width: 5rem;
   max-width: 10rem;
 }
@@ -2218,7 +2218,7 @@ h2.default-description {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 5;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
