@@ -9,6 +9,11 @@ advisors:
     role: CTO at Sierra Auto Finance
     linkedin: https://www.linkedin.com/in/anthony-fratiani-37369a/
 
+  - name: Merrilee Kick
+    photo: img/team/kick.jpg
+    role: CEO at Buzzballz
+    linkedin: https://www.linkedin.com/in/merrilee-kick-65328aa/
+
   - name: Casey Sprague
     photo: https://www.gravatar.com/avatar/b8c1a6c15f97ee8f0ee5ede9b07593e3?size=512
     role: CTO at thera-LINK
@@ -49,23 +54,28 @@ leads:
     photo: img/team/leong.jpg
     role: Agile Transformation Practice Lead
     linkedin: https://www.linkedin.com/in/leongthomas/
-  
-  - name: David Thach
-    photo: img/team/thach.jpg
-    role: Managing Partner
-    linkedin: https://www.linkedin.com/in/davidthach/
-
-  - name: Kijana Woodard
-    photo: img/team/woodard.jpg
-    role: Managing Partner
-    linkedin: https://www.linkedin.com/in/kijanawoodard/
 
 members:
   - name: Donny Alumbaugh
     photo: img/team/alumbaugh.jpg
-    role: Sr. Software Engineer
+    role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/donny-alumbaugh/
-
+ 
+  - name: Mohamed Elmalky
+    photo: img/team/elmalky.jpg
+    role: Software Architect / Team Lead
+    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
+  
+  - name: Nathn Petersen
+    photo: img/team/nate.jpg
+    role: Software Architect / Team Lead
+    linkedin: https://www.linkedin.com/in/nathan-petersen-904a545/
+  
+  - name: Larry McNutt
+    photo: img/team/mcnutt.jpg
+    role: Software Architect / Team Lead
+    linkedin: https://www.linkedin.com/in/larrymcnutt/
+  
   - name: David Berryman Jr.
     photo: img/team/berryman.jpeg
     role: Business Analyst
@@ -81,11 +91,6 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/allie-dyson-13276251/
 
-  - name: Mohamed Elmalky
-    photo: img/team/elmalky.jpg
-    role: Software Architect
-    linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
-  
   - name: Christian Gentry
     photo: img/team/christian.jpeg
     role: Software Engineer
@@ -106,6 +111,11 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
+  - name: Maria Gantt
+    photo: img/team/mariacgantt.jpg
+    role: Multimedia Designer
+    linkedin: https://www.linkedin.com/in/maria-c-gantt-71422778/
+
   - name: Sven Herrmann
     photo: img/team/Herrmann.jpg
     role: Data Analytics Engineer
@@ -120,11 +130,6 @@ members:
     photo: img/team/houston.jpg
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/houston-martin-7873b812a/
-
-  - name: Larry McNutt
-    photo: img/team/mcnutt.jpg
-    role: Sr. Software Engineer
-    linkedin: https://www.linkedin.com/in/larrymcnutt/
 
   - name: Beau Montgomery
     photo: img/team/montgomery.jpg
@@ -156,7 +161,23 @@ members:
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jessicatjahja/
 
+  - name: Caleb Welch	
+    photo: img/team/welch.jpg
+    role: Software Engineer
+    linkedin: https://www.linkedin.com/in/caleb-welch-825753ab/
+
   - name: Anthony Wilder
     photo: img/team/wilder.png
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
+
+managers:
+  - name: David Thach
+    photo: img/team/thach.jpg
+    role: Managing Partner
+    linkedin: https://www.linkedin.com/in/davidthach/
+
+  - name: Kijana Woodard
+    photo: img/team/woodard.jpg
+    role: Managing Partner
+    linkedin: https://www.linkedin.com/in/kijanawoodard/

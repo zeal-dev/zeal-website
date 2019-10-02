@@ -1216,7 +1216,7 @@ section.bg-dark h4 {
 }
 
 .single_advisor_details_info {
-  padding: 0 15px 0 0;
+  padding: 5px 0 0 0;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-align: center;
@@ -1294,7 +1294,8 @@ section.bg-dark h4 {
 
 #advisors .group,
 #team .leads,
-#team .members {
+#team .members,
+#team .managers {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
