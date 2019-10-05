@@ -171,6 +171,11 @@ members:
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
 
+  - name: Joey Guerra
+    photo: img/team/joeyguerra.jpg
+    role: VP of Engineering
+    linkedin: https://www.linkedin.com/in/joeyguerra/
+
 managers:
   - name: David Thach
     photo: img/team/thach.jpg
