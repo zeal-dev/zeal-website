@@ -65,7 +65,12 @@ members:
     photo: img/team/elmalky.jpg
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
-  
+
+  - name: Joey Guerra
+    photo: img/team/guerra.jpg
+    role: Software Architect / Team Lead
+    linkedin: https://www.linkedin.com/in/joeyguerra/
+
   - name: Nathn Petersen
     photo: img/team/nate.jpg
     role: Software Architect / Team Lead
@@ -170,11 +175,6 @@ members:
     photo: img/team/wilder.png
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
-
-  - name: Joey Guerra
-    photo: img/team/joeyguerra.jpg
-    role: VP of Engineering
-    linkedin: https://www.linkedin.com/in/joeyguerra/
 
 managers:
   - name: David Thach
