@@ -441,6 +441,20 @@ img {
   width: 25% !important;
 }
 
+button {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .btn {
   background: #4783c4 none repeat scroll 0 0;
   border: 2px solid #4783c4;
@@ -2005,6 +2019,223 @@ h2.default-description {
 
   .teamText {
     display: none;
+  }
+}
+.slider {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.slider button {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+}
+.slider button:focus {
+  outline: none;
+}
+.slider button:hover {
+  cursor: pointer;
+}
+.slider .slider-gallery {
+  background: black;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  width: 75vw;
+  height: 523px;
+}
+.slider .slide {
+  position: relative;
+  white-space: normal;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.slider .slide img {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .slide-active {
+  z-index: 5;
+  visibility: visible;
+  opacity: 1;
+}
+.slider .slider-navigation {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: #E3E7ED;
+  opacity: 0.3;
+  transition: all 0.2s ease-in-out;
+  z-index: 8;
+}
+.slider .slider-navigation:hover {
+  opacity: 0.5;
+}
+.slider .slider-navigation:active {
+  opacity: 1;
+}
+.slider .slider-navigation_left {
+  left: -10%;
+}
+.slider .slider-navigation_right {
+  right: -10%;
+}
+.slider .slider-bullets {
+  padding: 0 6rem;
+  margin: 0;
+  position: absolute;
+  z-index: 5;
+  left: 25%;
+  right: 25%;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+.slider .bullet-hide, .slider .bullet-hide * {
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  visibility: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: translateY(80px) !important;
+}
+.slider .bullet {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 0;
+  margin: 0;
+  opacity: 0.4;
+  position: relative;
+  list-style: none;
+  transition: transform 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86), all 0.75s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  width: 5rem;
+  max-width: 10rem;
+}
+.slider .bullet:first-child {
+  margin-left: 0;
+}
+.slider .bullet:hover {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.2);
+}
+.slider .bullet img {
+  width: 100%;
+}
+.slider .bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider .slider-gallery {
+    width: 100vw;
+    margin: 0;
+  }
+  .slider .slider-navigation_left {
+    left: 10%;
+  }
+  .slider .slider-navigation_right {
+    right: 10%;
+  }
+  .slider .slider-bullets {
+    left: 5%;
+    right: 5%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .slider .slider-navigation_left {
+    left: 4%;
+  }
+  .slider .slider-navigation_right {
+    right: 4%;
+  }
+}
+.slider .slider-gallery {
+  width: 100%;
+  margin: 0;
+}
+.slider .slide {
+  width: 100vw;
+}
+.slider .slider-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.slider .slider-content img {
+  position: absolute;
+}
+.slider .slider-content-text {
+  position: relative;
+  z-index: 4;
+  margin: 8rem auto;
+  margin-bottom: 2rem;
+  color: #E3E7ED;
+  width: auto;
+  max-width: 50rem;
+  font-size: 3.5rem;
+}
+.slider .slider-content-button {
+  position: relative;
+  z-index: 5;
+  color: #E3E7ED;
+  border: 2px solid #E3E7ED;
+  border-radius: 9px;
+  font-size: 1.125rem;
+  padding: 6px 36px;
+  transition: all 0.2s ease-in-out;
+}
+.slider .slider-content-button:hover, .slider .slider-content-button:active {
+  background: #E3E7ED;
+  color: #142A43;
+}
+.slider .bullet {
+  width: 10rem;
+}
+.slider .slider-gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
+}
+
+@media only screen and (max-width: 1150px) {
+  .slider .slider-content-text {
+    max-width: 30rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .slider .slider-content-text {
+    max-width: 80%;
+    margin-top: 25%;
+    font-size: 2.5rem;
   }
 }
 

@@ -1,0 +1,103 @@
+.slider {
+	.slider-gallery{
+		width: 100%;
+		margin: 0;
+	}
+
+	.slide {
+		width: 100vw;
+	}
+
+    .slider-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+
+		z-index: 5;
+
+		img {
+			position: absolute;
+		}
+	}
+
+	.slider-content-text {
+		position: relative;
+
+		z-index: 4;
+
+		margin: 8rem auto;
+		margin-bottom: 2rem;
+
+		color: #E3E7ED;
+
+		width: auto;
+		max-width: 50rem;
+
+		font-size: 3.5rem;
+	}
+
+	.slider-content-button {
+		position: relative;
+		z-index: 5;
+
+		color: #E3E7ED;
+
+		border: 2px solid #E3E7ED;
+		border-radius: 9px;
+
+		font-size: 1.125rem;
+
+		padding: 6px 36px;
+
+		transition: all 0.2s ease-in-out;
+
+		&:hover, &:active {
+			background: #E3E7ED;
+
+			color: #142A43;
+		}
+	}
+
+	.bullet {
+		width: 10rem;
+	}
+
+	// The dark gradient at the bottom of the carousel
+	.slider-gradient {
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		z-index: 2;
+
+		width: 100%;
+		height: 100%; // height's 100% but the gradient controls when it stops
+
+		background: linear-gradient(180deg, rgba(20, 42, 67, 0) 50%, black 100%);
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.slider {
+		.slider-content-text {
+			max-width: 30rem;
+
+			font-size: 3rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.slider {
+		.slider-content-text {
+			max-width: 80%;
+
+			margin-top: 25%;
+
+			font-size: 2.5rem;
+        }
+    }
+}
