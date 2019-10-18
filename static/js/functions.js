@@ -201,4 +201,22 @@
         }
     });
 
+    // If we have a lonely Zeal crew, we give them a partner :D
+    const Advisors = [...document.querySelectorAll(".our_advisor_area > div")]
+    const Experts = [...document.querySelectorAll(".our_experts_area > div")]
+
+    let wrapWidth = 50;
+
+    Advisors.forEach(e => {
+        if ((e.childNodes.length / 2 >> 0) % 5 === 1) {
+            e.childNodes[e.childNodes.length - 6].style.marginRight = `${wrapWidth}px`;
+        }        
+    })
+
+    Experts.forEach(e => {
+        if ((e.childNodes.length / 2 >> 0) % 5 === 1) {
+            e.childNodes[e.childNodes.length - 6].style.marginRight = `${wrapWidth}px`;
+        }        
+    })
+
 })(jQuery);
