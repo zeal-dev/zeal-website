@@ -39,7 +39,7 @@
 
 </head>
 
-<body>
+<body class="bg-gray">
     <!-- ---------------- Header Start ---------------- -->
     <header class="main_header_area animated">
         <nav role="navigation">
@@ -475,6 +475,10 @@
         <div class="managers">
             {{ range $.Site.Data.team.managers }} {{ partial "single_advisor.html" . }} {{ end }}
         </div>
+    </section>
+
+    <section class="sponsors">
+        
     </section>
 
     <!-- ---------------- Contact Start ---------------- -->
