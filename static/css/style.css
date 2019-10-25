@@ -1216,7 +1216,7 @@ section.bg-dark h4 {
 }
 
 .single_advisor_details_info {
-  padding: 5px 0 0 0;
+  padding: 0 15px 0 0;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-align: center;
@@ -1679,6 +1679,43 @@ div.advisor_thumb:hover:after {
   margin-right: 25vw;
 }
 
+.sponsoring p {
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 80%;
+}
+.sponsoring figure {
+  margin-bottom: 1rem;
+}
+.sponsoring a {
+  font-weight: bold;
+}
+
+.sponsoring__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.sponsoring__list > li {
+  flex: 0 0 8rem;
+  margin: 1.5rem;
+}
+
+@media screen and (min-width: 425px) {
+  .sponsoring p {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .sponsoring p {
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sponsoring p {
+    max-width: 30%;
+  }
+}
 /*  /_responsive.scss */
 @media only screen and (min-width: 768px) {
   header nav a:not(:first-child) {
