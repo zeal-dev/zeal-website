@@ -14,6 +14,11 @@ advisors:
     role: CEO at Buzzballz
     linkedin: https://www.linkedin.com/in/merrilee-kick-65328aa/
 
+  - name: Larry McNutt
+    photo: img/team/mcnutt.jpg
+    role: CTO at Spacee
+    linkedin: https://www.linkedin.com/in/larrymcnutt/
+
   - name: Casey Sprague
     photo: https://www.gravatar.com/avatar/b8c1a6c15f97ee8f0ee5ede9b07593e3?size=512
     role: CTO at thera-LINK
@@ -75,11 +80,6 @@ members:
     photo: img/team/nate.jpg
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/nathan-petersen-904a545/
-  
-  - name: Larry McNutt
-    photo: img/team/mcnutt.jpg
-    role: Software Architect / Team Lead
-    linkedin: https://www.linkedin.com/in/larrymcnutt/
   
   - name: David Berryman Jr.
     photo: img/team/berryman.jpeg
