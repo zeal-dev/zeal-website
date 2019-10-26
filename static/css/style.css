@@ -744,6 +744,10 @@ header nav a:not(:first-child) {
 }
 
 /*  /_footer.scss */
+.NMSDCCert img {
+  width: 100%;
+}
+
 .footer_area {
   position: relative;
   z-index: 1;
