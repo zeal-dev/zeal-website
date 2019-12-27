@@ -1,0 +1,30 @@
+{
+	"dir" : "ltr",
+	"lang" : "English",
+	"name" : "Zeal IT Consultants: Custom Software Development & DevOps Transfo…",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "https://www.zealitconsultants.com/",
+	"short_name" : "Zeal IT Consultants",
+	"theme_color" : "transparent",
+	"description" : "Zeal is a technology solutions consultancy. Our mission is to develop exceptional people to solve our clients’ most challenging and valuable business problems.",
+	"orientation" : "portrait",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://www.zealitconsultants.com/img/core-img/favicon-32x32.png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "https://www.zealitconsultants.com/img/core-img/favicon-32x32.png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "https://www.zealitconsultants.com/img/core-img/favicon-16x16.png",
+			"sizes": "16x16"
+		}],
+	"screenshots" : [],
+	"generated" : "true"
+}
