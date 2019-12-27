@@ -1,5 +1,30 @@
 /*  /_footer.scss */
 
+.NMSDCCert {
+  img {
+    width: 100%;
+  }
+}
+
+.sponsoring__container {
+  margin-top: 2rem;
+}
+
+.sponsoring__list {
+  display: flex;
+  
+  > li {
+    flex: 0 0 5.5rem;
+  }
+
+  figcaption {
+    margin-top: 1rem;
+
+    font-family: 'Roboto', sans-serif;
+    // font-weight: bold;
+  }
+}
+
 .footer_area {
   position: relative;
   z-index: 1;
