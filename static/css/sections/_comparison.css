@@ -1,0 +1,47 @@
+
+.comparison {
+    display: flex;
+    justify-content: center;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+  
+.comparison > div {
+      flex: 1 0 200px;
+      margin: var(--margin-size) / 2;
+      padding: 30px;
+      border-radius: var(--border-radius);
+      background: #f2f4f7;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.comparison .comparison_img {
+    margin: 0 auto 20px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    height: 50px;
+    width: 85px;
+}
+.comparison .comparison_img img {
+    height: 100%;
+}
+.comparison .comparison_content {
+    position: relative;
+}
+.comparison .comparison_content h3,
+.comparison .comparison_content h4 {
+    color: #182333;
+}
+  
+.comparison .comparison_content.dock-bottom {
+    padding-bottom: 60px;
+    height: calc(100% - 60px);
+}
+.comparison .comparison_content > *:last-child {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}

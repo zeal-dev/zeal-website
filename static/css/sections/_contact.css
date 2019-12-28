@@ -1,0 +1,121 @@
+
+.contact_form input,
+.contact_form select,
+.contact_form textarea {
+  border-radius: 0;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 15px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact_form input:focus,
+.contact_form select:focus,
+.contact_form textarea:focus {
+  border: 1px solid color(blue);
+  box-shadow: none;
+}
+
+.contact_form textarea {
+  height: 150px;
+}
+
+.success,
+.error {
+  padding: 1em;
+  margin-bottom: 12px;
+  margin-bottom: 12px;
+  margin-bottom: 12px;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.success {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.error {
+  color: #fff;
+  background-color: #c0392b;
+}
+
+.map_area {
+  text-align: center;
+  background-color: #f0efea;
+}
+
+.map_area img {
+  width: 100%;
+  max-width: 768px;
+}
+
+.message_now_area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 10% 70px 10%;
+}
+
+.message_now_area > div {
+  width: 40%;
+  margin: 0 auto;
+  min-width: 250px; /*Needs to be lower because mobile phones are smaller than 350*/
+  max-width: 600px;
+}
+
+.message_now_area .section_heading > p {
+  max-width: 100%;
+}
+
+.message_now_area .section_heading {
+  margin-bottom: 0;
+}
+
+.single_contact_area > p > i {
+  color: color(blue);
+  margin-right: 10px;
+}
+
+.social_links_area {
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
+.social_links_area > a {
+  border: 1px solid color(blue);
+  border-radius: 50%;
+  color: color(blue);
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  margin: 0 2px;
+  text-align: center;
+  width: 30px;
+}
+
+.social_links_area > a > i {
+  line-height: 28px;
+}
+
+.social_links_area > a:hover {
+  background-color: color(blue);
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+/* certs bar */
+.certs {
+  display: flex;
+  justify-content: space-between;
+}
+.certs a img {
+  width: 80px;
+}

@@ -1,0 +1,90 @@
+:root {
+    --flex-column-number: 20;
+}
+
+.flex-max-container {
+    justify-content: center;
+}
+.flex-max-container > .flex-max-width {
+    flex: 0 1 1025px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+.flex > * {
+    flex: 1 auto;
+    margin-right: 0;
+    min-width: 0;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+    /*width: 100%;*/
+    /* IE hack */
+    max-height: 100%;
+    /* IE hack */
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-expand > * {
+    flex-grow: 1;
+}
+.flex-collapse > * {
+    flex-grow: 0;
+}
+.flex_item-expand {
+    flex-grow: 1;
+}
+.flex_item-collapse {
+    flex-grow: 0;
+}
+.flex_item-order-1 {
+    order: 1;
+}
+.flex_item-order-2 {
+    order: 2;
+}
+.flex-top {
+    align-items: flex-start;
+}
+.flex-middle {
+    align-items: center;
+}
+.flex-bottom {
+    align-items: flex-end;
+}
+.flex > .flex-top {
+    align-self: flex-start;
+}
+.flex > .flex-middle {
+    align-self: center;
+    align-items: center;
+}
+.flex > .flex-bottom {
+    align-self: flex-end;
+}
+.flex-left, .flex > .flex-left {
+    justify-content: flex-start;
+}
+.flex-right, .flex > .flex-right {
+    justify-content: flex-end;
+    text-align: right;
+}
+.flex-center, .flex > .flex-center {
+    justify-content: center;
+    text-align: center;
+}
+.flex .flex-1, .flex.flex-1 {
+    flex: 1 0 51.25px;
+}
+.flex .flex-2, .flex.flex-2 {
+    flex: 1 0 102.5px;
+}

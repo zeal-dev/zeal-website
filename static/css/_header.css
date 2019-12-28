@@ -1,0 +1,67 @@
+
+.main_header_area {
+    padding: 0 2%;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.main_header_area.sticky {
+    background-color: #fff;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    z-index: 999999;
+}
+  
+.logo { 
+    flex-shrink: 0;
+    padding: 0;
+    margin-right: auto;
+}
+  
+header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+  
+header nav a {
+    padding: 0;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 1.75%;
+    text-transform: capitalize;
+}
+  
+header nav a:active,
+header nav a:hover {
+    color: var(--blue);
+}
+  
+header nav a:not(:first-child) {
+    display: none;
+}
+  
+.main_header_area.sticky nav a:not(:first-child).current_page_item,
+.main_header_area.sticky nav a:not(:first-child).current_page_item:focus {
+    background: #e3e7ed;
+    padding: 25px;
+}
+  
+.sticky .menu_open_close span,
+.sticky .menu_open_close span:after,
+.sticky .menu_open_close span:before,
+.menu-open .sticky .menu_open_close span:before,
+.menu-open .sticky .menu_open_close span:after {
+    background-color: #111;
+}
+  
