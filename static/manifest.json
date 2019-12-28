@@ -1,0 +1,129 @@
+{
+	"dir" : "ltr",
+	"lang" : "English",
+	"name" : "Zeal IT Consultants",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "/",
+	"short_name" : "Zeal",
+	"theme_color" : "#ffffff",
+	"description" : "Zeal is a technology solutions consultancy. Our mission is to develop exceptional people to solve our clients’ most challenging and valuable business problems.",
+	"orientation" : "portrait",
+	"background_color" : "#ffffff",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons": [
+        {
+            "src": "/img/core-img/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/img/core-img/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Square44x44Logo.scale-100.png.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/LockScreenLogo.scale-200.png.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Square150x150Logo.scale-200.png.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Square150x150Logo.scale-100.png.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Square44x44Logo.scale-200.png.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Square44x44Logo.targetsize-24_altform-unplated.png.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/StoreLogo.png.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/windows10/Wide310x150Logo.scale-200.png.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/android/android-launchericon-144-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/android/android-launchericon-96-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/android/android-launchericon-72-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/android/android-launchericon-36-36.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/ios/ios-appicon-180-180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/ios/ios-appicon-152-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/ios/ios-appicon-120-120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/core-img/ios/ios-appicon-76-76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+	"screenshots" : [],
+	"generated" : "true"
+}
