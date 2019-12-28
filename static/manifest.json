@@ -104,11 +104,6 @@
             "type": "image/png"
         },
         {
-            "src": "/img/core-img/ios/ios-appicon-1024-1024.png",
-            "sizes": "1024x1024",
-            "type": "image/png"
-        },
-        {
             "src": "/img/core-img/ios/ios-appicon-180-180.png",
             "sizes": "180x180",
             "type": "image/png"
