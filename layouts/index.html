@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel='manifest' href='/manifest.json'>
+
     <title>Custom Software Development &amp; DevOps Transformation &mdash; Zeal IT Consultants</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/core-img/favicon-32x32.png"/>
     <link rel="canonical" href="https://www.zealitconsultants.com"/>
@@ -27,9 +29,19 @@
     <meta property="twitter:description" content="Mobile &amp; Web Modernization | DevOps Automation | Continuous Delivery Implementation | Cloud Native Development | Microservices Architecture" />
     <meta property="twitter:image" content="https://www.zealitconsultants.com/img/bg-img/sailing.jpg" />
 
-    <link rel="icon" type="image/png" href="img/core-img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="img/core-img/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="./css/default.css" type="text/css">
+
     <!--[if IE]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -614,6 +626,27 @@
     </script>
 
     <script defer src='https://app.purechat.com/VisitorWidget/WidgetScript' type="text/javascript"></script>
+    <script>
+        // This is the service worker with the Cache-first network
+
+        // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+        // Check compatibility for the browser we're running this in
+        if ("serviceWorker" in navigator) {
+            if (navigator.serviceWorker.controller) {
+            console.log("[PWA Builder] active service worker found, no need to register");
+            } else {
+            // Register the service worker
+            navigator.serviceWorker
+                .register("pwabuilder-sw.js", {
+                scope: "./"
+                })
+                .then(function (reg) {
+                console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+                });
+            }
+        }  
+    </script>
 </body>
 
 </html>

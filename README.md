@@ -15,3 +15,5 @@ hugo server -D
 - [ ] delete the generated style.css file
 - [ ] delete the style.css.map file
 - [ ] delete they style-old.css file
+
+generated pwa images with: pwabuilder https://www.zealitconsultants.com -i "/Users/kijanawoodard/Downloads/Zeal Logo - Full-01-1.png"
