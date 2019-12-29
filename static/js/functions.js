@@ -168,7 +168,7 @@
         $.preventDefault();
     });
 
-    $(".showcase").toggleClass("ready");
+    //$(".showcase").toggleClass("ready");
 
     var $window = $(window);
 
