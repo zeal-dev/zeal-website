@@ -2,7 +2,11 @@
     <div class="thumb_container">
         <a href="{{ .linkedin }}" target="_blank">
             <div class="advisor_thumb">
-                <img class="bio-photos" src="{{ .photo }}" alt="{{ .name }}">
+                <picture class="bio-photos">
+                    <source srcset="img/team/150x150/{{ .photo }} 150w">
+                    <source srcset="img/team/50x50/{{ .photo }} 50w">
+                    <img class="bio-photos" src="img/team/150x150/{{ .photo }}" alt="{{ .name }}">
+                  </picture>
             </div>
         </a>
     </div>
