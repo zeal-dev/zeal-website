@@ -1,0 +1,42 @@
+.sponsoring  p {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+.sponsoring figure {
+    margin-bottom: 1rem;
+}
+
+.sponsoring a {
+    font-weight: bold;
+}
+
+.sponsoring__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.sponsoring__list > li {
+    flex: 0 0 8rem;
+    margin: 1.5rem;
+}
+
+@media screen and (min-width: 425px) {
+    .sponsoring p {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .sponsoring  p {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sponsoring  p {
+        max-width: 30%;
+    }
+}

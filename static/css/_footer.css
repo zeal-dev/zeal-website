@@ -1,0 +1,60 @@
+
+.NMSDCCert img {
+    width: 100%;
+}
+.sponsoring__container {
+    margin-top: 2rem;
+}
+  
+.sponsoring__list {
+    display: flex;
+}
+.sponsoring__list > li {
+    flex: 0 0 5.5rem;
+}
+  
+.sponsoring__list figcaption {
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.footer_area {
+    position: relative;
+    z-index: 1;
+}
+  
+.footer_bottom {
+    padding: 50px;
+    text-align: left;
+}
+  
+.footer_bottom p {
+    margin: 0;
+    color: #fff;
+}
+  
+.footer_bottom p > a {
+    color: #fff;
+}
+  
+.footer_bottom p > i,
+.footer_bottom p > a:hover {
+    color: var(--blue);
+}
+  
+.footer_accent {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+}
+  
+.accent_container {
+    display: flex;
+    height: 15px;
+}
+  
+.accent_container .accent {
+    flex: 1 auto;
+}
+  

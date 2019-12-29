@@ -1,0 +1,9 @@
+:root {
+    --content-width: 1025px;
+    --padding-size: 15px;
+    --margin-size: 15px;
+    --padding-size-large: 40px;
+    --margin-size-large: 40px;
+    --border-right: 5px;
+    --direction-list: top right bottom left;
+}

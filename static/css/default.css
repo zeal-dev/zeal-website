@@ -1,0 +1,33 @@
+@import "../../css/helpers/_variables.css";
+@import "../../css/helpers/_colors.css";
+@import "../../css/helpers/_flexbox.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Archivo:400,500,600,700");
+
+@import "../../css/_common.css";
+@import "../../css/_preloader.css";
+@import "../../css/_header.css";
+@import "../../css/_footer.css";
+
+@import "../../css/sections/_general.css";
+
+@import "../../css/sections/_comparison.css";
+@import "../../css/sections/_clients.css";
+@import "../../css/sections/_contact.css";
+@import "../../css/sections/_facts.css";
+@import "../../css/sections/_people.css";
+@import "../../css/sections/_services.css";
+@import "../../css/sections/_showcase.css";
+@import "../../css/sections/_testimonials.css";
+@import "../../css/sections/_content.css";
+@import "../../css/sections/_iot.css";
+@import "../../css/sections/_sponsors.css";
+
+@import "../../css/_responsive.css";
+
+@import "../../css/_image_carousel.css";
+@import "../../css/_image_carousel_custom.css";
+
+@import "../../css/animate.css";
+@import "../../css/owl.carousel.css";
+@import "../../css/pe-icon-7-stroke.css";

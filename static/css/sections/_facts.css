@@ -1,0 +1,64 @@
+
+.facts_area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+  
+.facts_area h3 {
+    color: white;
+}
+  
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--content-width);
+    margin: 0 auto;
+  }
+  
+.cool_fact_text {
+    margin-bottom: 30px;
+    text-align: center;
+    z-index: 1;
+    border-right: 1px solid #a4d3ff;
+    width: 25%;
+}
+  
+.cool_fact_text:last-child {
+    border: none;
+}
+  
+.cool_fact_text > p {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+}
+  
+.cool_fact_text > h2 {
+    color: #fff;
+    font-family: "Archivo-Regular", "Archivo";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    line-height: 0.9em;
+}
+  
+.cool_fact_text > i {
+    color: #fff;
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+  
+.cool_fact_icon {
+    margin: 0 auto 20px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    height: 85px;
+    width: 65px;
+}
+  
+.cool_fact_icon img {
+    height: 100%;
+}
+  
