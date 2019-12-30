@@ -168,8 +168,6 @@
         $.preventDefault();
     });
 
-    $(".showcase").toggleClass("ready");
-
     var $window = $(window);
 
     window.setTimeout(function() {

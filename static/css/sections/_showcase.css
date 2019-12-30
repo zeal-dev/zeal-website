@@ -61,7 +61,6 @@
 }
   
 .default-title {
-    opacity: 0;
     text-align: right;
 }
   
@@ -92,6 +91,7 @@
   
 .stripeDiv {
     align-items: center;
+    background-color: rgb(255,255,255,.35);
     background-image: url(/img/bg-img/stripeFrame_Desktop.svg);
     background-position: center;
     background-size: cover;
@@ -118,11 +118,9 @@
     position: relative;
     z-index: -1;
     overflow: hidden;
-    background-image: url(/img/bg-img/sailing.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
-    opacity: 0;
 }
   
 .showcase.ready {
@@ -153,7 +151,20 @@
     background-repeat: repeat;
     z-index: 5;
 }
-  
+
+#home video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 .yt_video_background #btn-1 {
     margin-right: 15px;
 }

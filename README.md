@@ -17,3 +17,5 @@ hugo server -D
 - [ ] delete they style-old.css file
 
 generated pwa images with: pwabuilder https://www.zealitconsultants.com -i "/Users/kijanawoodard/Downloads/Zeal Logo - Full-01-1.png"
+
+processed sailing background video with https://converterpoint.com/.
