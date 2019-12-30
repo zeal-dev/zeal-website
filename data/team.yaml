@@ -1,188 +1,188 @@
 advisors:
   - name: David Adams
-    photo: adams.jpg
+    photo: adams
     role: CTO at Ashford.com
     linkedin: https://www.linkedin.com/in/dradams/
 
   - name: Anthony Fratiani
-    photo: fratiani.jpg
+    photo: fratiani
     role: CTO at Sierra Auto Finance
     linkedin: https://www.linkedin.com/in/anthony-fratiani-37369a/
 
   - name: Merrilee Kick
-    photo: kick.jpg
+    photo: kick
     role: CEO at Buzzballz
     linkedin: https://www.linkedin.com/in/merrilee-kick-65328aa/
 
   - name: Larry McNutt
-    photo: mcnutt.jpg
+    photo: mcnutt
     role: CTO at Spacee
     linkedin: https://www.linkedin.com/in/larrymcnutt/
 
   - name: Casey Sprague
-    photo: sprague.jpeg
+    photo: sprague
     role: CTO at thera-LINK
     linkedin: https://www.linkedin.com/in/casey-sprague-3a3b4041
 
   - name: Happy Webberman
-    photo: webberman.png
+    photo: webberman
     role: EVP and CIO at Brinker International
     linkedin: https://www.linkedin.com/in/happy-webberman-7b17ba8/
 
 leads:
   - name: Zach Burke
-    photo: burke.jpg
+    photo: burke
     role: Software Engineering Practice Lead
     linkedin: https://www.linkedin.com/in/zach-burke-6b19b637/
 
   - name: Kenneth Cassel
-    photo: kenneth.jpeg
+    photo: kenneth
     role: Intelligent Automation Practice Lead
     linkedin: https://www.linkedin.com/in/kenneth-cassel/
 
   - name: Jason Clemens
-    photo: clemens.jpg
+    photo: clemens
     role: User Experience Practice Lead
     linkedin: https://www.linkedin.com/in/jsclemens/
 
   - name: Imran Khan
-    photo: imran.png
+    photo: imran
     role: Quality Assurance Practice Lead
     linkedin: https://www.linkedin.com/in/imrankhancste/
  
   - name: Robert Lavarn
-    photo: lavarn.jpg
+    photo: lavarn
     role: Data Analytics Practice Lead
     linkedin: https://www.linkedin.com/in/robert-lavarn-8606517/
  
   - name: Thomas Leong
-    photo: leong.jpg
+    photo: leong
     role: Agile Transformation Practice Lead
     linkedin: https://www.linkedin.com/in/leongthomas/
 
 members:
   - name: Donny Alumbaugh
-    photo: alumbaugh.jpg
+    photo: alumbaugh
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/donny-alumbaugh/
  
   - name: Mohamed Elmalky
-    photo: elmalky.jpg
+    photo: elmalky
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/mohamed-elmalky-b1790723/
 
   - name: Joey Guerra
-    photo: guerra.jpg
+    photo: guerra
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/joeyguerra/
 
   - name: Nathn Petersen
-    photo: nate.jpg
+    photo: nate
     role: Software Architect / Team Lead
     linkedin: https://www.linkedin.com/in/nathan-petersen-904a545/
   
   - name: David Berryman Jr.
-    photo: berryman.jpeg
+    photo: berryman
     role: Business Analyst
     linkedin: https://www.linkedin.com/in/davideberrymanjr/
 
   - name: Stefanie Boscarino
-    photo: boscarino.jpg
+    photo: boscarino
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/stefanie-boscarino-17566b147/
 
   - name: Allie Dyson
-    photo: allie.png
+    photo: allie
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/allie-dyson-13276251/
 
   - name: Christian Gentry
-    photo: christian.jpeg
+    photo: christian
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/christian-gentry-83a98710a/
 
   - name: Zachery Gentry
-    photo: zachery.jpeg
+    photo: zachery
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/zachery-gentry-594018151/
 
   - name: Jennifer Graves
-    photo: graves.jpg
+    photo: graves
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jennifer-graves-49455436/
 
   - name: Cameron Green
-    photo: cameron.jpg
+    photo: cameron
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/cameron-k-green/
 
   - name: Maria Gantt
-    photo: mariacgantt.jpg
+    photo: mariacgantt
     role: Multimedia Designer
     linkedin: https://www.linkedin.com/in/maria-c-gantt-71422778/
 
   - name: Sven Herrmann
-    photo: Herrmann.jpg
+    photo: herrmann
     role: Data Analytics Engineer
     linkedin: https://www.linkedin.com/in/sven-herrmann-b12a9b51/
 
   - name: David Koontz
-    photo: koontz.jpeg
+    photo: koontz
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/davidakoontz/
 
   - name: Houston Martin
-    photo: houston.jpg
+    photo: houston
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/houston-martin-7873b812a/
 
   - name: Beau Montgomery
-    photo: montgomery.jpg
+    photo: montgomery
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/beau-montgomery-335998b6/
 
   - name: Long Nguyen
-    photo: nguyen.jpg
+    photo: nguyen
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/long-nguyen-24533b144/
 
   - name: Michelle Ochoa
-    photo: MichelleOchoa.jpg
+    photo: ochoa
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/moelearningpro/
 
   - name: Nikola Popovic
-    photo: Nikola.jpg
+    photo: nikola
     role: Data Analytics Engineer
     linkedin: https://www.linkedin.com/in/nikola-popovic-b381693b/
 
   - name: Derek Schaab
-    photo: schaab.jpg
+    photo: schaab
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/derek-schaab-42ba64147/
 
   - name: Jessica Tjahja
-    photo: jessica.jpeg
+    photo: jessica
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/jessicatjahja/
 
   - name: Caleb Welch	
-    photo: welch.jpg
+    photo: welch
     role: Software Engineer
     linkedin: https://www.linkedin.com/in/caleb-welch-825753ab/
 
   - name: Anthony Wilder
-    photo: wilder.png
+    photo: wilder
     role: Agile Coach
     linkedin: https://www.linkedin.com/in/anthony-wilder
 
 managers:
   - name: David Thach
-    photo: thach.jpg
+    photo: thach
     role: Managing Partner
     linkedin: https://www.linkedin.com/in/davidthach/
 
   - name: Kijana Woodard
-    photo: woodard.jpg
+    photo: woodard
     role: Managing Partner
     linkedin: https://www.linkedin.com/in/kijanawoodard/

@@ -3,9 +3,9 @@
         <a href="{{ .linkedin }}" target="_blank">
             <div class="advisor_thumb">
                 <picture class="bio-photos">
-                    <source srcset="img/team/150x150/{{ .photo }} 150w">
-                    <source srcset="img/team/50x50/{{ .photo }} 50w">
-                    <img class="bio-photos" src="img/team/150x150/{{ .photo }}" alt="{{ .name }}">
+                    <source type="image/webp" srcset="img/team/150w/webp/{{ .photo }}.webp 150w">
+                    <source type="image/jpeg" srcset="img/team/150w/jpg/{{ .photo }}.jpg 150w">
+                    <img src="img/team/150w/jpg/{{ .photo }}.jpg" alt="{{ .name }}">
                   </picture>
             </div>
         </a>
