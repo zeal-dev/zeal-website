@@ -18,6 +18,8 @@ hugo server -D
 
 generated pwa images with: pwabuilder https://www.zealitconsultants.com -i "/Users/kijanawoodard/Downloads/Zeal Logo - Full-01-1.png"
 
+processed sailing background video with https://converterpoint.com/.
+
 resized images following advice from https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
 
 To resize a new image:
