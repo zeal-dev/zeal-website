@@ -23,7 +23,8 @@ resized images following advice from https://www.smashingmagazine.com/2015/06/ef
 To resize a new image:
 `brew install imagemagick`
 then run 
-`./scripts/smush.sh INPUT_PATH RESIZE_WIDTH OUTPUT_PATH`
+`./scripts/smush.sh INPUT_PATH RESIZE_WIDTH OUTPUT_PATH QUALITY_VALUE`
+Quality value is set to 82 (recommended in article) if not set.
 
 ex:
 `./scripts/smush.sh 'static/img/team/*.*' 150 static/img/team/150x150/`
