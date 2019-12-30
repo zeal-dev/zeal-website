@@ -61,7 +61,6 @@
 }
   
 .default-title {
-    xopacity: 0;
     text-align: right;
 }
   
@@ -119,11 +118,9 @@
     position: relative;
     z-index: -1;
     overflow: hidden;
-    xbackground-image: url(/img/bg-img/sailing.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
-    xopacity: 0;
 }
   
 .showcase.ready {
