@@ -16,6 +16,8 @@
 .sponsoring__list figcaption {
     margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
 }
   
 .footer_area {
