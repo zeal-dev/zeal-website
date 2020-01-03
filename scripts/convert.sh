@@ -15,4 +15,14 @@
 
 #convert team photos to webp
 for file in static/img/team/300w/jpg/*; do ./scripts/webp.sh $file 300; done;
-#for file in static/img/team/*; do ./scripts/webp.sh $file 50; done;
+
+#smush background images
+./scripts/smush.sh 'static/img/bg-img/officemap.jpg' 400 jpg 50
+./scripts/webp.sh 'static/img/bg-img/400w/jpg/officemap.jpg' 400
+
+# the following are background images and can't do srcset normally
+# need something like https://aclaes.com/responsive-background-images-with-srcset-and-sizes/ 
+# or to have them not as background images
+./scripts/smush.sh 'static/img/bg-img/ocean.jpg' 800 jpg 50
+./scripts/smush.sh 'static/img/bg-img/sail.jpg' 800 jpg 50
+./scripts/smush.sh 'static/img/bg-img/sailing.jpg' 800 jpg 50
