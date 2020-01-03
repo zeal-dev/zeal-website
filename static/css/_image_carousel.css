@@ -83,11 +83,13 @@
 }
 	
 .slider .slider-navigation_left {
-    left: -10%;
+    left: 15%;
+    bottom: 5%;
 }
 	
 .slider .slider-navigation_right {
-    right: -10%;
+    right: 15%;
+    bottom: 5%;
 }
 	
 .slider .slider-bullets {
