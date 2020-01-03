@@ -16,6 +16,12 @@ hugo server -D
 - [ ] delete the style.css.map file
 - [ ] delete they style-old.css file
 
+### BUGS
+- [ ] IoT video stopped showing between these two commits:
+        - 89043fad1709f367672c64e24181c966adda9c09
+        - 371e2f1269f2a12517d4a19a52fba1c7f12937e9
+        It appears to be changes to the CSS styling caused this
+
 generated pwa images with: pwabuilder https://www.zealitconsultants.com -i "/Users/kijanawoodard/Downloads/Zeal Logo - Full-01-1.png"
 
 processed sailing background video with https://converterpoint.com/.
