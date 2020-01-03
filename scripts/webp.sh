@@ -1,7 +1,7 @@
 #!/bin/bash
 input=$1
 width=$2
-path=${input%/*}/${width}w/webp #output path
+path=${input%/*}/../webp #output path
 filename=${input##*/}
 basename=${filename%.*}
 output=$path/$basename.webp
