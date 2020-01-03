@@ -30,3 +30,11 @@ for file in static/img/team/300w/jpg/*; do ./scripts/webp.sh $file 300; done;
 # nmsdc
 ./scripts/smush.sh 'static/img/core-img/nmsdc.png' 350 jpg 50
 ./scripts/webp.sh 'static/img/core-img/350w/jpg/nmsdc.jpg' 350
+
+# scrum certs
+# ./scripts/smush.sh 'static/img/certs-img/*.*' 80 png 50 #coming out blurry revisit
+# for file in static/img/certs-img/80w/png/*; do ./scripts/webp.sh $file 80; done;
+# workaround for blurry png smush
+mkdir -p static/img/certs-img/301w/png/
+cp static/img/certs-img/*.* static/img/certs-img/301w/png/
+for file in static/img/certs-img/301w/png/*; do ./scripts/webp.sh $file 301; done;
