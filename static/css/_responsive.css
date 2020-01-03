@@ -252,13 +252,13 @@
     }
     div.advisor_thumb img,
     .bio-photos {
-      min-width: 50px;
+      min-width: 150px;
     }
   
     .bio-photos {
       margin: 16px 4px 8px 8px;
-      width: 50px;
-      height: 50px;
+      width: 150px;
+      height: 150px;
     }
   
     .single_advisor .single_advisor_details_info {

@@ -435,20 +435,25 @@
     <section class="bg-gray">
         <h2 class="text-teal">Products Powered by Zeal</h2>
         <div class="slider">
+            <button class="slider-navigation slider-navigation_left" aria-label="navigate left">
+                <img src="img/icons/left-arrow.svg" alt="">
+            </button>
             <ul class="slider-bullets">
-                <button class="slider-navigation slider-navigation_left">
-                    <img src="img/icons/left-arrow.svg" alt="">
-                </button>
-
                 <li class="bullet"><img src="img/logo/light/product/finn.png" alt="Finn Image"></li>
                 <li class="bullet"><img src="img/logo/light/product/archalert.png" alt="ArchAlert Image"></li>
                 <li class="bullet"><img src="img/logo/light/product/zealiot.png" alt="Zeal IoT Image"></li>
+<<<<<<< HEAD
                 <li class="bullet"><img src="img/logo/light/product/archalert.png" alt="Zeal Cloud Service Image"></li>
 
                 <button class="slider-navigation slider-navigation_right">
                         <img src="img/icons/right-arrow.svg" alt="">
                 </button>
+=======
+>>>>>>> master
             </ul>
+            <button class="slider-navigation slider-navigation_right" aria-label="navigate right">
+                <img src="img/icons/right-arrow.svg" alt="">
+            </button>
             <ul class="slider-gallery">
                 <li class="slide">
                     <article class="slider-content">
@@ -537,7 +542,7 @@
                     <a href="tel:+12145431137">214.543.1137</a>
                 </p>
                 <div class="map_area" id="map">
-                    <a href="https://www.google.com/maps/dir/''/2218+Bryan+St+%23100,+Dallas,+TX+75201/" target="_blank">
+                    <a rel="noreferrer" href="https://www.google.com/maps/dir/''/2218+Bryan+St+%23100,+Dallas,+TX+75201/" target="_blank">
                         <img src="img/bg-img/officemap.jpg" alt="Google Map of 2218 Bryan Street, Suite 100 Dallas TX 75201">
                     </a>
                 </div>
@@ -580,10 +585,15 @@
             <!-- >>>>>>>>>>>>>>>>>>>> Contact Form Start Here <<<<<<<<<<<<<<<<<< -->
             <div class="contact_form">
                 <form action="https://formspree.io/accounting@zealitconsultants.com" method="post" id="main_contact_form">
+                    <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Your E-mail" required>
+                    <label for="number">Number</label>
                     <input type="tel" name="number" id="number" placeholder="Your Number" required>
+                    <label for="subject">Subject</label>
                     <input type="text" name="_subject" id="subject" placeholder="Your Subject" required>
+                    <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                     <input type="text" name="_gotcha" style="display:none" />
                     <button type="submit" class="btn">Send Message</button>
@@ -597,7 +607,7 @@
                         <a href="https://www.rescuingleftovercuisine.org/about">
                             <figure>
                                 <img src="img/sponsoring-img/reducing_leftover_cuisine.png" alt="Reducing Leftover Cuisine" />
-                                <figcaption class="align-center text-teal">Reducing Leftover Cuisine</figcaption>
+                                <figcaption class="align-center text-blue">Reducing Leftover Cuisine</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -627,8 +637,14 @@
     <!--  -->
     <!-- ---------------- jQuery Plugins ---------------- -->
 
-    <script src="js/jquery/jquery-2.2.4.min.js" type="text/javascript"></script>
-    <script src='js/jquery-ui.min.js'></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
     <!-- All Plugins js -->
     <script src="js/plugins.js" type="text/javascript"></script>
     <!-- Jarallax -->
