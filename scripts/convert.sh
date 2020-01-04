@@ -10,9 +10,31 @@
 # 2020-01-01 - simplified smush approach and generated webp from smushed jpg
 ##
 
-#convert team photos to smaller jpg
+# convert team photos to smaller jpg
 ./scripts/smush.sh 'static/img/team/*.*' 300 jpg 50
 
-#convert team photos to webp
+# convert team photos to webp
 for file in static/img/team/300w/jpg/*; do ./scripts/webp.sh $file 300; done;
-#for file in static/img/team/*; do ./scripts/webp.sh $file 50; done;
+
+# smush background images
+./scripts/smush.sh 'static/img/bg-img/officemap.jpg' 400 jpg 50
+./scripts/webp.sh 'static/img/bg-img/400w/jpg/officemap.jpg' 400
+
+# the following are background images and can't do srcset normally
+# need something like https://aclaes.com/responsive-background-images-with-srcset-and-sizes/ 
+# or to have them not as background images
+./scripts/smush.sh 'static/img/bg-img/ocean.jpg' 800 jpg 50
+./scripts/smush.sh 'static/img/bg-img/sail.jpg' 800 jpg 50
+./scripts/smush.sh 'static/img/bg-img/sailing.jpg' 800 jpg 50
+
+# nmsdc
+./scripts/smush.sh 'static/img/core-img/nmsdc.png' 350 jpg 50
+./scripts/webp.sh 'static/img/core-img/350w/jpg/nmsdc.jpg' 350
+
+# scrum certs
+# ./scripts/smush.sh 'static/img/certs-img/*.*' 80 png 50 #coming out blurry revisit
+# for file in static/img/certs-img/80w/png/*; do ./scripts/webp.sh $file 80; done;
+# workaround for blurry png smush
+mkdir -p static/img/certs-img/301w/png/
+cp static/img/certs-img/*.* static/img/certs-img/301w/png/
+for file in static/img/certs-img/301w/png/*; do ./scripts/webp.sh $file 301; done;

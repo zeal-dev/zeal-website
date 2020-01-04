@@ -11,4 +11,4 @@ echo input file $input, width $width, output path $output, quality $quality
 
 mkdir -p $path #make sure the folder exists
 #cwebp $input -q $quality -sharpness 0 -resize $width 0 -o $output 
-cwebp $input -q $quality -o $output 
+cwebp $input -q $quality -o $output

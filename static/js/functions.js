@@ -170,9 +170,9 @@
 
     var $window = $(window);
 
-    window.setTimeout(function() {
-        var w = new PCWidget({c: 'f8124fdc-b0c9-4196-8c90-b846154f93c8', f: true });
-    }, 8000);
+    // window.setTimeout(function() {
+    //     var w = new PCWidget({c: 'f8124fdc-b0c9-4196-8c90-b846154f93c8', f: true });
+    // }, 8000);
 
     // Fullscreen Active Code    
     $window.on('resizeEnd', function () {

@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1085838f-84c4-4b10-ba93-bdbb2e7b3955/deploy-status)](https://app.netlify.com/sites/zeal-website/deploys)
+
 ## How to get going
 
 This site is built using [hugo](https://gohugo.io).  Installation instructions can be found [here](https://gohugo.io/getting-started/installing/).

@@ -1561,7 +1561,7 @@ div.advisor_thumb:hover:after {
   position: relative;
   z-index: -1;
   overflow: hidden;
-  background-image: url(/img/bg-img/sailing.jpg);
+  background-image: url(/img/bg-img/800w/jpg/sailing.jpg);
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
